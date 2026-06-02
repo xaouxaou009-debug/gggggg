@@ -1,0 +1,925 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_Other_lingwuBase">
+	<ThingName>宝物模板</ThingName>
+	<Desc>\n[size=12][color=#FF9C0A]法宝灵胚，似乎除了锻造为法宝并没有其他的用处</Desc>
+	<Rate>9</Rate>
+	<MaxStack>1</MaxStack>
+	<Beauty>24</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item Lable="Other">
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FabaoSuffix>灵宝</FabaoSuffix>
+		<NotRandom>2</NotRandom>  
+	</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_Other_fabaosucaiBase" Parent="Item_Other_lingwuBase">
+	<ThingName>灵胚</ThingName>
+	<Item Lable="Other">
+		<PhysicalLables>
+			<li>GreatThing_Ling_JinLian</li>
+			<li>TortoiseShell</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai1" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian1.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai2" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian2.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai3" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian3.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai4" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian4.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai5" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian5.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai6" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian6.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai7" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian7.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai8" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian8.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai9" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian9.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai10" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian10.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai11" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian11.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai12" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian12.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai13" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian13.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai14" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian14.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai15" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian15.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai16" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian16.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai17" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian17.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai18" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian18.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai19" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian19.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai20" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian20.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai21" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian21.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai22" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian22.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai23" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian23.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai24" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian24.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai25" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian25.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai26" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian26.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai27" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian27.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai28" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian28.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai29" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian29.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai30" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian30.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai31" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian31.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai32" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian32.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai33" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian33.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai34" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian34.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai35" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian35.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai36" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian36.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai37" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian37.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai38" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian38.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai39" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian39.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai40" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian40.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai41" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian41.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai42" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian42.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai43" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian43.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai44" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\jian44.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai45" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\qin1.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai46" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\qin2.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai47" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\qin3.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai48" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\qin4.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai49" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\qin5.png</TexPath>
+	</ThingDef>>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai50" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\qin6.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai51" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan1.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai52" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan2.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai53" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan3.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai54" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan4.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai55" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan5.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai56" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan6.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai57" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan7.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai58" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan8.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai59" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan9.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai60" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan10.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai61" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\shan11.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai62" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji1.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai63" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji2.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai64" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji3.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai65" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji4.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai66" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji5.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai67" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji6.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai68" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji7.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai69" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji8.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai70" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji9.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai71" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji10.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai72" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji11.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai73" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji12.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai74" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji13.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai75" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji14.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai76" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji15.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai77" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji16.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai78" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji17.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai79" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji18.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai80" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\ji19.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai81" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\huan1.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai82" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\huan2.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai83" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\huan3.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai84" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\huan4.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai85" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\huan5.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai86" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\huan6.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai87" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di1.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai88" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di2.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai89" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di3.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai90" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di4.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai91" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di5.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai92" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di6.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai93" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di7.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai94" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di8.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai95" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di9.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai96" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di10.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai97" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di11.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai98" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di12.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai99" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di13.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai100" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di14.png</TexPath>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Other_fabaosucai101" Parent="Item_Other_fabaosucaiBase">
+	<TexPath>Spr\Fabao\di15.png</TexPath>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</List></ThingDefs>

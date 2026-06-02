@@ -1,0 +1,104 @@
+﻿<Places><List>
+
+        <Place Name="Place_qingyunshan" Parent="Place_Level1Base">
+
+                <Location X="1080" Y="410"/>
+
+                <Icon>Spr\Didian\qingyunshan.png</Icon>
+
+	        <Scale>0.7</Scale>
+
+		<Level>1</Level>
+
+                <DisplayName>青云山</DisplayName>
+
+                <Desc>青云山脉，相传附近有上古洞府，昔日是上古圣贤闭关悟道之地。现在只剩下残破的遗址，相传仙魔大战便是在此处。</Desc>
+
+                <UnLocked>1</UnLocked>
+
+		<ExploreNum>48</ExploreNum>
+		<Children>
+			<li>Place_qingyunshan1</li>
+			<li>Place_qingyunshan2</li>
+			<li>Place_qingyunshan3</li>
+		</Children>
+
+                <Events>
+			<li Name="Find" Rate="0.88"/>
+			<li Name="HighFind_Jin" Rate="0.22"/>
+			<li Name="HighFind_Mu" Rate="0.22"/>
+			<li Name="HighFind_Shui" Rate="0.22"/>
+			<li Name="HighFind_Huo" Rate="0.22"/>
+			<li Name="HighFind_Tu" Rate="0.22"/>
+                </Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>9</Count>
+				<Rate>0.5</Rate>
+			</li>
+		</Produce>
+		<HighProduce>
+			<li>
+				<ThingDef>Item_lingshi_yuan1</ThingDef>
+				<Count>1</Count>
+				<Rate>3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_yuan2</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_yuan3</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_yuan4</ThingDef>
+				<Count>1</Count>
+				<Rate>0.01</Rate>
+			</li>
+		</HighProduce>
+
+        </Place>
+
+
+
+
+        <Place Name="Place_qingyunshan4" Parent="Place_Level1Base">
+		<Location X="1218" Y="751"/>
+                <Icon>Spr\Didian\qingyunshan4.png</Icon>
+
+	        <Scale>0.7</Scale>
+
+		<Level>2</Level>
+
+                <DisplayName>征召宫</DisplayName>
+
+                <Desc>仙道神宫之一的征召宫，神宫绘神文，可阻挡邪魔外道进入。</Desc>
+                <UnLocked>0</UnLocked>
+        </Place>
+
+
+
+        <Place Name="Place_qingyunshan5" Parent="Place_Level1Base">
+
+                <Location X="1300" Y="750"/>
+
+                <Icon>Spr\Didian\qingyunshan5.png</Icon>
+
+	        <Scale>0.7</Scale>
+
+		<Level>2</Level>
+
+                <DisplayName>灵宝宫</DisplayName>
+
+                <Desc>仙道神宫之一的灵宝宫，传说此地乃是仙道宝阁，拥有无穷无尽的神物。</Desc>
+
+                <UnLocked>0</UnLocked>
+        </Place>
+
+
+
+</List></Places>

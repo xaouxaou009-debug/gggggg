@@ -1,0 +1,116 @@
+﻿<ThingDefs><List>
+
+	
+<ThingDef Type="Item" Name="Item_jiaoliao_mu1" Parent="LeftoverMaterialBase">
+	<ThingName>神材角料-金</ThingName>
+	<ElementKind>Jin</ElementKind>
+	<Desc>加工神材产生的边角料，可以用来铺地板或砌屋檐，有着极其强大的属性加成。</Desc>
+	<Rate>11</Rate>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	
+	<Flammability>
+		<BurningPoint>9999</BurningPoint>
+	</Flammability>
+	
+	<Item>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FuelMultiplier>1</FuelMultiplier>
+		<BeMaterial>
+			<NamePrefix>神材-金</NamePrefix>
+			<ColorWhenBeFloor>EEAD0EFF</ColorWhenBeFloor>
+			<ColorWhenBeRoof>DAA520FF</ColorWhenBeRoof>
+			<RateWhenBeMain>11</RateWhenBeMain>
+			<BeautyWhenBeMain>7</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>7</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+<ThingDef Type="Item" Name="Item_jiaoliao_mu2" Parent="Item_jiaoliao_mu1">
+	<ThingName>神材角料-木</ThingName>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>神材-木</NamePrefix>
+			<ColorWhenBeFloor>9BCD9BFF</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9ACD32FF</ColorWhenBeRoof>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+<ThingDef Type="Item" Name="Item_jiaoliao_mu3" Parent="Item_jiaoliao_mu1">
+	<ElementKind>Shui</ElementKind>
+	<ThingName>神材角料-水</ThingName>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>神材-水</NamePrefix>
+			<ColorWhenBeFloor>B0E0E6FF</ColorWhenBeFloor>
+			<ColorWhenBeRoof>AEEEEEFF</ColorWhenBeRoof>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+<ThingDef Type="Item" Name="Item_jiaoliao_mu4" Parent="Item_jiaoliao_mu1">
+	<ElementKind>Huo</ElementKind>
+	<ThingName>神材角料-火</ThingName>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>神材-火</NamePrefix>
+			<ColorWhenBeFloor>A52A2AFF</ColorWhenBeFloor>
+			<ColorWhenBeRoof>CD0000FF</ColorWhenBeRoof>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+<ThingDef Type="Item" Name="Item_jiaoliao_mu5" Parent="Item_jiaoliao_mu1">
+	<ElementKind>Tu</ElementKind>
+	<ThingName>神材角料-土</ThingName>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>神材-土</NamePrefix>
+			<ColorWhenBeFloor>CDAD00FF</ColorWhenBeFloor>
+			<ColorWhenBeRoof>CD950CFF</ColorWhenBeRoof>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+
+<ThingDef Type="Item" Name="Item_jiaoliao_mu6" Parent="Item_jiaoliao_mu1">
+	<NoElementKind>1</NoElementKind>
+	<ThingName>神材角料-元</ThingName>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>神材-元</NamePrefix>
+			<ColorWhenBeFloor>5CACEEFF</ColorWhenBeFloor>
+			<ColorWhenBeRoof>6495EDFF</ColorWhenBeRoof>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+<ThingDef Type="Item" Name="Item_jiaoliao_mu7" Parent="Item_jiaoliao_mu1">
+	<NoElementKind>1</NoElementKind>
+	<ThingName>神材角料-混</ThingName>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>神材-混</NamePrefix>
+			<ColorWhenBeFloor>5E5E5EFF</ColorWhenBeFloor>
+			<ColorWhenBeRoof>515151FF</ColorWhenBeRoof>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+</List></ThingDefs>

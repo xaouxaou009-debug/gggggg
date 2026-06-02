@@ -1,0 +1,212 @@
+﻿<ThingDefs><List>	
+	<ThingDef Type="Item" Name="Item_zhaunshu_bupi1" Parent="Item_shoupiBase">
+	<ThingName>织云锦</ThingName>
+	<Item Lable="Cloth">
+		<BeMaterial>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<BeautyWhenBeMain>36</BeautyWhenBeMain>
+			<LingShieldWhenBeMain>0.15</LingShieldWhenBeMain>
+			<TemperatureMaxAddWhenBeMain>20</TemperatureMaxAddWhenBeMain>
+			<TemperatureMinAddWhenBeMain>-10</TemperatureMinAddWhenBeMain>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_luxueqi" Parent="Item_daopaoyiBase">
+	<ThingName>天琊绣云衫</ThingName>
+	<TexPath>Spr/Clothes/luxueqi1.png</TexPath>
+	<Desc>[size=12][color=#7FFFD4]天琊神女•陆雪琪[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">		
+		<Equip>
+			<ModelID>1</ModelID>
+			<ArmorLingShield>0.02</ArmorLingShield>
+			<TemperatureMaxAdd>20</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_luxueqi" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>天琊绣云裙</ThingName>
+	<TexPath>Spr/Clothes/luxueqi2.png</TexPath>
+	<Desc>[size=12][color=#7FFFD4]天琊神女•陆雪琪[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_biyao" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>合欢百花衫</ThingName>
+	<TexPath>Spr/Clothes/biyao1.png</TexPath>
+	<Desc>[size=12][color=#66CD00]碧瑶仙子•碧瑶[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">	
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_biyao" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>合欢百花裙</ThingName>
+	<TexPath>Spr/Clothes/biyao2.png</TexPath>
+	<Desc>[size=12][color=#66CD00]碧瑶仙子•碧瑶[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_sunwukong" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>锁子黄金铠</ThingName>
+	<TexPath>Spr/Clothes/wukong1.png</TexPath>
+	<Desc>[size=12][color=#FF8C00]齐天大圣•孙悟空[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">		
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_sunwukong" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>锁子黄金甲</ThingName>
+	<TexPath>Spr/Clothes/wukong2.png</TexPath>
+	<Desc>[size=12][color=#FF8C00]齐天大圣•孙悟空[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_lvbu" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>兽面吞头连环铠</ThingName>
+	<TexPath>Spr/Clothes/lvbu1.png</TexPath>
+	<Desc>[size=12][color=#FFD700]不败战神•吕布[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">	
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_lvbu" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>兽面吞头连环甲</ThingName>
+	<TexPath>Spr/Clothes/lvbu2.png</TexPath>
+	<Desc>[size=12][color=#FFD700]不败战神•吕布[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_libai" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>诗仙斗酒袍</ThingName>
+	<TexPath>Spr/Clothes/libai1.png</TexPath>
+	<Desc>[size=12][color=#EE2C2C]青莲居士•李白[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">	
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_libai" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>诗仙斗酒裳</ThingName>
+	<TexPath>Spr/Clothes/libai2.png</TexPath>
+	<Desc>[size=12][color=#87CEFA]青莲居士•李白[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_guanyu" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>忠灵碧金铠</ThingName>
+	<TexPath>Spr/Clothes/guanyu1.png</TexPath>
+	<Desc>[size=12][color=#C0FF3E]忠义无双•关羽[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">		
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_guanyu" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>忠灵碧金甲</ThingName>
+	<TexPath>Spr/Clothes/guanyu2.png</TexPath>
+	<Desc>[size=12][color=#C0FF3E]忠义无双•关羽[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_yuji" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>流月靛灵衫</ThingName>
+	<TexPath>Spr/Clothes/yuji1.png</TexPath>
+	<Desc>[size=12][color=#458B74]死生契阔•虞姬[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">		
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_yuji" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>流月靛灵裙</ThingName>
+	<TexPath>Spr/Clothes/yuji2.png</TexPath>
+	<Desc>[size=12][color=#458B74]死生契阔•虞姬[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_diaochan" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>紫萝舞绫衫</ThingName>
+	<TexPath>Spr/Clothes/diaochan1.png</TexPath>
+	<Desc>[size=12][color=#BA55D3]闭月仙子•貂蝉[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">	
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_diaochan" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>紫萝舞绫裙</ThingName>
+	<TexPath>Spr/Clothes/diaochan2.png</TexPath>
+	<Desc>[size=12][color=#BA55D3]闭月仙子•貂蝉[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_zixia" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>霞彩灵缘衫</ThingName>
+	<TexPath>Spr/Clothes/zixia1.png</TexPath>
+	<Desc>[size=12][color=#BF3EFF]紫霞仙子•紫霞[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">	
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_zixia" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>霞彩灵缘裙</ThingName>
+	<TexPath>Spr/Clothes/zixia2.png</TexPath>
+	<Desc>[size=12][color=#BF3EFF]紫霞仙子•紫霞[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_shangyi_houyi" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>九鸦炼金铠</ThingName>
+	<TexPath>Spr/Clothes/houyi1.png</TexPath>
+	<Desc>[size=12][color=#FF4500]箭射九日•后羿[/color][/size]的专属装备</Desc>
+	<Item Lable="Clothes">		
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_xiayi_houyi" Parent="Item_zhuanshu_shangyi_luxueqi">
+	<ThingName>九鸦炼金甲</ThingName>
+	<TexPath>Spr/Clothes/houyi2.png</TexPath>
+	<Desc>[size=12][color=#FF4500]箭射九日•后羿[/color][/size]的专属装备</Desc>
+	<Item Lable="Trousers">
+	</Item>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+</List></ThingDefs>

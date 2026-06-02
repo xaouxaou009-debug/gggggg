@@ -1,0 +1,366 @@
+﻿<ModifierDefs><List>
+	
+
+	<Modifier Name="Modifier_choujiang_xiuxing1" Type="Normal">
+		<DisplayName>修行BUFF一级</DisplayName>
+		<Desc>.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_xiuxing1_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_xiuxing1_1" Type="Normal">
+		<DisplayName>修行BUFF一级</DisplayName>
+		<Desc>[size=10][color=#D06508]灵力根本值+180\n修炼速度+50%\n学习速度+50%\n领悟力+50%\n灵力吸收速度+50%\n心境+10[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="180"/>  最大灵力
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>  修炼速度
+			<li Name="MindStateBaseValue" AddV="10"/>  心境值
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.5"/>   学习速度
+			<li Name="InspirationCoefficient" AddP="0.5"/>   悟性
+			<li Name="LingAbsorbSpeed" AddP="0.5"/>   灵力吸收速度
+		</Properties>
+	</Modifier> 
+
+
+
+	<Modifier Name="Modifier_choujiang_gongji1" Type="Normal">
+		<DisplayName>攻击BUFF一级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_gongji1_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_gongji1_1" Type="Normal">
+		<DisplayName>攻击BUFF一级</DisplayName>
+		<Desc>[size=10][color=#D06508]\n法宝伤害+30%\n术法伤害+30%\n法宝速度+30%\n命中+30%\n施法时间-10%\n法术冷却-10%\n攻击间隔-10%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Sync>1</Sync>
+		<Properties>
+                        <li Name="NpcFight_FabaoPowerAddP" AddP="0.3"/>  法宝伤害
+                        <li Name="NpcFight_SpellPowerAddP" AddP="0.3"/>  法术伤害
+			<li Name="NpcFight_BaseHitChance" AddP="0.3"/>   战斗命中
+                        <li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/>   术法吟唱时间加成 
+                        <li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/>   术法冷却时间加成 
+                        <li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.1"/>  法宝攻击间隔加成
+                        <li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.3"/>  法宝飞行速度加成
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+
+	<Modifier Name="Modifier_choujiang_fangyu1" Type="Normal">
+		<DisplayName>防御BUFF一级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_fangyu1_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_fangyu1_1" Type="Normal">
+		<DisplayName>防御BUFF一级</DisplayName>
+		<Desc>[size=10][color=#D06508]\n移动速度+30%\n护盾加值+30%\n护盾加成+30%\n闪避+30%\n内门恢复+30%\n韧性+30%\n雷劫+12h\n天谴-3\n道行-3[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.3"/>   移动速度
+			<li Name="NpcFight_ShieldConversionRate" AddP="0.3"/>  护盾强度加值
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.3"/>  护盾强度加成
+			<li Name="NpcFight_BaseDodgeChance" AddP="0.3"/>  战斗闪避
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="0.3"/>   内门自然恢复力
+			<li Name="PainTolerance" AddP="0.3"/>   疼痛忍耐
+			<li Name="NeckCountdownAddV" AddV="300"/>   雷劫
+			<li Name="GodPenaltyAddV" AddV="-3"/>   天谴
+			<li Name="AbilityLvAddV" AddV="-3"/>   道行
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_choujiang_waimen1" Type="Normal">
+		<DisplayName>外门BUFF一级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_waimen1_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_waimen1_1" Type="Normal">
+		<DisplayName>外门BUFF一级</DisplayName>
+		<Desc>[size=10][color=#D06508]\n温度上下限+30%\n恢复力+30%\n全局工作速度+30%\n屠宰产量+10%\n收获产量+10%\n采掘产量+10%\n品质加值+10%\n治疗效果+10%\n美梦概率+10%\n屠宰产量+10%心情值+10[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>4200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="10"/>   心情值
+			<li Name="MoveSpeed" AddP="0.3"/>   移动速度
+			<li Name="ComfyTMin" AddP="0.3"/>    最低温度
+			<li Name="ComfyTMax" AddP="0.3"/>   最高温度
+			<li Name="RecoveryPower" AddP="0.3"/>    自然恢复力
+			<li Name="GlobalEfficiency" AddP="0.3"/>   全局工作速度
+			<li Name="InspirationCoefficient" AddP="0.3"/>   学习速度
+			<li Name="ButcherYieldEfficiency" AddP="0.1"/>   屠宰产量
+			<li Name="PlantHarvestYieldEfficiency" AddP="0.1"/>   收获产量
+			<li Name="MiningYieldEfficiency" AddP="0.1"/>   采掘产量
+			<li Name="MadeQualityAddValue" AddP="0.1"/>   品质加值
+			<li Name="TreatSuccessChance" AddP="0.1"/>   治疗效果
+			<li Name="NiceDreamHappenPercent" AddP="0.1"/>   美梦概率
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+	<Modifier Name="Modifier_choujiang_xiuxing2" Type="Normal">
+		<DisplayName>修行BUFF二级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_xiuxing2_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_xiuxing2_1" Type="Normal">
+		<DisplayName>修行BUFF二级</DisplayName>
+		<Desc>[size=10][color=#D06508]灵力根本值+300\n修炼速度+100%\n学习速度+100%\n领悟力+100%\n灵力吸收速度+100%\n心境+20[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="300"/>  最大灵力
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>  修炼速度
+			<li Name="MindStateBaseValue" AddV="20"/>  心境值
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>   学习速度
+			<li Name="InspirationCoefficient" AddP="1"/>   学习速度
+			<li Name="LingAbsorbSpeed" AddP="1"/>   灵力吸收速度
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+
+	<Modifier Name="Modifier_choujiang_gongji2" Type="Normal">
+		<DisplayName>攻击BUFF二级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_gongji2_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_gongji2_1" Type="Normal">
+		<DisplayName>攻击BUFF二级</DisplayName>
+		<Desc>[size=10][color=#D06508]\n法宝伤害+60%\n术法伤害+60%\n法宝速度+60%\n命中+60%\n施法时间-20%\n法术冷却-20%\n攻击间隔-20%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+                        <li Name="NpcFight_FabaoPowerAddP" AddP="0.6"/>  法宝伤害
+                        <li Name="NpcFight_SpellPowerAddP" AddP="0.6"/>  法术伤害
+			<li Name="NpcFight_BaseHitChance" AddP="0.6"/>   战斗命中
+                        <li Name="NpcFight_SpellCastTimeAddP" AddP="-0.2"/>   术法吟唱时间加成 
+                        <li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/>   术法冷却时间加成 
+                        <li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.2"/>  法宝攻击间隔加成
+                        <li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.6"/>  法宝飞行速度加成
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+
+	<Modifier Name="Modifier_choujiang_fangyu2" Type="Normal">
+		<DisplayName>防御BUFF二级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_fangyu2_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_fangyu2_1" Type="Normal">
+		<DisplayName>防御BUFF二级</DisplayName>
+		<Desc>[size=10][color=#D06508]\n移动速度+60%\n护盾加值+60%\n护盾加成+60%\n闪避+60%\n内门恢复+60%\n韧性+60%\n雷劫+24h\n天谴-6\n道行-6[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.6"/>   移动速度
+                        <li Name="NpcFight_ShieldConversionRate" AddP="0.6"/>  护盾强度加值
+                        <li Name="NpcFight_ShieldConversionRateAddP" AddV="0.6"/>  护盾强度加成
+			<li Name="NpcFight_BaseDodgeChance" AddP="0.6"/>  战斗闪避
+                        <li Name="MagicDamageRecoveryPowerAddV" AddV="0.6"/>   内门自然恢复力
+			<li Name="PainTolerance" AddP="0.6"/>   疼痛忍耐
+			<li Name="NeckCountdownAddV" AddV="600"/>   雷劫
+			<li Name="GodPenaltyAddV" AddV="-6"/>   天谴
+			<li Name="AbilityLvAddV" AddV="-6"/>   道行
+		</Properties>
+	</Modifier> 
+
+
+
+
+	<Modifier Name="Modifier_choujiang_xiuxing3" Type="Normal">
+		<DisplayName>修行BUFF三级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_xiuxing3_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_xiuxing3_1" Type="Normal">
+		<DisplayName>修行BUFF三级</DisplayName>
+		<Desc>[size=10][color=#D06508]灵力根本值+500\n修炼速度+200%\n学习速度+200%\n领悟力+200%\n灵力吸收速度+200%\n心境+40[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="500"/>  最大灵力
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>  修炼速度
+			<li Name="MindStateBaseValue" AddV="40"/>  心境值
+			<li Name="IntelligenceSkillEXPConstant" AddP="2"/>   学习速度
+			<li Name="InspirationCoefficient" AddP="2"/>   学习速度
+			<li Name="LingAbsorbSpeed" AddP="2"/>   灵力吸收速度
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+
+	<Modifier Name="Modifier_choujiang_gongji3" Type="Normal">
+		<DisplayName>攻击BUFF三级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_gongji3_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_gongji3_1" Type="Normal">
+		<DisplayName>攻击BUFF三级</DisplayName>
+		<Desc>[size=10][color=#D06508]\n法宝伤害+100%\n术法伤害+100%\n法宝速度+100%\n命中+100%\n施法时间-30%\n法术冷却-30%\n攻击间隔-30%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+                        <li Name="NpcFight_FabaoPowerAddP" AddP="1"/>  法宝伤害
+                        <li Name="NpcFight_SpellPowerAddP" AddP="1"/>  法术伤害
+			<li Name="NpcFight_BaseHitChance" AddP="1"/>   战斗命中
+                        <li Name="NpcFight_SpellCastTimeAddP" AddP="-0.3"/>   术法吟唱时间加成 
+                        <li Name="NpcFight_SpellCoolDownAddP" AddP="-0.3"/>   术法冷却时间加成 
+                        <li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.3"/>  法宝攻击间隔加成
+                        <li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/>  法宝飞行速度加成
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+
+	<Modifier Name="Modifier_choujiang_fangyu3" Type="Normal">
+		<DisplayName>防御BUFF三级</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<GlobleModifiers>
+			<li>Modifier_choujiang_fangyu3_1</li>
+		</GlobleModifiers>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_choujiang_fangyu3_1" Type="Normal">
+		<DisplayName>防御BUFF三级</DisplayName>
+		<Desc>[size=10][color=#D06508]\n移动速度+100%\n护盾加值+100%\n护盾加成+100%\n闪避+100%\n内门恢复+100%\n韧性+100%\n雷劫+48h\n天谴-10\n道行-10[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MoveSpeed" AddP="1"/>   移动速度
+                        <li Name="NpcFight_ShieldConversionRate" AddP="1"/>  护盾强度加值
+                        <li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>  护盾强度加成
+			<li Name="NpcFight_BaseDodgeChance" AddP="1"/>  战斗闪避
+                        <li Name="MagicDamageRecoveryPowerAddV" AddV="1"/>   内门自然恢复力
+			<li Name="PainTolerance" AddP="1"/>   疼痛忍耐
+			<li Name="NeckCountdownAddV" AddV="1200"/>   雷劫
+			<li Name="GodPenaltyAddV" AddV="-10"/>   天谴
+			<li Name="AbilityLvAddV" AddV="-10"/>   道行
+		</Properties>
+	</Modifier> 
+
+
+
+</List></ModifierDefs>

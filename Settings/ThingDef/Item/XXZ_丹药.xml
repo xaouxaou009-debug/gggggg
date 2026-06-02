@@ -1,0 +1,548 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_DanyaoBase" Parent="Item_yaowuBase">
+		<TexPath>丹药模板</TexPath>
+		<TexPath>res\Sprs\object\object_DAdanyao01</TexPath>
+		<Desc>Desc.</Desc>	
+		<MaxHitPoints>1200</MaxHitPoints>
+		<Rate>8</Rate>
+		<Beauty>12</Beauty>
+		<Item Lable="Dan">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<FabaoSuffix>灵丹</FabaoSuffix>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+		</Item>
+		<Ling>
+			<AddionLing>15</AddionLing>
+		</Ling>
+		<Element>
+			<Value>15</Value>   
+		</Element>	
+	</ThingDef>
+	
+		
+	<ThingDef Type="Item" Name="Item_dan_shuxing_jin1" Parent="Item_DanyaoBase">
+		<ThingName>金灵丹</ThingName>
+		<TexPath>Spr\Yaowu\wuxing1.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升神识0.1。[/color][/size] </Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_jin1</Modifier>
+				<Fesistance>0.95</Fesistance>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_mu1" Parent="Item_dan_shuxing_jin1">
+		<ThingName>木灵丹</ThingName>
+		<TexPath>Spr\Yaowu\wuxing1.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升根骨0.1。[/color][/size] </Desc>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_mu1</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+		</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_dan_shuxing_shui1" Parent="Item_dan_shuxing_jin1">
+		<ThingName>水灵丹</ThingName>
+		<TexPath>Spr\Yaowu\wuxing1.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升魅力0.1。[/color][/size] </Desc>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_shui1</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_huo1" Parent="Item_dan_shuxing_jin1">
+		<ThingName>火灵丹</ThingName>
+		<TexPath>Spr\Yaowu\wuxing1.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升悟性0.1。[/color][/size] </Desc>	
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_huo1</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Huo</Kind> 
+		</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_tu1" Parent="Item_dan_shuxing_jin1">
+		<ThingName>土灵丹</ThingName>
+		<TexPath>Spr\Yaowu\wuxing1.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升机缘0.1。[/color][/size] </Desc>	
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_tu1</Modifier>
+				<Fesistance>0.9</Fesistance>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>  
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_dan_shuxing_jin2" Parent="Item_dan_shuxing_jin1">
+		<ThingName>金灵丹（高级）</ThingName>
+		<TexPath>Spr\Yaowu\wuxing2.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升神识0.3。[/color][/size] </Desc>
+		<Rate>10</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_jin2</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>2</Value>   
+		</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_mu2" Parent="Item_dan_shuxing_jin1">
+		<ThingName>木灵丹（高级）</ThingName>
+		<TexPath>Spr\Yaowu\wuxing2.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升根骨0.3。[/color][/size] </Desc>	
+		<Rate>10</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_mu2</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Mu</Kind> 
+		</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_dan_shuxing_shui2" Parent="Item_dan_shuxing_jin1">
+		<ThingName>水灵丹（高级）</ThingName>
+		<TexPath>Spr\Yaowu\wuxing2.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升魅力0.3。[/color][/size] </Desc>	
+		<Rate>10</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_shui2</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_huo2" Parent="Item_dan_shuxing_jin1">
+		<ThingName>火灵丹（高级）</ThingName>
+		<TexPath>Spr\Yaowu\wuxing2.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升悟性0.3。[/color][/size] </Desc>	
+		<Rate>10</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_huo2</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+		</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_tu2" Parent="Item_dan_shuxing_jin1">
+		<ThingName>土灵丹（高级）</ThingName>
+		<TexPath>Spr\Yaowu\wuxing2.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升机缘0.3。[/color][/size] </Desc>	
+		<Rate>10</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_tu2</Modifier>
+			</Elixir>
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>   
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_wuxing1" Parent="Item_dan_shuxing_jin1">
+		<ThingName>五灵丹</ThingName>
+		<TexPath>Spr\Yaowu\wuxing1.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升五维各0.1。[/color][/size] </Desc>
+		<Rate>9</Rate>
+		<Beauty>15</Beauty>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_wuxing1</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_dan_shuxing_wuxing2" Parent="Item_dan_shuxing_jin1">
+		<ThingName>五灵丹（高级）</ThingName>
+		<TexPath>Spr\Yaowu\wuxing3.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，食用后提升五维各0.3。[/color][/size] </Desc>	
+		<Rate>10</Rate>
+		<Beauty>24</Beauty>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_dan_shuxing_wuxing2</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_dan_lingli_lingli1" Parent="Item_DanyaoBase">
+		<ThingName>纳灵丹（一级）</ThingName>
+		<TexPath>Spr\Yaowu\lingli.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后灵力根本值提升1%。[/color][/size]</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_dan_lingli_lingli1</Modifier>
+				<Ling>5000</Ling>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_dan_lingli_lingli2" Parent="Item_DanyaoBase">
+		<ThingName>纳灵丹（二级）</ThingName>
+		<TexPath>Spr\Yaowu\lingli.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后灵力根本值提升2%。[/color][/size]</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_dan_lingli_lingli2</Modifier>
+				<Ling>10000</Ling>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_dan_lingli_lingli3" Parent="Item_DanyaoBase">
+		<ThingName>纳灵丹（三级）</ThingName>
+		<TexPath>Spr\Yaowu\lingli.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后灵力根本值提升3%。[/color][/size]</Desc>	
+		<Rate>7</Rate>
+		<Beauty>7</Beauty>
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_dan_lingli_lingli3</Modifier>
+				<Ling>20000</Ling>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_dan_lingli_lingli4" Parent="Item_DanyaoBase">
+		<ThingName>纳灵丹（四级）</ThingName>
+		<TexPath>Spr\Yaowu\lingli.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后灵力根本值提升4%。[/color][/size]</Desc>	
+		<Rate>8</Rate>
+		<Beauty>8</Beauty>
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_dan_lingli_lingli4</Modifier>
+				<Ling>50000</Ling>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_dan_lingli_lingli5" Parent="Item_DanyaoBase">
+		<ThingName>纳灵丹（五级）</ThingName>
+		<TexPath>Spr\Yaowu\lingli.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后灵力根本值提升5%。[/color][/size]</Desc>	
+		<Rate>9</Rate>
+		<Beauty>9</Beauty>
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_dan_lingli_lingli5</Modifier>
+				<Ling>100000</Ling>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_xuexi" Parent="Item_DanyaoBase">
+		<ThingName>挑战-学(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Rate>9</Rate>
+		<Beauty>24</Beauty>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升学习速度2%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_xuexi</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_fabao" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-武(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升法宝伤害2%[/color][/size]。</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_fabao</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_fashu" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-术(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升法术伤害2%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_fashu</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_lilian" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-速(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升飞行历练速度2%[/color][/size]。</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_lilian</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_hudun" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-御(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升护盾2%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_hudun</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_xiulian" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-修(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升修炼速度2%[/color][/size]。</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_xiulian</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_gongzuo" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-巧(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升工作速度2%[/color][/size]。</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_Dan_yongjiu_gongzuo</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_yidong" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-敏(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升移动速度2%[/color][/size]。</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_Dan_yongjiu_yidong</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_shouming" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-寿(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升增加寿命十年[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_Dan_yongjiu_shouming</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_tianqian" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-天(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后减少天谴一点[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_tianqian</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_daohang" Parent="Item_Dan_yongjiu_xuexi">
+		<ThingName>挑战-道(永久)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后减少道行一点[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_yongjiu_daohang</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_yongjiu_canwu" Parent="Item_DanyaoBase">
+		<ThingName>挑战-悟</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Rate>9</Rate>
+		<Beauty>24</Beauty>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后提升参悟值88888点[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<TreeExp>88888</TreeExp>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_xianshi_xiulian" Parent="Item_DanyaoBase">
+		<ThingName>挑战-修(限时)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Rate>9</Rate>
+		<Beauty>24</Beauty>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后短期内提升修炼速度1000%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_xianshi_xiulian</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_xianshi_shanghai" Parent="Item_Dan_xianshi_xiulian">
+		<ThingName>挑战-攻(限时)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后短期内提升伤害1000%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_xianshi_shanghai</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_Dan_xianshi_fangyu" Parent="Item_Dan_xianshi_xiulian">
+		<ThingName>挑战-守(限时)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后短期内提升防御1000%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_xianshi_fangyu</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_Dan_xianshi_lingli" Parent="Item_Dan_xianshi_xiulian">
+		<ThingName>挑战-灵(限时)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后短期内提升灵力值1000%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_xianshi_lingli</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_xianshi_lianbao" Parent="Item_Dan_xianshi_xiulian">
+		<ThingName>挑战-锻(限时)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后短期内提升炼宝加成500%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_xianshi_lianbao</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_Dan_xianshi_liandan" Parent="Item_Dan_xianshi_xiulian">
+		<ThingName>挑战-炼(限时)</ThingName>
+		<TexPath>Spr\Yaowu\tiaozhan.png</TexPath>
+		<Desc>[size=12][color=#FFA500]挑战系列产出丹药，服用后短期内提升炼丹加成500%[/color][/size]。</Desc>	
+		<Item Lable="Dan">
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Modifier>Modifier_Dan_xianshi_liandan</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+</List></ThingDefs>

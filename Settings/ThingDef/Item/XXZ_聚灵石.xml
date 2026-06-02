@@ -1,0 +1,926 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_lingshi_0Base" Parent="Item_gaojimucaiBase">
+	<ThingName>残片-蕴灵</ThingName>
+	<Desc>灵气矿里出采的蕴灵石残片，碎片含有微量的元素，听说世间有祭炼之法，可以祭炼成韵灵石。</Desc>
+	<TexPath>Spr\Lingshi\1lingshi.png</TexPath>
+	<Rate>2</Rate>
+	<Beauty>2</Beauty>
+	<ElementKind>None</ElementKind>
+	<MaxStack>4999</MaxStack>
+	<Item Lable="LingStone">
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FabaoSuffix>玄晶</FabaoSuffix>
+		<PhysicalLables>
+			<li>Precise</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>10</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.2</Absorption>  
+		<Accommodate>5000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>1</Value>         
+		<Radius>3</Radius>
+		<Failing>0.1</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>3</Radius>
+		<Color>#FFFF0A</Color>
+	</Light>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_1Base" Parent="Item_lingshi_0Base">
+	<ThingName>蕴灵石-初</ThingName>
+	<Desc>[color=#FF9C0A]由矿脉之精蕴化而成的神物，灵石类能祭炼此物，达到更强的效果。</Desc>
+	<Rate>8</Rate>
+	<Beauty>20</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>20</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailRadius>1</AddionFailRadius>
+		<Absorption>0.25</Absorption>  
+	</Ling>
+	<Element>
+		<Value>5</Value>     
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_2Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-中</ThingName>
+	<Rate>9</Rate>
+	<Beauty>30</Beauty>
+	<Item>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailRadius>2</AddionFailRadius>
+		<Absorption>0.18</Absorption>  
+	</Ling>
+	<Element>
+		<Value>8</Value>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_3Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-高</ThingName>
+	<Rate>9</Rate>
+	<Beauty>30</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>50</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailRadius>2</AddionFailRadius>
+		<Absorption>0.15</Absorption>  
+	</Ling>
+	<Element>
+		<Value>12</Value>        
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_4Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-极</ThingName>
+	<Rate>9</Rate>
+	<Beauty>60</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>70</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailRadius>3</AddionFailRadius>
+		<Absorption>0.12</Absorption>  
+	</Ling>
+	<Element>
+		<Value>17</Value>        
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_5Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-宝</ThingName>
+	<Rate>9</Rate>
+	<Beauty>60</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>90</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailRadius>3</AddionFailRadius>
+		<Absorption>0.12</Absorption>  
+	</Ling>
+	<Element>
+		<Value>23</Value>        
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_6Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-灵</ThingName>
+	<Rate>10</Rate>
+	<Beauty>80</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailRadius>3</AddionFailRadius>
+		<Absorption>0.12</Absorption>  
+	</Ling>
+	<Element>
+		<Value>30</Value>        
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_7Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-法</ThingName>
+	<Rate>10</Rate>
+	<Beauty>80</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>150</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailRadius>3</AddionFailRadius>
+		<Absorption>0.1</Absorption>  
+	</Ling>
+	<Element>
+		<Value>38</Value>        
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_8Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-尊</ThingName>
+	<Rate>10</Rate>
+	<Beauty>80</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>180</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailRadius>4</AddionFailRadius>
+		<Absorption>0.08</Absorption>  
+	</Ling>
+	<Element>
+		<Value>47</Value>        
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_9Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-圣</ThingName>
+	<Rate>11</Rate>
+	<Beauty>120</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>210</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailRadius>4</AddionFailRadius>
+		<Absorption>0.05</Absorption>  
+	</Ling>
+	<Element>
+		<Value>57</Value>        
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_10Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-道</ThingName>
+	<Rate>11</Rate>
+	<Beauty>240</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+	<Ling>
+		<AddionLing>240</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailRadius>4</AddionFailRadius>
+		<Absorption>0.02</Absorption>  
+	</Ling>
+	<Element>
+		<Value>68</Value>        
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_11Base" Parent="Item_lingshi_1Base">
+	<ThingName>蕴灵石-混沌</ThingName>
+	<Rate>12</Rate>
+	<Beauty>360</Beauty>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item>
+		<StoryBnts>
+			<li Name="混沌" Desc="拥有着天地神物的混沌灵石，不知道会发生什么。" Story="Story_lingshi_hundun" Cost="3"/>
+		</StoryBnts>
+	<Ling>
+		<AddionLing>280</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailRadius>5</AddionFailRadius>
+		<Absorption>0.01</Absorption>  
+	</Ling>
+	<Element>
+		<Value>80</Value>        
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_canpian" Parent="Item_lingshi_0Base">
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin1" Parent="Item_lingshi_1Base">
+	<TexPath>Spr\Lingshi\jinlingshi1.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu1" Parent="Item_lingshi_1Base">
+	<TexPath>Spr\Lingshi\mulingshi1.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui1" Parent="Item_lingshi_1Base">
+	<TexPath>Spr\Lingshi\shuilingshi1.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo1" Parent="Item_lingshi_1Base">
+	<TexPath>Spr\Lingshi\huolingshi1.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu1" Parent="Item_lingshi_1Base">
+	<TexPath>Spr\Lingshi\tulingshi1.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan1" Parent="Item_lingshi_1Base">
+	<TexPath>Spr\Lingshi\bailingshi1.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun1" Parent="Item_lingshi_1Base">
+	<TexPath>Spr\Lingshi\heilingshi1.png</TexPath>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin2" Parent="Item_lingshi_2Base">
+	<TexPath>Spr\Lingshi\jinlingshi2.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu2" Parent="Item_lingshi_2Base">
+	<TexPath>Spr\Lingshi\mulingshi2.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui2" Parent="Item_lingshi_2Base">
+	<TexPath>Spr\Lingshi\shuilingshi2.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo2" Parent="Item_lingshi_2Base">
+	<TexPath>Spr\Lingshi\huolingshi2.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu2" Parent="Item_lingshi_2Base">
+	<TexPath>Spr\Lingshi\tulingshi2.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan2" Parent="Item_lingshi_2Base">
+	<TexPath>Spr\Lingshi\bailingshi2.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun2" Parent="Item_lingshi_2Base">
+	<TexPath>Spr\Lingshi\heilingshi2.png</TexPath>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin3" Parent="Item_lingshi_3Base">
+	<TexPath>Spr\Lingshi\jinlingshi3.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu3" Parent="Item_lingshi_3Base">
+	<TexPath>Spr\Lingshi\mulingshi3.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui3" Parent="Item_lingshi_3Base">
+	<TexPath>Spr\Lingshi\shuilingshi3.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo3" Parent="Item_lingshi_3Base">
+	<TexPath>Spr\Lingshi\huolingshi3.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu3" Parent="Item_lingshi_3Base">
+	<TexPath>Spr\Lingshi\tulingshi3.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan3" Parent="Item_lingshi_3Base">
+	<TexPath>Spr\Lingshi\bailingshi3.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun3" Parent="Item_lingshi_3Base">
+	<TexPath>Spr\Lingshi\heilingshi3.png</TexPath>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin4" Parent="Item_lingshi_4Base">
+	<TexPath>Spr\Lingshi\jinlingshi4.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu4" Parent="Item_lingshi_4Base">
+	<TexPath>Spr\Lingshi\mulingshi4.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui4" Parent="Item_lingshi_4Base">
+	<TexPath>Spr\Lingshi\shuilingshi4.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo4" Parent="Item_lingshi_4Base">
+	<TexPath>Spr\Lingshi\huolingshi4.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu4" Parent="Item_lingshi_4Base">
+	<TexPath>Spr\Lingshi\tulingshi4.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan4" Parent="Item_lingshi_4Base">
+	<TexPath>Spr\Lingshi\bailingshi4.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun4" Parent="Item_lingshi_4Base">
+	<TexPath>Spr\Lingshi\heilingshi4.png</TexPath>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin5" Parent="Item_lingshi_5Base">
+	<TexPath>Spr\Lingshi\jinlingshi5.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu5" Parent="Item_lingshi_5Base">
+	<TexPath>Spr\Lingshi\mulingshi5.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui5" Parent="Item_lingshi_5Base">
+	<TexPath>Spr\Lingshi\shuilingshi5.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo5" Parent="Item_lingshi_5Base">
+	<TexPath>Spr\Lingshi\huolingshi5.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu5" Parent="Item_lingshi_5Base">
+	<TexPath>Spr\Lingshi\tulingshi5.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan5" Parent="Item_lingshi_5Base">
+	<TexPath>Spr\Lingshi\bailingshi5.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun5" Parent="Item_lingshi_5Base">
+	<TexPath>Spr\Lingshi\heilingshi5.png</TexPath>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin6" Parent="Item_lingshi_6Base">
+	<TexPath>Spr\Lingshi\jinlingshi6.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu6" Parent="Item_lingshi_6Base">
+	<TexPath>Spr\Lingshi\mulingshi6.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui6" Parent="Item_lingshi_6Base">
+	<TexPath>Spr\Lingshi\shuilingshi6.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo6" Parent="Item_lingshi_6Base">
+	<TexPath>Spr\Lingshi\huolingshi6.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu6" Parent="Item_lingshi_6Base">
+	<TexPath>Spr\Lingshi\tulingshi6.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan6" Parent="Item_lingshi_6Base">
+	<TexPath>Spr\Lingshi\bailingshi6.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun6" Parent="Item_lingshi_6Base">
+	<TexPath>Spr\Lingshi\heilingshi6.png</TexPath>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin7" Parent="Item_lingshi_7Base">
+	<TexPath>Spr\Lingshi\jinlingshi7.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu7" Parent="Item_lingshi_7Base">
+	<TexPath>Spr\Lingshi\mulingshi7.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui7" Parent="Item_lingshi_7Base">
+	<TexPath>Spr\Lingshi\shuilingshi7.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo7" Parent="Item_lingshi_7Base">
+	<TexPath>Spr\Lingshi\huolingshi7.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu7" Parent="Item_lingshi_7Base">
+	<TexPath>Spr\Lingshi\tulingshi7.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan7" Parent="Item_lingshi_7Base">
+	<TexPath>Spr\Lingshi\bailingshi7.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun7" Parent="Item_lingshi_7Base">
+	<TexPath>Spr\Lingshi\heilingshi7.png</TexPath>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin8" Parent="Item_lingshi_8Base">
+	<TexPath>Spr\Lingshi\jinlingshi8.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu8" Parent="Item_lingshi_8Base">
+	<TexPath>Spr\Lingshi\mulingshi8.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui8" Parent="Item_lingshi_8Base">
+	<TexPath>Spr\Lingshi\shuilingshi8.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo8" Parent="Item_lingshi_8Base">
+	<TexPath>Spr\Lingshi\huolingshi8.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu8" Parent="Item_lingshi_8Base">
+	<TexPath>Spr\Lingshi\tulingshi8.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan8" Parent="Item_lingshi_8Base">
+	<TexPath>Spr\Lingshi\bailingshi8.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun8" Parent="Item_lingshi_8Base">
+	<TexPath>Spr\Lingshi\heilingshi8.png</TexPath>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin9" Parent="Item_lingshi_9Base">
+	<TexPath>Spr\Lingshi\jinlingshi9.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu9" Parent="Item_lingshi_9Base">
+	<TexPath>Spr\Lingshi\mulingshi9.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui9" Parent="Item_lingshi_9Base">
+	<TexPath>Spr\Lingshi\shuilingshi9.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo9" Parent="Item_lingshi_9Base">
+	<TexPath>Spr\Lingshi\huolingshi9.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu9" Parent="Item_lingshi_9Base">
+	<TexPath>Spr\Lingshi\tulingshi9.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan9" Parent="Item_lingshi_9Base">
+	<TexPath>Spr\Lingshi\bailingshi9.png</TexPath>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun9" Parent="Item_lingshi_9Base">
+	<TexPath>Spr\Lingshi\heilingshi9.png</TexPath>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin10" Parent="Item_lingshi_10Base">
+	<TexPath>Spr\Lingshi\jinlingshi10.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu10" Parent="Item_lingshi_10Base">
+	<TexPath>Spr\Lingshi\mulingshi10.png</TexPath>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui10" Parent="Item_lingshi_10Base">
+	<TexPath>Spr\Lingshi\shuilingshi10.png</TexPath>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo10" Parent="Item_lingshi_10Base">
+	<TexPath>Spr\Lingshi\huolingshi10.png</TexPath>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu10" Parent="Item_lingshi_10Base">
+	<TexPath>Spr\Lingshi\tulingshi10.png</TexPath>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan10" Parent="Item_lingshi_10Base">
+	<TexPath>Spr\Lingshi\bailingshi10.png</TexPath>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun10" Parent="Item_lingshi_10Base">
+	<TexPath>Spr\Lingshi\heilingshi10.png</TexPath>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_jin11" Parent="Item_lingshi_11Base">
+	<TexPath>Spr\Lingshi\jinlingshi11.png</TexPath>
+	<Desc>[img]Spr/Lingshi/jinlingshi11.png[/img]\n  [color=#FF9C0A]混沌灵石，顶级的蕴灵系列灵石，具有强大的聚灵效果</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_mu11" Parent="Item_lingshi_11Base">
+	<TexPath>Spr\Lingshi\mulingshi11.png</TexPath>
+	<Desc>[img]Spr/Lingshi/mulingshi11.png[/img]\n  [color=#70DB93]混沌灵石，顶级的蕴灵系列灵石，具有强大的聚灵效果</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_shui11" Parent="Item_lingshi_11Base">
+	<TexPath>Spr\Lingshi\shuilingshi11.png</TexPath>
+	<Desc>[img]Spr/Lingshi/shuilingshi11.png[/img]\n  [color=#4876FF]混沌灵石，顶级的蕴灵系列灵石，具有强大的聚灵效果</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_huo11" Parent="Item_lingshi_11Base">
+	<TexPath>Spr\Lingshi\huolingshi11.png</TexPath>
+	<Desc>[img]Spr/Lingshi/huolingshi11.png[/img]\n  [color=#FF3030]混沌灵石，顶级的蕴灵系列灵石，具有强大的聚灵效果</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingshi_tu11" Parent="Item_lingshi_11Base">
+	<TexPath>Spr\Lingshi\tulingshi11.png</TexPath>
+	<Desc>[img]Spr/Lingshi/tulingshi11.png[/img]\n  [color=#FF7F00]混沌灵石，顶级的蕴灵系列灵石，具有强大的聚灵效果</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_yuan11" Parent="Item_lingshi_11Base">
+	<TexPath>Spr\Lingshi\bailingshi11.png</TexPath>
+	<Desc>[img]Spr/Lingshi\bailingshi11.png[/img]\n  [color=#FFFFFF]混沌灵石，顶级的蕴灵系列灵石，具有强大的聚灵效果</Desc>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshi_hun11" Parent="Item_lingshi_11Base">
+	<TexPath>Spr\Lingshi\heilingshi11.png</TexPath>
+	<Desc>[img]Spr/Lingshi\heilingshi11.png[/img]\n  [color=#363636]混沌灵石，顶级的蕴灵系列灵石，具有强大的聚灵效果</Desc>
+	<ElementKind>Chaos</ElementKind>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</List></ThingDefs>

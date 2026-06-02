@@ -1,0 +1,1145 @@
+﻿<RaceDefs><List>
+	
+
+<RaceDef Name="Race_yaoshou_tu1" Parent="JYBase">
+	<DisplayName>兔灵</DisplayName>
+	<Mod>Mod/Npc/JYRabbit/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>12</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<FreeLength>2.7</FreeLength>
+	<WarningRange>0</WarningRange>
+	<StrikeBack>0.2</StrikeBack>
+	<WinterHide>0</WinterHide>
+
+	<RebornRace>Rabbit</RebornRace>
+
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="9999999"	>10,10,10,10,10</li> 
+		<li Sex="Female" AgeMin="0" 	AgeMax="9999999"	>10,10,10,10,10</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed_Slow"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_lang1" Parent="JYBase">
+	<DisplayName>狼灵</DisplayName>
+
+	<Mod>Mod/Npc/JYWolf/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>1.8</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>12</GenerateMaxAge>
+	<AdultAge>5</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<RebornRace>Wolf</RebornRace>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,1,0],
+		[1,3,1],
+		[0,1,0],
+		</Data>
+	</Collider>
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>5,3,1,3,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="12"	>4,2,1,4,2</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>5,3,1,3,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="12"	>4,2,1,4,2</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_she1" Parent="JYBase">
+	<DisplayName>蛇灵</DisplayName>
+	<Mod>Mod/Npc/JYSnake/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>SnakeBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Male" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Female" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_zhu1" Parent="JYBase">
+	<DisplayName>猪灵</DisplayName>
+	<Mod>Mod/Npc/JYBoar/Base</Mod>
+	<Revive>0</Revive>
+	<RaceType>Animal</RaceType>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>1.8</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>12</GenerateMaxAge>
+	<AdultAge>6</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<RebornRace>Boar</RebornRace>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,1,0],
+		[1,3,1],
+		[0,1,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="15"	>4,6,1,3,2</li> 
+		<li Sex="Male" 	 AgeMin="16" 	AgeMax="20"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,2,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="15"	>4,6,1,3,2</li> 
+		<li Sex="Female" 	 AgeMin="16" 	AgeMax="20"	>3,4,1,2,2</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_24"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_xiong1" Parent="JYBase">
+	<DisplayName>熊灵</DisplayName>
+
+	<Mod>Mod/Npc/JYBear/Base</Mod>
+	<Revive>0</Revive>
+	<RaceType>Animal</RaceType>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>5.667</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>3</GenerateMinAge>
+	<GenerateMaxAge>35</GenerateMaxAge>
+	<AdultAge>5</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<RebornRace>Bear</RebornRace>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,1,0],
+		[1,3,1],
+		[0,1,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="4"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="5" 	AgeMax="20"	>7,9,1,3,2</li> 
+		<li Sex="Male" 	 AgeMin="21" 	AgeMax="42"	>6,7,1,4,2</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="4"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="5" 	AgeMax="20"	>7,9,1,3,2</li> 
+		<li Sex="Female" 	 AgeMin="21" 	AgeMax="42"	>6,7,1,4,2</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_45"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_wa1" Parent="JYBase">
+	<DisplayName>蛙灵</DisplayName>
+	<Mod>Mod/Npc/JYFrog/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>2.833</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>1</GenerateMinAge>
+	<GenerateMaxAge>14</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<StrikeBack>0.5</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<RebornRace>Frog</RebornRace>
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_gui1" Parent="JYBase">
+	<DisplayName>龟灵</DisplayName>
+	<Mod>Mod/Npc/JYTurtle/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+<!--	<FreeLength>1.8</FreeLength>-->
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>3</GenerateMinAge>
+	<GenerateMaxAge>200</GenerateMaxAge>
+	<AdultAge>10</AdultAge>
+	<StrikeBack>0.3</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<RebornRace>Turtle</RebornRace>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="10"	>2,2,1,2,6</li> 
+		<li Sex="Male" 	 AgeMin="11" 	AgeMax="80"	>2,4,1,3,6</li> 
+		<li Sex="Male" 	 AgeMin="81" 	AgeMax="200"	>2,3,1,7,6</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="10"	>2,2,1,2,6</li> 
+		<li Sex="Female" 	 AgeMin="11" 	AgeMax="80"	>2,4,1,3,6</li> 
+		<li Sex="Female" 	 AgeMin="81" 	AgeMax="200"	>2,3,1,7,6</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_200"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+
+<RaceDef Name="Race_yaoshou_longye1" Parent="JYBase">
+	<DisplayName>龙仆(夜)</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_night/Base</Mod>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<Body>SnakeBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Male" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Female" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+
+<RaceDef Name="Race_yaoshou_longzhou1" Parent="JYBase">
+	<DisplayName>龙仆(昼)</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_day/Base</Mod>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<Body>SnakeBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Male" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Female" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+
+
+<RaceDef Name="Race_yaoshou_longe1" Parent="JYBase">
+	<DisplayName>龙仆(恶)</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_night/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<Body>SnakeBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	<Mod>Mod/Npc/Longzhipuyi_Dark/Base</Mod>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Male" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Female" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+
+
+
+
+
+<RaceDef Name="Race_yaoshou_longshan1" Parent="JYBase">
+	<DisplayName>龙仆(善)</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_Light/Base</Mod>
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<HasGenders>1</HasGenders>
+	<Body>SnakeBody</Body>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Male" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Female" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_fei1" Parent="JYBase">
+
+	<DisplayName>灵蜚</DisplayName>
+
+	<Mod>Mod/Npc/Fei/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>12</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<FreeLength>2.7</FreeLength>
+	<WarningRange>0</WarningRange>
+	<StrikeBack>0.2</StrikeBack>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Rabbit</RebornRace>
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>4,1,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="12"	>2,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>4,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="12"	>2,1,1,1,2</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed_Slow"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="Race_yaoshou_lushu1" Parent="JYBase">
+
+	<DisplayName>鹿蜀</DisplayName>
+
+	<Mod>Mod/Npc/Lushu/Base</Mod>
+
+	<NormalAttack>Race_yaoshou_NormalAttack</NormalAttack>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<Body>QuadrupedBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>12</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<FreeLength>2.7</FreeLength>
+	<WarningRange>0</WarningRange>
+	<StrikeBack>0.2</StrikeBack>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Rabbit</RebornRace>
+
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+			<li>
+				<ThingDef>Item_lingguo_jin1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_mu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_shui1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_huo1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingguo_tu1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_lingshi_canpian</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>4,1,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="12"	>2,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>4,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="12"	>2,1,1,1,2</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed_Slow"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</List></RaceDefs>

@@ -1,0 +1,177 @@
+<ThingDefs><List>
+	
+
+
+
+	<ThingDef Type="Building" Name="Building_cailiao" Parent="ProductionBase">	
+	<ThingName>神材锻台</ThingName>	
+	<Desc>[color=#CD2626]传说世间有神木，神石，神金，凡法难以锻造，此物可分化子体，将神材原料放入锻台子体中，将会随着时间缓慢祭炼，最终变化为可以雕琢的神材，炼化神材越多品阶越高，分化出来的子体品阶亦越高。</Desc>
+	<TexScale>1.5</TexScale>
+	<TexPath>Spr\building\cailiao0.png</TexPath>
+	<ClassName>Building_jilian_cailiao</ClassName>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<Beauty>1</Beauty>
+	<Rate>1</Rate>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[1,1],
+			[1,1],
+		</Data>
+		<Offset>
+			<y>0.05</y>
+			<x>0.44</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<MaxCount>1</MaxCount>
+		<BePackage>0</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+	</Building>
+	<StoryBnts>
+		<li Name="拆除" Desc="将此建筑拆除。" Script="GameMain:GetMod('Lua_JianZhu_TouFang').JianZhuYiChu(bind)" Icon="Icon/9.png"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Building" Name="Building_cailiao2" Parent="Building_cailiao">	
+	<ThingName>锻台子体</ThingName>	
+	<TexScale>1.5</TexScale>
+	<TexPath>Spr\building\cailiao.png</TexPath>
+	<Desc>[color=#CD2626]可以祭炼神木，神石，神金，随着时间缓慢祭炼，祭炼材料数量越多，本体品阶越高，祭炼速度越快。</Desc>
+	<Collider>
+		<Data>
+			[1]
+		</Data>
+		<Offset>
+			<y>-0.05</y>
+			<x>0.05</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<BePackage>0</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+	</Building>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Building" Name="Building_yaowu" Parent="ProductionBase">	
+	<ThingName>药物制炼台</ThingName>	
+	<Desc>[img]Spr/Ziti/sanjie.png[/img]\n[color=#CD2626]三界商行出产的药物制炼台，可以研磨灵果，提取药性，而后制作丹丸，丹丸可增加弟子对天地大。道的领悟</Desc>
+	<TexScale>1.1</TexScale>
+	<TexPath>Spr\building\zhiyaotai.png</TexPath>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<Rate>1</Rate>
+	<Beauty>1</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[1,1],
+			[1,7],
+		</Data>
+		<Offset>
+			<y>0.8</y>
+			<x>-0.5</x>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="-0.5" Y="-0.2" Ang="1"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<MaxCount>1</MaxCount>
+		<BePackage>0</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>shuhua1</WorkAnimation>
+		<WorkTexPath>Spr\building\zhiyaotai2.png</WorkTexPath>
+		<SnowRenderData>
+			<x>3</x>
+			<y>3.7</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProduceKind>Handwork</ProduceKind>
+		<Produces>
+		</Produces>
+	</Building>
+	<StoryBnts>
+		<li Name="拆除" Desc="将此建筑拆除。" Script="GameMain:GetMod('Lua_JianZhu_TouFang').JianZhuYiChu(bind)" Icon="Icon/9.png"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+	<ThingDef Type="Building" Name="Building_shenjian" Parent="ProductionBase">	
+	<ThingName>神剑灵台</ThingName>	
+	<Desc>[color=#CD2626]此物品可以自动锻造神材化为神兵利器，不同的配方可以锻造出不同的神器，传说专属神器亦可锻造而出[/color]</Desc>
+	<TexScale>1</TexScale>
+	<TexPath>Spr/building/jian1.png</TexPath>
+	<ClassName>Building_shenjian</ClassName>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<Rate>1</Rate>
+	<Beauty>1</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+			[1,1],
+			[1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0.5</x>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0.5" Y="0.5" Ang="180"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<MaxCount>1</MaxCount>
+		<BePackage>0</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>dazuo</WorkAnimation>
+		<SnowRenderData>
+			<x>3.15</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<StoryBnts>
+		<li Name="拆除" Desc="将此建筑拆除。" Script="GameMain:GetMod('Lua_JianZhu_TouFang').JianZhuYiChu(bind)" Icon="Icon/9.png"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</List></ThingDefs>

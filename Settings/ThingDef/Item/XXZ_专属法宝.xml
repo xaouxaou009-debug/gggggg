@@ -1,0 +1,205 @@
+﻿<ThingDefs><List>	
+
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_luxueqi" Parent="MiBaoBase">	
+		<ThingName>天琊神剑</ThingName>
+		<TexPath>Spr/Weapon/TianYa.png</TexPath>		
+		<Desc>[size=12][color=#FF9C0A]一柄上古遗留的灵物，仿佛是传说中的【天琊神剑】\n传说【天琊神剑】乃是上古灵神陆雪琪的专属武器，有着极其强大的攻击力</Desc>
+		<ElementKind>Shui</ElementKind>
+		<Item Kind="Equipment">
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Attack</li>
+			</PhysicalLables>
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoLingRecoverAddP" fParam2="1" nParam1="1" Desc="从根本上提高自身法宝威力加成100%。"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="0.01" fParam2="9" nParam1="0" Desc="造成伤害时，有1%的几率造成10倍伤害。"/>
+					<Ability Kind="HitCountAddMirror" nParam1="9" fParam1="3" Desc="每攻击9次，产生1道剑光分化，持续3秒"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_biyao" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>合欢铃</ThingName>
+		<TexPath>Spr/Weapon/Hehuanling.png</TexPath>		
+		<Desc>[size=12][color=#FF9C0A]【合欢铃】乃是上古魔宗合欢派的镇宗之宝，内刻神文，有摄魂夺魄之能，传说能与上古神器诛仙剑一较高下，乃是碧瑶仙子的法器。</Desc>
+		<ElementKind>Mu</ElementKind>
+		<TexScale>0.34</TexScale>
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="1" nParam1="1" Desc="从根本上提高自身法宝灵气加成100%。"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="1" nParam2="1" Desc="攻击敌方本体时有10%几率额外造成目标当前灵气10%的附加伤害。"/>
+			     <Ability Kind="HitSameFabaoAndEffect" nParam1="36" nParam2="1" Desc="每攻击同一个法宝36次，可使其失效，持续时间与其品阶有关。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_sunwukong" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>如意金箍棒</ThingName>
+		<TexPath>Spr/Weapon/WeaponC001.png</TexPath>		
+		<Desc>[size=12][color=#FF9C0A]传说中齐天大圣孙悟空所用神兵乃是东海神宫之宝【定海神珍铁】，重一万三千五百斤，后被猴王悟空所得，改名为【如意金箍棒】，据说有着无上的威能。</Desc>
+		<ElementKind>Tu</ElementKind>
+		<TexScale>0.6</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="CantAttack" Desc="环绕周身不会主动进攻，专注防御。"/>
+					<Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="护体技能提高10"/>
+					<Ability Kind="HitCountAddMirror" nParam1="1" nParam2="1" fParam1="1" Desc="每次攻击，产生一道蚊须分形，持续5秒。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_lvbu" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>方天画戟</ThingName>
+		<TexPath>Spr/Weapon/WeaponB001.png</TexPath>		
+		<Desc>[size=12][color=#FF9C0A]【方天画戟】乃是吕布所持神兵，传说奉先乃是上古战神转世，有万夫不当之勇，【方天画戟】亦是无上神兵。</Desc>
+		<ElementKind>Jin</ElementKind>
+		<TexScale>0.35</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="MultiKillAddPowerUp" nParam1="36" fParam1="0.01" Desc="每击杀一个生灵威力提高一成，最高36层。中断一天则清零。"/>
+					<Ability Kind="HitCountAddDamage" nParam1="36" sParam1="TheWholeBody" sParam2="FivePoison" Desc="每36次攻击修行者本体，会穿透护盾造成额外伤害。"/>
+					<Ability Kind="HitAddRecovery" fParam1="0.05"  Desc="造成伤害的5%会补充为法宝自身的灵气。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_libai" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>灵夙笔</ThingName>
+		<Desc>[size=12][color=#FF9C0A]传说【灵夙笔】乃是上古仙神遗留于世，后被诗仙李白获得，两者相辅相成，流传下万古不朽的诗篇，传说手持此笔能灵物天地道韵。</Desc>
+		<TexPath>Spr/Weapon/LingSuBi.png</TexPath>	
+		<ElementKind>Shui</ElementKind>
+		<TexScale>0.4</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="FlyDamageAddP" fParam1="0.015" Desc="法宝每飞行1秒，基础威力就提高1.5%，返回后清空。"/>
+					<Ability Kind="HitCountCostSkill" nParam1="1"  sParam1="DamageSkill_4" Desc="每9次攻击会对目标敌人发动一次法术"/>
+					<Ability Kind="AgeAddPowerUp" fParam1="5" fParam2="0.5" Desc="使用者越接近寿命极限法宝威力大" />
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_guanyu" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>青龙偃月刀</ThingName>
+		<Desc>[size=12][color=#FF9C0A]【青龙偃月刀】乃是武圣人关羽所持神兵，曾手持此刀刀劈数员大将，据说此刀锻制之时曾一龙血淬身，出世之时曾掩月之光，故此【青龙偃月刀】。</Desc>
+		<TexPath>Spr/Weapon/YanYueDao.png</TexPath>	
+		<ElementKind>Huo</ElementKind>
+		<TexScale>0.8</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="LastLingCostPowerUp" nParam1="100000" fParam1="0.1" fParam2="100"  Desc="每消耗100000点灵气，伤害提高10%，最高提高10000%。法宝补充灵气时重置。"/>
+					<Ability Kind="FunctionEffectPower" nParam1="-1" fParam1="0.10" nParam2="1" Desc="健康值每低1%，法宝威力增加10%。"/>
+					<Ability Kind="DanCountAddPowerUp" fParam1="0.05" Desc="每服用过一种丹药，威力提高5%。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_yuji" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>流光舞月剑</ThingName>
+		<Desc>[size=12][color=#FF9C0A]昔日楚国霸王，力能扛鼎，神威盖世，虞姬亦是天资绝色，【流光舞月剑】乃是为霸王独舞之时所用之剑，后再垓下虞姬死于此剑，故而此剑通灵。</Desc>
+		<TexPath>Spr/Weapon/LiuGuangJian.png</TexPath>	
+		<ElementKind>Mu</ElementKind>
+		<TexScale>0.6</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="0" sParam1="Mu" Desc="对金属性目标伤害加深10%"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="0" sParam1="Mu" Desc="对木属性目标伤害加深10%"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="0" sParam1="Mu" Desc="对水属性目标伤害加深10%"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="0" sParam1="Mu" Desc="对火属性目标伤害加深10%"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="0" sParam1="Mu" Desc="对土属性目标伤害加深10%"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_diaochan" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>霓裳扇</ThingName>
+		<Desc>[size=12][color=#FF9C0A]昔日董卓霍乱天下，独断朝纲，迫幼主乱后宫，以致天下大乱。汉室老臣以貂蝉设计除之，【霓裳扇】便是貂蝉献舞之时所持之扇。</Desc>
+		<TexPath>Spr/Weapon/NiShangShan.png</TexPath>	
+		<ElementKind>Shui</ElementKind>
+		<TexScale>1</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoLingRecoverAddP" fParam2="1" nParam1="1" Desc="从根本上提高自身法宝灵气恢复100%。"/>
+					<Ability Kind="HitSameFabaoAndEffect" nParam1="15" nParam2="1" Desc="每攻击同一个法宝15次，可使其失效，持续时间与其品阶有关。"/>
+					<Ability Kind="HitCountAddDamage" nParam1="15" sParam1="TheWholeBody" sParam2="FivePoison" Desc="每15次攻击修行者本体，会穿透护盾造成额外伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_zixia" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>紫青宝剑</ThingName>
+		<Desc>[size=12][color=#FF9C0A]昔日董卓霍乱天下，独断朝纲，迫幼主乱后宫，以致天下大乱。汉室老臣以貂蝉设计除之，【霓裳扇】便是貂蝉献舞之时所持之扇。</Desc>
+		<TexPath>Spr/Weapon/ZiQingBaoJian.png</TexPath>	
+		<ElementKind>Huo</ElementKind>
+		<TexScale>0.7</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="1" nParam1="1" Desc="从根本上提高自身法宝飞行速度100%。"/>
+					<Ability Kind="HitCountAddSubColdDown" nParam1="9" fParam1="1" Desc="每2次攻击会减少1秒技能CD。"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="2.5" nParam1="2" Desc="与法宝拼斗时，造成2.5倍伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	<ThingDef Type="Item" Name="Item_zhuanshu_fabao_houyi" Parent="Item_zhuanshu_fabao_luxueqi">	
+		<ThingName>射日神弓</ThingName>
+		<Desc>[size=12][color=#FF9C0A]【射日弓】上古十大神器之一，传说乃是盘古肉身所化，后被有穷氏后羿所得，逢天降十日，炙烤大地，羿持此弓连射九日，庇天下万民</Desc>
+		<TexPath>Spr/Weapon/0.png</TexPath>	
+		<ElementKind>Mu</ElementKind>
+		<TexScale>0.7</TexScale>
+		<ModScale>0.1</ModScale>
+		<KeepModelColor>1</KeepModelColor><!--保持模型贴图颜色，不会受主材料影响-->
+		<Item Kind="Equipment">
+			<Fabao>
+				<SpecialAbility>
+					<Ability Kind="FristHitPowerUp" fParam1="5" Desc="第一击威力增加500%，法宝补充灵气重置。"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="1" Desc="攻击敌方本体时，造成1.5倍伤害。"/>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.01" nParam1="1" nParam2="1" Desc="攻击敌方本体时额外造成目标当前灵气1%的附加伤害。"/>
+				</SpecialAbility>
+			</Fabao>
+		</Item>
+	</ThingDef>	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

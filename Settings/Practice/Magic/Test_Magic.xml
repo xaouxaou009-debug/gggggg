@@ -1,0 +1,11 @@
+<Magics><List>
+	<Magic Name="Magic_wupin_hecheng" Type="Class">
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>Lua_wupin_hecheng</ClassName>
+		<TargetDesc>请选择一个可合成物品</TargetDesc>
+	</Magic>
+	
+
+</List></Magics>

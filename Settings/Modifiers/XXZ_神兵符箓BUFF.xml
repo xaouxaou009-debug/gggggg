@@ -1,0 +1,1059 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="Modifier_wuqi_wuxingjian2" Type="Normal">
+		<DisplayName>五行神剑</DisplayName>
+		<Desc>[size=10][color=#D06508]五行剑意\n法宝根本伤害+5%\n术法根本伤害+5%\n护盾根本值+5%\n灵力根本值+5%\n修炼速度+300%\n学习速度+300%\n五行伤害-8%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="0.05"/>
+			<li Name="NpcFight_SpellPowerAddP" BAddP="0.05"/>
+			<li Name="NpcLingMaxValue" BAddP="0.05"/> 
+ 			<li Name="NpcFight_ShieldConversionRate" BAddP="0.05"/> 
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>  
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>  
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.08"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.08"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.08"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.08"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.08"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_wuqi_wuxingjian1" Type="Normal">
+		<DisplayName>五行灵剑</DisplayName>
+		<Desc>[size=10][color=#D06508]五行剑意\n法宝伤害+100%\n术法伤害+100%\n护盾+100%\n灵力+100%\n修炼速度+100%\n学习速度+100%\n五行伤害-25%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+            <li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
+            <li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcLingMaxValue" AddP="1"/> 
+ 			<li Name="NpcFight_ShieldConversionRate" AddP="1"/> 
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>  
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>  
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.05"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.05"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Modifier_wuqi_lingjian_1" Type="Normal">
+		<DisplayName>惊雷剑</DisplayName>
+		<Desc>[size=10][color=#D06508]剑意-金\n法宝伤害+100%\n木行伤害-10%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_wuqi_lingjian_2" Type="Normal">
+		<DisplayName>灵修剑</DisplayName>
+		<Desc>[size=10][color=#D06508]剑意-木\n学习速度+100%\n修炼速度+100%\n土行伤害-10%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>  
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/>  
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_wuqi_lingjian_3" Type="Normal">
+		<DisplayName>玄冰剑</DisplayName>
+		<Desc>[size=10][color=#D06508]剑意-水\n灵力+100%\n火行伤害-10%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="1"/>  
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_wuqi_lingjian_4" Type="Normal">
+		<DisplayName>离火剑</DisplayName>
+		<Desc>[size=10][color=#D06508]剑意-火\n术法伤害+100%\n金行伤害-10%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_wuqi_lingjian_5" Type="Normal">
+		<DisplayName>奉圭剑</DisplayName>
+		<Desc>[size=10][color=#D06508]剑意-土\n防御+100%\n水行伤害-10%[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+ 			<li Name="NpcFight_ShieldConversionRate" AddP="1"/> 
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_zhuangbei_taozhuang_waimen1" Type="Normal">
+		<DisplayName>天道酬勤</DisplayName>
+		<Desc>[size=10][color=#D06508]专属套装属性，提升外门属性，属性强度与自身根骨相关[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+ 			<li Name="NpcFight_ShieldConversionRate" AddP="1"/> 
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+		</Properties>
+		<Moods>
+			<li>Moods_taozhuang_waimen1</li>
+		</Moods>
+	</Modifier> 
+	
+	
+	<Modifier Name="Modifier_zhuangbei_taozhuang_neimen1" Type="Normal">
+		<DisplayName>仙道灵韵</DisplayName>
+		<Desc>[size=10][color=#D06508]专属套装属性，提升内门属性，属性强度与自身境界相关[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+ 			<li Name="NpcFight_ShieldConversionRate" AddP="1"/> 
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+		</Properties>
+		<Moods>
+			<li>Moods_taozhuang_neimen1</li>
+		</Moods>
+	</Modifier> 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Modifier Name="mofu_fuzhou1" Type="Normal">
+		<DisplayName>阴阳咒-阴</DisplayName>
+		<Desc>[img]Spr/Wuqi/jiuyoumofu.png[/img]\n[size=12][color=#FF9C0A]掌六律六同，以合阴阳之声\n法宝根本伤害+2%\n法宝攻击间隔-10%\n法宝飞行速度+20%\n法宝转向速度+20%\n命中+100%\n术法根本伤害+2%\n术法冷却-10%\n施法时间-10%\n护盾根本值+2%\n护盾加值+1</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="0.02"/> 
+			<li Name="NpcFight_BaseHitChance" AddP="1"/>  
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.1"/>   
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.2"/>  
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.2"/>  
+			<li Name="NpcFight_SpellPowerAddP" BAddP="0.02"/>  
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/> 
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/> 
+		</Properties>
+		<Moods>
+			 <li>mofu_fulu</li>
+		</Moods>
+	</Modifier> 
+
+
+	<Modifier Name="xianfu_fuzhou1" Type="Normal">
+		<DisplayName>阴阳咒-阳</DisplayName>
+		<Desc>[img]Spr/Wuqi/jiuyoumofu.png[/img]\n[size=12][color=#FF9C0A]掌六律六同，以合阴阳之声\n灵力根本值+500\n灵力根本值+50%\n灵力吸收速度+100%\n精元补充+30%\n精元消耗速度-30%\n全局工作速度+100%\n移动速度+200%\n飞行速度+200%\n探索速度+200%\n寿命+99\n心境+20\n心情+20\n内门恢复+200%\n外门恢复+200%\n修炼速度+200%\n学习速度+200%\n领悟力+200%\n韧性+100%\n炼器成功率+100%\n炼器速度加值+30%\n品阶加值+30%\n神器加值+30%\n品质加值+30%\n炼丹成功率+100%\n产量加值+100%\n炼丹速度+30%\n天劫推迟+49天\n天谴-20\n道行-20\n瓶颈突破+10%\n最低舒适温度+100%\n最低极限温度+100%\n最高舒适温度+100%\n最高极限温度+100%\n食物消耗-10%\n饮水消耗-10%\n娱乐消耗-10%\n建造受伤几率-10%\n开采受伤几率-10%\n锻造受伤几率-10%\n美梦几率+10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="1"/>  
+			<li Name="MoveSpeed" AddP="2"/>  
+			<li Name="WorldMapFlySpeedAddP" AddV="2"/>  
+			<li Name="ExperienceFindSpeedAddV" AddV="2"/> 
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="2"/>  
+			<li Name="RecoveryPower" AddP="2"/>  
+			<li Name="MaxAge" AddV="99"/> 
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>  
+			<li Name="IntelligenceSkillEXPConstant" AddP="2"/>  
+			<li Name="InspirationCoefficient" AddP="2"/>  
+			<li Name="MindStateBaseValue" AddV="20"/> 
+			<li Name="BaseEmotionAddV" AddV="20"/> 
+			<li Name="PainTolerance" AddP="1"/> 
+			<li Name="NpcLingMaxValue" BAddV="500"/>  
+			<li Name="PracticeFoodRecoveryConstant" AddP="0.3"/>  
+			<li Name="PracticeFoodConsumeConstant" AddP="-0.3"/>  
+			<li Name="NpcLingMaxValue" BAddP="0.5"/> 
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>  
+			<li Name="FabaoMake_SpeedAddV" AddV="0.3"/> 
+			<li Name="FabaoMake_QualityAddV" AddV="0.3"/>  
+			<li Name="FabaoMake_TwelveRateChanc" AddP="0.3"/>  
+			<li Name="FabaoMake_LingInheritRateAddP" AddP="0.3"/>
+			<li Name="DanMake_SuccessRate" AddV="1"/>  
+			<li Name="DanMake_SpeedAddV" AddV="0.3"/> 
+			<li Name="DanMake_Yield" AddV="1"/>   
+			<li Name="NeckCountdownAddV" AddV="28220"/>  
+			<li Name="AbilityLvAddV" AddV="-20"/> 
+			<li Name="GodPenaltyAddV" AddV="-20"/>  
+ 			<li Name="PracticeRateAddPFromDan" AddP="0.1"/>  
+                        <li Name="MadeQualityAddValue" AddP="2"/>  
+                        <li Name="DisasterFightingSuccessChance" AddP="1"/>
+                        <li Name="ConstructSuccessChance" AddP="1"/>
+                        <li Name="CookingSuccessChance" AddP="1"/>
+                        <li Name="TreatSuccessChance" AddP="1"/>
+                        <li Name="GlobalEfficiency" AddP="1"/>  
+                        <li Name="ToleranceTMin" AddP="1"/>  
+                        <li Name="ToleranceTMax" AddP="1"/>
+                        <li Name="ComfyTMin" AddP="1"/>
+                        <li Name="ComfyTMax" AddP="1"/>
+                        <li Name="NutritionConsumeConstant" AddP="-0.1"/>  
+                        <li Name="WaterConsumeConstant" AddP="-0.1"/>
+                        <li Name="HappyConsumeConstant" AddP="-0.1"/>
+                        <li Name="NiceDreamHappenPercent" AddP="0.1"/>
+                        <li Name="SmithingInjuredChance" AddP="-0.1"/>
+                        <li Name="ConstructInjuredChance" AddP="-0.1"/>
+                        <li Name="MiningInjuredChance" AddP="-0.1"/>
+                        <li Name="PainTolerance" AddP="0.1"/>
+		</Properties>
+		<Moods>
+			 <li>xianfu_fulu</li>
+		</Moods>
+	</Modifier> 
+
+	
+	<Modifier Name="wuzifu_fulu1" Type="Normal">
+		<DisplayName>阴阳咒-道</DisplayName>
+		<Desc>[img]Spr/Wuqi/jiuyoumofu.png[/img]\n[size=12][color=#FF9C0A]掌六律六同，以合阴阳之声\n法宝根本伤害+100%\n法宝攻击间隔-10%\n法宝飞行速度+20%\n法宝转向速度+20%\n命中+100%\n术法根本伤害+100%\n术法冷却-10%\n施法时间-10%\n护盾根本值+100%\n护盾加值+1\n灵力根本值+500\n灵力根本值+50%\n灵力吸收速度+100%\n精元补充+30%\n精元消耗速度-30%\n全局工作速度+100%\n移动速度+200%\n飞行速度+200%\n探索速度+200%\n寿命+99\n心境+20\n心情+20\n内门恢复+200%\n外门恢复+200%\n修炼速度+200%\n学习速度+200%\n领悟力+200%\n韧性+100%\n炼器成功率+100%\n炼器速度加值+30%\n品阶加值+30%\n神器加值+30%\n品质加值+30%\n炼丹成功率+100%\n产量加值+100%\n炼丹速度+30%\n天劫推迟+49天\n天谴-20\n道行-20\n瓶颈突破+10%\n最低舒适温度+100%\n最低极限温度+100%\n最高舒适温度+100%\n最高极限温度+100%\n食物消耗-10%\n饮水消耗-10%\n娱乐消耗-10%\n建造受伤几率-10%\n开采受伤几率-10%\n锻造受伤几率-10%\n美梦几率+10%\n全局工作速度+200%\n烹饪成功率+100%\n建筑成功率+100%\n治疗成功率+100%\n救灾成功率+100%\n制作品质+100%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="1"/> 
+			<li Name="NpcFight_BaseHitChance" AddP="1"/>  
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.1"/>   
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.2"/>  
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.2"/>  
+			<li Name="NpcFight_SpellPowerAddP" BAddP="1"/>  
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/> 
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/> 
+			<li Name="GlobalEfficiency" AddP="1"/>  
+			<li Name="MoveSpeed" AddP="2"/>  
+			<li Name="WorldMapFlySpeedAddP" AddV="2"/>  
+			<li Name="ExperienceFindSpeedAddV" AddV="2"/> 
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="2"/>  
+			<li Name="RecoveryPower" AddP="2"/>  
+			<li Name="MaxAge" AddV="99"/> 
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>  
+			<li Name="IntelligenceSkillEXPConstant" AddP="2"/>  
+			<li Name="InspirationCoefficient" AddP="2"/>  
+			<li Name="MindStateBaseValue" AddV="20"/> 
+			<li Name="BaseEmotionAddV" AddV="20"/> 
+			<li Name="PainTolerance" AddP="1"/> 
+			<li Name="NpcLingMaxValue" BAddV="500"/>  
+			<li Name="PracticeFoodRecoveryConstant" AddP="0.3"/>  
+			<li Name="PracticeFoodConsumeConstant" AddP="-0.3"/>  
+			<li Name="NpcLingMaxValue" BAddP="0.5"/> 
+			<li Name="LingAbsorbSpeed" AddP="1"/> 
+            		<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>  
+			<li Name="FabaoMake_SpeedAddV" AddV="0.3"/> 
+			<li Name="FabaoMake_QualityAddV" AddV="0.3"/>  
+			<li Name="FabaoMake_TwelveRateChanc" AddP="0.3"/>  
+			<li Name="FabaoMake_LingInheritRateAddP" AddP="0.3"/>
+			<li Name="DanMake_SuccessRate" AddV="1"/>  
+			<li Name="DanMake_SpeedAddV" AddV="0.3"/> 
+			<li Name="DanMake_Yield" AddV="1"/>   
+			<li Name="NeckCountdownAddV" AddV="28220"/>  
+			<li Name="AbilityLvAddV" AddV="-20"/> 
+			<li Name="GodPenaltyAddV" AddV="-20"/>  
+ 			<li Name="PracticeRateAddPFromDan" AddP="0.1"/>  
+                        <li Name="MadeQualityAddValue" AddP="2"/>  
+                        <li Name="DisasterFightingSuccessChance" AddP="1"/>
+                        <li Name="ConstructSuccessChance" AddP="1"/>
+                        <li Name="CookingSuccessChance" AddP="1"/>
+                        <li Name="TreatSuccessChance" AddP="1"/>
+                        <li Name="GlobalEfficiency" AddP="1"/>  
+                        <li Name="ToleranceTMin" AddP="1"/>  
+                        <li Name="ToleranceTMax" AddP="1"/>
+                        <li Name="ComfyTMin" AddP="1"/>
+                        <li Name="ComfyTMax" AddP="1"/>
+                        <li Name="NutritionConsumeConstant" AddP="-0.1"/>  
+                        <li Name="WaterConsumeConstant" AddP="-0.1"/>
+                        <li Name="HappyConsumeConstant" AddP="-0.1"/>
+                        <li Name="NiceDreamHappenPercent" AddP="0.1"/>
+                        <li Name="SmithingInjuredChance" AddP="-0.1"/>
+                        <li Name="ConstructInjuredChance" AddP="-0.1"/>
+                        <li Name="MiningInjuredChance" AddP="-0.1"/>
+                        <li Name="PainTolerance" AddP="0.1"/>
+		</Properties>
+	</Modifier> 
+
+
+
+	<Modifier Name="wufafu_fulu1" Type="Normal">
+		<DisplayName>无法咒-道</DisplayName>
+		<Desc>[img]Spr/Wuqi/jiuyoumofu.png[/img]\n[size=12][color=#FF9C0A]掌阴阳万界，化无法无天\n隐藏属性</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="10"/> 
+			<li Name="NpcFight_BaseHitChance" AddP="1"/>  
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.1"/>   
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.2"/>  
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.2"/>  
+			<li Name="NpcFight_SpellPowerAddP" BAddP="5"/>  
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/> 
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/> 
+			<li Name="GlobalEfficiency" AddP="10"/>  
+			<li Name="MoveSpeed" AddP="10"/>  
+			<li Name="WorldMapFlySpeedAddP" AddV="10"/>  
+			<li Name="ExperienceFindSpeedAddV" AddV="10"/> 
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/>  
+			<li Name="RecoveryPower" AddP="10"/>  
+			<li Name="MaxAge" AddV="999"/> 
+			<li Name="MindStateBaseValue" AddV="80"/> 
+			<li Name="BaseEmotionAddV" AddV="80"/>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="10"/>  
+			<li Name="IntelligenceSkillEXPConstant" AddP="10"/>  
+			<li Name="InspirationCoefficient" AddP="10"/>  
+			<li Name="PainTolerance" AddP="5"/> 
+			<li Name="NpcLingMaxValue" BAddV="10000"/>  
+			<li Name="PracticeFoodRecoveryConstant" AddP="0.3"/>  
+			<li Name="PracticeFoodConsumeConstant" AddP="-0.3"/>  
+			<li Name="NpcLingMaxValue" BAddP="10"/> 
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="5"/>  
+			<li Name="FabaoMake_SpeedAddV" AddV="2"/> 
+			<li Name="FabaoMake_QualityAddV" AddV="5"/>  
+			<li Name="FabaoMake_TwelveRateChanc" AddP="5"/>  
+			<li Name="FabaoMake_LingInheritRateAddP" AddP="5"/>
+			<li Name="DanMake_SuccessRate" AddV="5"/>  
+			<li Name="DanMake_SpeedAddV" AddV="1"/> 
+			<li Name="DanMake_Yield" AddV="5"/>   
+			<li Name="NeckCountdownAddV" AddV="282200"/>  
+			<li Name="AbilityLvAddV" AddV="-128"/> 
+			<li Name="GodPenaltyAddV" AddV="-128"/>  
+ 			<li Name="PracticeRateAddPFromDan" AddP="1"/>
+			<li Name="MadeQualityAddValue" AddP="2"/>  
+                        <li Name="DisasterFightingSuccessChance" AddP="1"/>
+                        <li Name="ConstructSuccessChance" AddP="1"/>
+                        <li Name="CookingSuccessChance" AddP="1"/>
+                        <li Name="TreatSuccessChance" AddP="1"/>
+                        <li Name="GlobalEfficiency" AddP="1"/>  
+                        <li Name="ToleranceTMin" AddP="10"/>  
+                        <li Name="ToleranceTMax" AddP="10"/>
+                        <li Name="ComfyTMin" AddP="10"/>
+                        <li Name="ComfyTMax" AddP="10"/>
+                        <li Name="NutritionConsumeConstant" AddP="-0.1"/>  
+                        <li Name="WaterConsumeConstant" AddP="-0.1"/>
+                        <li Name="HappyConsumeConstant" AddP="-0.1"/>
+                        <li Name="NiceDreamHappenPercent" AddP="0.1"/>
+                        <li Name="SmithingInjuredChance" AddP="-0.1"/>
+                        <li Name="ConstructInjuredChance" AddP="-0.1"/>
+                        <li Name="MiningInjuredChance" AddP="-0.1"/>
+                        <li Name="PainTolerance" AddP="0.1"/>
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou1" Type="Normal">
+		<DisplayName>速</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n全局工作速度+20%\n移动速度+30%\n飞行速度+20%\n探索速度+20%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="0.2"/>  
+			<li Name="MoveSpeed" AddP="0.3"/>  
+			<li Name="WorldMapFlySpeedAddP" AddV="0.2"/>  
+			<li Name="ExperienceFindSpeedAddV" AddV="0.2"/> 
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_Spellsanjiefuzhou2" Type="Normal">
+		<DisplayName>力</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n法宝根本伤害+1%\n法宝攻击间隔-5%\n法宝飞行速度+4%\n法宝转向速度+4%\n命中+10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties> 
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="0.01"/> 
+			<li Name="NpcFight_BaseHitChance" AddP="0.1"/>  
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.05"/>   
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.05"/>  
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.05"/>  
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou3" Type="Normal">
+		<DisplayName>寿</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n寿命+10\n心境+10\n心情+10\n内门恢复+30%\n外门恢复+30%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="0.3"/>  
+			<li Name="RecoveryPower" AddP="0.3"/>  
+			<li Name="MaxAge" AddV="10"/> 
+			<li Name="MindStateBaseValue" AddV="10"/> 
+			<li Name="BaseEmotionAddV" AddV="10"/>  
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou4" Type="Normal">
+		<DisplayName>神</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n修炼速度+50%\n学习速度+30%\n领悟力+30%\n韧性+10%\n心境值+5\n心情值+5</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>  
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/>  
+			<li Name="InspirationCoefficient" AddP="0.2"/>  
+			<li Name="MindStateBaseValue" AddV="5"/> 
+			<li Name="BaseEmotionAddV" AddV="5"/> 
+			<li Name="PainTolerance" AddP="0.1"/> 
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou5" Type="Normal">
+		<DisplayName>法</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n术法根本伤害+1%\n术法冷却-5%\n施法时间-5%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" BAddP="0.01"/>  
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.05"/> 
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.05"/> 
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou6" Type="Normal">
+		<DisplayName>灵</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n灵力根本值+10\n灵力根本值+1%\n灵力吸收速度+20%\n精元补充+10%\n精元消耗速度-10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="10"/>  
+			<li Name="PracticeFoodRecoveryConstant" AddP="0.1"/>  
+			<li Name="PracticeFoodConsumeConstant" AddP="-0.1"/>  
+			<li Name="NpcLingMaxValue" BAddP="0.01"/> 
+			<li Name="LingAbsorbSpeed" AddP="0.2"/> 
+		</Properties>
+	</Modifier> 
+
+
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou7" Type="Normal">
+		<DisplayName>器</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n炼器成功率+50%\n炼器速度加值+20%\n品阶加值+20%\n神器加值+10%\n品质加值+10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+            <li Name="FabaoMake_SuccessRateAddV" AddV="0.5"/>  
+			<li Name="FabaoMake_SpeedAddV" AddV="0.2"/> 
+			<li Name="FabaoMake_QualityAddV" AddV="0.2"/>  
+			<li Name="FabaoMake_TwelveRateChanc" AddP="0.1"/>  
+			<li Name="FabaoMake_LingInheritRateAddP" AddP="0.1"/> 
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou8" Type="Normal">
+		<DisplayName>丹</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n炼丹成功率+50%\n产量加值+10%\n炼丹速度+10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SuccessRate" AddV="5"/>  
+			<li Name="DanMake_SpeedAddV" AddV="0.1"/> 
+			<li Name="DanMake_Yield" AddV="0.1"/>  
+		</Properties>
+	</Modifier> 
+
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou9" Type="Normal">
+		<DisplayName>道</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n天劫推迟+49天\n天谴-10\n道行-10\n瓶颈突破+10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NeckCountdownAddV" AddV="28220"/>  
+			<li Name="AbilityLvAddV" AddV="-10"/> 
+			<li Name="GodPenaltyAddV" AddV="-10"/>  
+ 			<li Name="PracticeRateAddPFromDan" AddP="0.1"/>  
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou10" Type="Normal">
+		<DisplayName>御</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n护盾根本值+1%\n护盾加值+0.1</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+ 			<li Name="NpcFight_ShieldConversionRate" BAddP="0.01"/>  
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/> 
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou11" Type="Normal">
+		<DisplayName>巧</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n全局工作速度+30%\n烹饪成功率+20%\n建筑成功率+20%\n治疗成功率+20%\n救灾成功率+20%\n制作品质+10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MadeQualityAddValue" AddP="0.1"/>  
+			<li Name="DisasterFightingSuccessChance" AddP="0.2"/>
+			<li Name="ConstructSuccessChance" AddP="0.2"/>
+			<li Name="CookingSuccessChance" AddP="0.2"/>
+			<li Name="TreatSuccessChance" AddP="0.2"/>
+			<li Name="GlobalEfficiency" AddP="0.3"/>  
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="Modifier_Spellsanjiefuzhou12" Type="Normal">
+		<DisplayName>护</DisplayName>
+		<Desc>[img]Spr/Ziti/zhan.png[/img]\n[color=##FFC125]\n最低舒适温度+10%\n最低极限温度+10%\n最高舒适温度+15%\n最高极限温度+15%\n食物消耗-10%\n饮水消耗-10%\n娱乐消耗-10%\n建造受伤几率-10%\n开采受伤几率-10%\n锻造受伤几率-10%\n美梦几率+10%</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ToleranceTMin" AddP="0.1"/>  
+			<li Name="ToleranceTMax" AddP="0.1"/>
+			<li Name="ComfyTMin" AddP="0.15"/>
+			<li Name="ComfyTMax" AddP="0.15"/>
+			<li Name="NutritionConsumeConstant" AddP="-0.1"/>  
+			<li Name="WaterConsumeConstant" AddP="-0.1"/>
+			<li Name="HappyConsumeConstant" AddP="-0.1"/>
+			<li Name="NiceDreamHappenPercent" AddP="0.1"/>
+			<li Name="SmithingInjuredChance" AddP="-0.1"/>
+			<li Name="ConstructInjuredChance" AddP="-0.1"/>
+			<li Name="MiningInjuredChance" AddP="-0.1"/>
+			<li Name="PainTolerance" AddP="0.1"/>
+		</Properties>
+	</Modifier> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</List></ModifierDefs>
