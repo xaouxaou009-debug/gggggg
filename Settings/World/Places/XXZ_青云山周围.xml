@@ -1,0 +1,89 @@
+﻿<Places><List>
+
+        <Place Name="Place_qingyunshan1" Parent="Place_Level2Base">
+
+                <Location X="1030" Y="440"/>
+
+                <Icon>Spr\Didian\qingyunshan1.png</Icon>
+
+	        <Scale>0.4</Scale>
+
+		<Level>2</Level>
+
+                <DisplayName>无名洞府</DisplayName>
+
+                <Desc>青云山附近的上古洞府，昔日是上古圣贤闭关悟道之地，现在只剩下残破的遗址，相传道经残卷便是得于此处。</Desc>
+
+                <UnLocked>0</UnLocked>
+		
+
+		<ExploreNum>5</ExploreNum>
+
+                <Events>
+			<li Name="Find" Rate="0.5"/>
+                </Events>
+		<Produce>
+		</Produce>
+		<HighProduce>
+		</HighProduce>
+
+        </Place>
+
+        <Place Name="Place_qingyunshan2" Parent="Place_Level2Base">
+
+                <Location X="1030" Y="380"/>
+
+                <Icon>Spr\Didian\qingyunshan2.png</Icon>
+
+		<Level>2</Level>
+
+	        <Scale>0.4</Scale>
+
+                <DisplayName>无名洞府</DisplayName>
+
+                <Desc>青云山附近的上古洞府，昔日是上古圣贤闭关悟道之地，现在只剩下残破的遗址，相传道经残卷便是得于此处。</Desc>
+
+                <UnLocked>0</UnLocked>
+		
+
+		<ExploreNum>10</ExploreNum>
+
+                <Events>
+
+			<li Name="Find" Rate="0.5"/>
+                </Events>
+		<Produce>
+		</Produce>
+		<HighProduce>
+		</HighProduce>
+
+        </Place>
+        <Place Name="Place_qingyunshan3" Parent="Place_Level2Base">
+
+                <Location X="1120" Y="380"/>
+
+                <Icon>Spr\Didian\qingyunshan3.png</Icon>
+
+		<Level>2</Level>
+
+	        <Scale>0.4</Scale>
+
+                <DisplayName>无名洞府</DisplayName>
+
+                <Desc>青云山附近的上古洞府，昔日是上古圣贤闭关悟道之地，现在只剩下残破的遗址，相传道经残卷便是得于此处。</Desc>
+
+                <UnLocked>0</UnLocked>
+		
+
+		<ExploreNum>15</ExploreNum>
+
+                <Events>
+			<li Name="Find" Rate="0.5"/> 
+                </Events>
+		<Produce>
+		</Produce>
+		<HighProduce>
+		</HighProduce>
+
+        </Place>
+</List></Places>

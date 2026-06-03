@@ -1,0 +1,274 @@
+﻿<TerrainDefs><List>
+	
+	<TerrainDef Name="Terrain_lingtuBase" Parent="TerrainBase">
+		<Tags>
+			<Tag Name="LingDi_FSZW" Level="1"/>
+			<Tag Name="Land_FSZW" Level="1"/>
+		</Tags>
+	</TerrainDef>
+
+	
+	<TerrainDef Name="Terrain_lingshuiBase" Parent="TerrainBase">
+		<TerrainType>ShallowWater</TerrainType>
+		<Tags>
+			<Tag Name="Water_FSZW" Level="1"/>
+			<Tag Name="LingDi_FSZW" Level="1"/>
+		</Tags>
+	</TerrainDef>
+	<TerrainDef Name="Terrain_lingtu1" Parent="Terrain_lingtuBase">
+		<Elements>
+			<li Kind="Jin" Power="5"/>
+		</Elements>
+		<ElementKind>Jin</ElementKind>
+		<Color>FFD700FF</Color>
+		<DisplayName>金灵息壤</DisplayName>
+		<StoryDesc>珍贵的土壤，有着极其浓郁的金属性和灵气，适合种植灵树</StoryDesc>
+		<OutFix>WetLand</OutFix>
+		<RenderLayer>21</RenderLayer>
+		<PathCost>10</PathCost>
+		<MiniColor>FFD700FF</MiniColor>
+		<Beauty>10</Beauty>
+		<Fertility>3</Fertility>
+		<AddionLing>200</AddionLing>		
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingtu2" Parent="Terrain_lingtuBase">
+		<Elements>
+			<li Kind="Mu" Power="5"/>
+		</Elements>
+		<ElementKind>Mu</ElementKind>
+		<Color>CAFF70FF</Color>
+		<DisplayName>木灵息壤</DisplayName>
+		<StoryDesc>珍贵的土壤，有着极其浓郁的木属性和灵气，适合种植灵树</StoryDesc>
+		<OutFix>WetLand</OutFix>
+		<RenderLayer>21</RenderLayer>
+		<PathCost>10</PathCost>
+		<MiniColor>CAFF70FF</MiniColor>
+		<Beauty>10</Beauty>
+		<Fertility>3</Fertility>
+		<AddionLing>200</AddionLing>		
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingtu3" Parent="Terrain_lingtuBase">
+		<Elements>
+			<li Kind="Shui" Power="5"/>
+		</Elements>
+		<ElementKind>Shui</ElementKind>
+		<Color>40E0D0FF</Color>
+		<DisplayName>水灵息壤</DisplayName>
+		<StoryDesc>珍贵的土壤，有着极其浓郁的水属性和灵气，适合种植灵树</StoryDesc>
+		<OutFix>WetLand</OutFix>
+		<RenderLayer>21</RenderLayer>
+		<PathCost>10</PathCost>
+		<MiniColor>40E0D0FF</MiniColor>
+		<Beauty>10</Beauty>
+		<Fertility>3</Fertility>
+		<AddionLing>200</AddionLing>		
+	</TerrainDef>
+
+
+	<TerrainDef Name="Terrain_lingtu4" Parent="Terrain_lingtuBase">
+		<Elements>
+			<li Kind="Huo" Power="5"/>
+		</Elements>
+		<ElementKind>Huo</ElementKind>
+		<Color>CD3333FF</Color>
+		<DisplayName>火灵息壤</DisplayName>
+		<StoryDesc>珍贵的土壤，有着极其浓郁的火属性和灵气，适合种植灵树</StoryDesc>
+		<OutFix>WetLand</OutFix>
+		<RenderLayer>21</RenderLayer>
+		<PathCost>10</PathCost>
+		<MiniColor>CD3333FF</MiniColor>
+		<Beauty>10</Beauty>
+		<Fertility>3</Fertility>
+		<AddionLing>200</AddionLing>		
+	</TerrainDef>
+
+
+	<TerrainDef Name="Terrain_lingtu5" Parent="Terrain_lingtuBase">
+		<Elements>
+			<li Kind="Tu" Power="5"/>
+		</Elements>
+		<ElementKind>Tu</ElementKind>
+		<Color>B8860BFF</Color>
+		<DisplayName>土灵息壤</DisplayName>
+		<StoryDesc>珍贵的土壤，有着极其浓郁的土属性和灵气，适合种植灵树</StoryDesc>
+		<OutFix>WetLand</OutFix>
+		<RenderLayer>21</RenderLayer>
+		<PathCost>10</PathCost>
+		<MiniColor>B8860BFF</MiniColor>
+		<Beauty>10</Beauty>
+		<Fertility>3</Fertility>
+		<AddionLing>200</AddionLing>		
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingtu6" Parent="Terrain_lingtuBase">
+		<Elements>
+			<li Kind="None" Power="5"/>
+		</Elements>
+		<ElementKind>None</ElementKind>
+		<Color>ADD8E6FF</Color>
+		<DisplayName>元灵息壤</DisplayName>
+		<StoryDesc>珍贵的土壤，有着极其浓郁的灵气，适合种植灵树</StoryDesc>
+		<OutFix>WetLand</OutFix>
+		<RenderLayer>21</RenderLayer>
+		<PathCost>10</PathCost>
+		<MiniColor>ADD8E6FF</MiniColor>
+		<Beauty>10</Beauty>
+		<Fertility>3</Fertility>
+		<AddionLing>300</AddionLing>		
+	</TerrainDef>
+
+
+	<TerrainDef Name="Terrain_lingtu7" Parent="Terrain_lingtuBase">
+		<Elements>
+			<li Kind="Chaos" Power="5"/>
+		</Elements>
+		<ElementKind>Chaos</ElementKind>
+		<Color>9370DBFF</Color>
+		<DisplayName>混灵息壤</DisplayName>
+		<StoryDesc>珍贵的土壤，有着极其浓郁的混属性和灵气，适合种植灵树</StoryDesc>
+		<OutFix>WetLand</OutFix>
+		<RenderLayer>21</RenderLayer>
+		<PathCost>10</PathCost>
+		<MiniColor>9370DBFF</MiniColor>
+		<Beauty>10</Beauty>
+		<Fertility>3</Fertility>
+		<AddionLing>200</AddionLing>		
+	</TerrainDef>
+
+
+	<TerrainDef Name="Terrain_lingshui1" Parent="Terrain_lingshuiBase">
+		<DisplayName>金缈灵泉</DisplayName>
+		<Color>EEEE00FF</Color>
+		<StoryDesc>湖畔树下,秀水之侧</StoryDesc>
+		<OutFix>Mud</OutFix>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>10</PathCost>
+		<Fertility>3</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>10</Beauty>
+		<MiniColor>EEEE00FF</MiniColor>
+		<AddionLing>200</AddionLing>
+		<Elements>
+			<li Kind="Jin" Power="5"/>
+		</Elements>
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingshui2" Parent="Terrain_lingshuiBase">
+		<DisplayName>木缈灵泉</DisplayName>
+		<Color>76EE00BF</Color>
+		<StoryDesc>湖畔树下,秀水之侧</StoryDesc>
+		<OutFix>Mud</OutFix>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>10</PathCost>
+		<Fertility>3</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>10</Beauty>
+		<MiniColor>76EE00BF</MiniColor>
+		<AddionLing>200</AddionLing>
+		<Elements>
+			<li Kind="Mu" Power="5"/>
+		</Elements>
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingshui3" Parent="Terrain_lingshuiBase">
+		<DisplayName>水缈灵泉</DisplayName>
+		<Color>48D1CCBF</Color>
+		<StoryDesc>湖畔树下,秀水之侧</StoryDesc>
+		<OutFix>Mud</OutFix>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>10</PathCost>
+		<Fertility>3</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>10</Beauty>
+		<MiniColor>48D1CCBF</MiniColor>
+		<AddionLing>200</AddionLing>
+		<Elements>
+			<li Kind="Shui" Power="5"/>
+		</Elements>
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingshui4" Parent="Terrain_lingshuiBase">
+		<DisplayName>火缈灵泉</DisplayName>
+		<Color>CD2626BF</Color>
+		<StoryDesc>湖畔树下,秀水之侧</StoryDesc>
+		<OutFix>Mud</OutFix>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>10</PathCost>
+		<Fertility>3</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>10</Beauty>
+		<MiniColor>CD2626BF</MiniColor>
+		<AddionLing>200</AddionLing>
+		<Elements>
+			<li Kind="Huo" Power="5"/>
+		</Elements>
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingshui5" Parent="Terrain_lingshuiBase">
+		<DisplayName>土缈灵泉</DisplayName>
+		<Color>CD853FBF</Color>
+		<StoryDesc>湖畔树下,秀水之侧</StoryDesc>
+		<OutFix>Mud</OutFix>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>10</PathCost>
+		<Fertility>3</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>10</Beauty>
+		<MiniColor>CD853FBF</MiniColor>
+		<AddionLing>200</AddionLing>
+		<Elements>
+			<li Kind="Tu" Power="5"/>
+		</Elements>
+	</TerrainDef>
+
+	<TerrainDef Name="Terrain_lingshui6" Parent="Terrain_lingshuiBase">
+		<DisplayName>元缈灵泉</DisplayName>
+		<Color>AEEEEEBF</Color>
+		<StoryDesc>湖畔树下,秀水之侧</StoryDesc>
+		<OutFix>Mud</OutFix>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>10</PathCost>
+		<Fertility>3</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>10</Beauty>
+		<MiniColor>AEEEEEBF</MiniColor>
+		<AddionLing>300</AddionLing>
+		<Elements>
+			<li Kind="None" Power="5"/>
+		</Elements>
+	</TerrainDef>
+
+
+	<TerrainDef Name="Terrain_lingshui7" Parent="Terrain_lingshuiBase">
+		<DisplayName>混缈灵泉</DisplayName>
+		<Color>9F79EEBF</Color>
+		<StoryDesc>湖畔树下,秀水之侧</StoryDesc>
+		<OutFix>Mud</OutFix>
+		<RenderLayer>23</RenderLayer>
+		<PathCost>10</PathCost>
+		<Fertility>3</Fertility>
+		<IsSnowed>0.5</IsSnowed>
+		<Beauty>10</Beauty>
+		<MiniColor>9F79EEBF</MiniColor>
+		<AddionLing>200</AddionLing>
+		<Elements>
+			<li Kind="Chaos" Power="5"/>
+		</Elements>
+	</TerrainDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</List></TerrainDefs>

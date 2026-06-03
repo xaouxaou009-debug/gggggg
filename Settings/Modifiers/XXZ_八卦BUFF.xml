@@ -1,0 +1,268 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="Modifier_yaoshou_jianglin" Type="Normal">
+		<DisplayName>妖灵降临</DisplayName>
+		<Desc>[size=10][color=#D06508].[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>Lua_tiaozhan_yaoshou_jianglin</LuaClassName>
+		<Properties>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Modifier_yaoshou_hudun" Type="Normal">
+		<DisplayName>元灵盾</DisplayName>
+		<Desc>[size=10][color=#D06508].[/color][/size]</Desc>
+		<MaxStack>9999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>Lua_Modifier_yaoshou_hudun</LuaClassName>
+		<Properties>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Modifier_yaoshou_ranshao" Type="Normal">
+		<DisplayName>燃魂术</DisplayName>
+		<Desc>[size=10][color=#D06508]战斗状态下有几率使法宝攻击自己，并有几率掉落或者直接焚毁[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>Lua_Modifier_yaoshou_ranshao</LuaClassName>
+		<Properties>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/System/Shield/HuoShield" Bip="Bip001 Spine"/>
+			<li Path="Effect/A/Prefabs/Projectiles/Fire/FireImpactTiny" Bip="Bip001 Spine"/>
+		</EffectBind>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_yaoshou_baohu" Type="Normal">
+		<DisplayName>外门庇护</DisplayName>
+		<Desc>[size=10][color=#D06508]挑战时间内所有外门无法移动无法攻击无法受到任何伤害，且不会产生任何需求[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>Lua_tiaozhan_yaoshou_baohu</LuaClassName>
+		<Properties>
+		</Properties>
+	</Modifier> 
+
+	
+	<Modifier Name="Modifier_yaoshou_kongzhi1" Type="Normal">
+		<DisplayName>水牢缚地</DisplayName>
+		<Desc>[size=10][color=#D06508]被妖灵水系技能命中，不能移动，增加人物防御，降低伤害[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>50</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<LuaClassName>Lua_Modifier_yaoshou_kongzhi1</LuaClassName>
+		<Properties>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/System/Shield/ShuiShield" Bip="Bip001 Spine"/>
+			<li Path="Effect/A/Prefabs/Projectiles/Frost/FrostImpactTiny" Bip="Bip001 Spine"/>
+		</EffectBind>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_yaoshou_huilingcao" Type="Normal">
+		<DisplayName>灵力流失</DisplayName>
+		<Desc>[size=10][color=#D06508]附近有妖灵留下的回灵草，缓慢抽取自身的灵力值[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>10</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+		</Properties>
+		<EffectBind>
+			<li Path="Effect/System/Shield/MuShield" Bip="Bip001 Spine"/>
+			<li Path="Effect/A/Prefabs/Projectiles/Life/LifeImpactTiny" Bip="Bip001 Spine"/>
+		</EffectBind>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_zhiwu_jingping1" Type="Normal">
+		<DisplayName>甘霖灵术</DisplayName>
+		<Desc>[size=10][color=#D06508]持续恢复百分比灵气最大值[/color][/size]</Desc>
+		<MaxStack>12</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<LuaClassName>Modifier_Lua_zhiwu_jingping1</LuaClassName>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_baowu_bagug1" Type="Normal">
+		<DisplayName>乾</DisplayName>
+		<Desc>[size=10][color=#D06508]法宝伤害+30%\n法术伤害+30%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.3"/>  
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.3"/>  
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Modifier_baowu_bagug2" Type="Normal">
+		<DisplayName>坤</DisplayName>
+		<Desc>[size=10][color=#D06508]灵力值+200\n灵力吸收速度+50%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="200"/>   
+			<li Name="LingAbsorbSpeed" AddP="0.5"/>  
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_baowu_bagug3" Type="Normal">
+		<DisplayName>坎</DisplayName>
+		<Desc>[size=10][color=#D06508]护盾加值+10%\n护盾加成+10%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddP="0.1"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/>  
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_baowu_bagug4" Type="Normal">
+		<DisplayName>兑</DisplayName>
+		<Desc>[size=10][color=#D06508]炼器成功率+50%\n炼丹成功率+50%\n炼丹产量+10%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DanMake_SuccessRate" AddV="0.5"/>    
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.5"/>  
+			<li Name="DanMake_YieldAddP" AddP="0.1"/> 
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_baowu_bagug5" Type="Normal">
+		<DisplayName>震</DisplayName>
+		<Desc>[size=10][color=#D06508]韧性+30%\n美梦几率+10%\n历练声望+20%\n心情+10\n心境+10[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="10"/> 
+			<li Name="PainTolerance" AddP="0.3"/>
+			<li Name="NiceDreamHappenPercent" AddP="0.3"/>  
+			<li Name="MindStateBaseValue" AddV="10"/>   
+			<li Name="ExperiencePrestigeAddP" AddV="0.2"/> 
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_baowu_bagug6" Type="Normal">
+		<DisplayName>离</DisplayName>
+		<Desc>[size=10][color=#D06508]移动速度+30%\n护盾加成+10%\n法术伤害+10%\n灵力吸收速度+100%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MoveSpeed" AddP="0.3"/>  
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/> 
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/> 
+			<li Name="LingAbsorbSpeed" AddP="1"/> 
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_baowu_bagug7" Type="Normal">
+		<DisplayName>巽</DisplayName>
+		<Desc>[size=10][color=#D06508]历练速度+50%\n内门恢复+20%\n外门恢复+20%\n神器炼制+20%\n机缘+1[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,1</BaseFive>
+		<Properties>
+			<li Name="ExperienceFindSpeedAddV" AddV="0.5"/>  
+			<li Name="RecoveryPower" AddP="0.2"/>   
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="0.2"/>  
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/> 
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="Modifier_baowu_bagug8" Type="Normal">
+		<DisplayName>艮</DisplayName>
+		<Desc>[size=10][color=#D06508]灵力吸收速度+200%\n法宝伤害+10%\n战斗闪避-10%[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="2"/>  
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/> 
+			<li Name="NpcFight_BaseDodgeChance" AddP="-0.1"/>  
+		</Properties>
+	</Modifier>
+ 	<Modifier Name="Modifier_baowu_lingpai1" Type="Normal">
+		<DisplayName>太一令</DisplayName>
+		<Desc>[size=10][color=#D06508]修炼速度+100%\n灵力值根本值+100\n心境值+10[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/> 
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/> 
+			<li Name="NpcLingMaxValue" BAddV="100"/>  
+		</Properties>
+	</Modifier>  
+
+
+	<Modifier Name="Modifier_baowu_bagugx1" Type="Normal">
+		<DisplayName>灵卦孕养</DisplayName>
+		<Desc>[size=10][color=#D06508]八卦虽然融合但道痕仍在，需要长时间孕养其灵性，辅以天材地宝以修复其道痕[/color][/size]</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+		</Properties>
+	</Modifier> 
+
+
+
+	<Modifier Name="Modifier_baowu_bagugx2" Type="Normal">
+		<DisplayName>先天八卦</DisplayName>
+		<Desc>[size=10][color=#D06508]隐藏属性[/color][/size]</Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+                        <li Name="NpcLingMaxValue" BAddV="1000"/>
+                        <li Name="NpcLingMaxValue" BAddP="3"/>
+                        <li Name="LingAbsorbSpeed" AddP="10"/>
+                        <li Name="NpcFight_FabaoPowerAddP" BAddP="10"/> 
+                        <li Name="NpcFight_SpellPowerAddP" BAddP="10"/> 
+                        <li Name="IntelligenceSkillEXPConstant" AddP="10"/> 
+                        <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="10"/>
+                        <li Name="WorldMapFlySpeedAddP" AddV="10"/>
+                        <li Name="BaseEmotionAddV" AddV="72"/> 
+                        <li Name="MindStateBaseValue" AddV="72"/>
+                        <li Name="SpeedOfMindStateCoefficient" AddP="-0.3"/>
+                        <li Name="PracticeRateAddPFromDan" AddP="2"/>
+                        <li Name="InspirationCoefficient" AddP="10"/>
+                        <li Name="AbilityLvAddV" AddV="-72"/>
+			<li Name="GodPenaltyAddV" AddV="-72"/>  
+                        <li Name="NpcFight_ShieldConversionRate" AddP="10"/> 
+                        <li Name="NpcFight_BaseDodgeChance" AddP="1"/> 
+                        <li Name="TreatmentRealQualityPercentMin" AddP="1"/>
+                        <li Name="DanMake_SuccessRate" AddV="5"/> 
+                        <li Name="FabaoMake_SuccessRateAddV" AddV="5"/>
+                        <li Name="FabaoMake_SpeedAddV" AddV="3"/>
+                        <li Name="DanMake_Yield" AddV="2"/>
+                        <li Name="FabaoMake_TwelveRateChance" AddV="3"/>
+		</Properties>
+	</Modifier> 
+
+
+
+</List></ModifierDefs>

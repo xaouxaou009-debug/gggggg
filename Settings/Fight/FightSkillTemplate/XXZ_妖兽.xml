@@ -1,0 +1,295 @@
+<FightSkills><List>	
+	<Skill Name="Skill_yaoshou_NormalAttack">
+		<DisplayName>法术打击</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Jin</Element>
+		<SingAni>Atk</SingAni>
+		<Value>1</Value>
+		<HitEffect>44</HitEffect>
+		<MissileEffect>2</MissileEffect>
+		<SelectType>Target</SelectType>
+		<Shape>Missile</Shape>
+		<ClassName>Lua_yaoshou_NormalAttack</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>16</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>1</CheckRadius>
+		</Missile>
+	</Skill>
+	<Skill Name="Skill_zhuanshu_lvbu">
+		<DisplayName>吕布</DisplayName>
+		<SingAni>zzsf02</SingAni><!--引导动画-->
+		<SingTime>1</SingTime><!--引导时间-->
+		<CastAni>shentong3</CastAni><!--施法动画-->
+		<SelectType>Target</SelectType>-->
+		<SelectRadius>2</SelectRadius>
+		<Kind>Damage</Kind>
+		<Radius>2</Radius>
+		<Value>1</Value><!--强度-->
+		<Shape>Missile</Shape> <!--技能形态-->
+		<MissileEffect>15</MissileEffect> <!--飞行特效-->
+		<HitEffect>62</HitEffect> <!--被击特效-->
+		<BombEffect>56</BombEffect> <!--爆炸特效-->
+		<ClassName>Lua_Skill_zhuanshu_lvbu</ClassName>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>15</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>1</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Skill_zhuanshu_luxueqi">
+		<DisplayName>陆雪琪</DisplayName>
+		<SingAni>zzsf02</SingAni><!--引导动画-->
+		<SingTime>1</SingTime><!--引导时间-->
+		<CastAni>shentong3</CastAni><!--施法动画-->
+		<SelectType>Target</SelectType>-->
+		<SelectRadius>2</SelectRadius>
+		<Kind>Damage</Kind>
+		<Radius>2</Radius>
+		<Value>1</Value><!--强度-->
+		<Shape>Missile</Shape> <!--技能形态-->
+		<MissileEffect>27</MissileEffect> <!--飞行特效-->
+		<HitEffect>31</HitEffect> <!--被击特效-->
+		<BombEffect>68</BombEffect> <!--爆炸特效-->
+		<ClassName>Lua_Skill_zhuanshu_luxueqi</ClassName>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>15</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>1</CheckRadius>
+		</Missile>
+	</Skill>
+	<Skill Name="Skill_zhuanshu_wukong">
+		<DisplayName>悟空</DisplayName>
+		<SingAni>zzsf02</SingAni><!--引导动画-->
+		<SingTime>1</SingTime><!--引导时间-->
+		<CastAni>shentong3</CastAni><!--施法动画-->
+		<SelectType>Target</SelectType>-->
+		<SelectRadius>2</SelectRadius>
+		<Kind>Damage</Kind>
+		<Radius>2</Radius>
+		<Value>1</Value><!--强度-->
+		<Shape>Missile</Shape> <!--技能形态-->
+		<MissileEffect>3</MissileEffect> <!--飞行特效-->
+		<HitEffect>34</HitEffect> <!--被击特效-->
+		<BombEffect>80</BombEffect> <!--爆炸特效-->
+		<ClassName>Lua_Skill_zhuanshu_wukong</ClassName>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>8</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>1</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Skill_zhuanshu_libai">
+		<DisplayName>李白</DisplayName>
+		<SingAni>zzsf02</SingAni><!--引导动画-->
+		<SingTime>1</SingTime><!--引导时间-->
+		<CastAni>dongzuo_libai</CastAni><!--施法动画-->
+		<SelectType>Target</SelectType>-->
+		<SelectRadius>2</SelectRadius>
+		<Kind>Damage</Kind>
+		<Radius>2</Radius>
+		<Value>1</Value><!--强度-->
+		<Shape>Missile</Shape> <!--技能形态-->
+		<MissileEffect>3</MissileEffect> <!--飞行特效-->
+		<HitEffect>60</HitEffect> <!--被击特效-->
+		<BombEffect>86</BombEffect> <!--爆炸特效-->
+		<ClassName>Lua_Skill_zhuanshu_libai</ClassName>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>20</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>1</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Skill_zhuanshu_houyi">
+		<DisplayName>后羿</DisplayName>
+		<SingAni>GGpgong1</SingAni><!--引导动画-->
+		<SingTime>1</SingTime><!--引导时间-->
+		<CastAni>Sneeze</CastAni><!--施法动画-->
+		<SelectType>Target</SelectType>-->
+		<SelectRadius>2</SelectRadius>
+		<Kind>Damage</Kind>
+		<Radius>2</Radius>
+		<Value>1</Value><!--强度-->
+		<Shape>Missile</Shape> <!--技能形态-->
+		<MissileEffect>10003</MissileEffect> <!--飞行特效-->
+		<ClassName>Lua_Skill_zhuanshu_houyi</ClassName>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>15</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>1</CheckRadius>
+		</Missile>
+	</Skill>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Skill Name="Skill_yaoshou_NormalAttack_1">
+		<DisplayName>万雷天引</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Jin</Element>
+		<Value>1</Value>
+		<HitEffect>56</HitEffect>
+		<MissileEffect>200007</MissileEffect>
+		<SelectType>Target</SelectType>
+		<Shape>Missile</Shape>
+		<ClassName>Lua_yaoshou_NormalAttack_1</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>16</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>4</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Skill_yaoshou_NormalAttack_2">
+		<DisplayName>万灵归源</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Mu</Element>
+		<Value>1</Value>
+		<HitEffect>48</HitEffect>
+		<MissileEffect>14</MissileEffect>
+		<SelectType>Target</SelectType>
+		<Shape>Missile</Shape>
+		<ClassName>Lua_yaoshou_NormalAttack_2</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>5</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>4</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Skill_yaoshou_NormalAttack_3">
+		<DisplayName>水灵真法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Shui</Element>
+		<Value>1</Value>
+		<HitEffect>27</HitEffect>
+		<MissileEffect>67</MissileEffect>
+		<SelectType>Target</SelectType>
+		<Shape>Missile</Shape>
+		<ClassName>Lua_yaoshou_NormalAttack_3</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>2</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>5</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Skill_yaoshou_NormalAttack_4">
+		<DisplayName>燃魂真法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Huo</Element>
+		<Value>1</Value>
+		<HitEffect>39</HitEffect>
+		<MissileEffect>6</MissileEffect>
+		<SelectType>Target</SelectType>
+		<Shape>Missile</Shape>
+		<ClassName>Lua_yaoshou_NormalAttack_4</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>4</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>1</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Skill_yaoshou_NormalAttack_5">
+		<DisplayName>玄坤正法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Tu</Element>
+		<Value>1</Value>
+		<HitEffect>80</HitEffect>
+		<MissileEffect>4</MissileEffect>
+		<SelectType>Target</SelectType>
+		<Shape>Missile</Shape>
+		<ClassName>Lua_yaoshou_NormalAttack_5</ClassName>
+		<Radius>0</Radius>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+			<Speed>15</Speed>
+			<FlyCheck>1</FlyCheck>
+			<CheckRadius>3</CheckRadius>
+		</Missile>
+	</Skill>
+	
+	
+</List></FightSkills>

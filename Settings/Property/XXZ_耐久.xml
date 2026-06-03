@@ -1,0 +1,9 @@
+﻿<Properties><List>
+	
+	<Property Name="Property_wuqi_zhuanshu_naijiu">
+		<DisplayName>神器耐久</DisplayName>
+		<ShowInUI>0</ShowInUI>	
+		<BaseValue>1</BaseValue>
+	</Property>
+	
+</List></Properties>

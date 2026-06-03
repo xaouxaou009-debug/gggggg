@@ -1,0 +1,9 @@
+﻿ID	Type	Desc	Addtion	Kind	RoomKind	fParam1	fParam2	sParam1	sParam2
+	分类 如果为NotRandom则不参与随机	描述	加成系数	判定类型	RoomKind限制	数值参数1	数值参数2	字符参数1	字符参数2
+90001	NotRandom	-镇物灵气值需求最低八万八-	4	LingValue		88888	999999999
+90002	NotRandom	-镇物灵气值需求最低十八万-	4	LingValue		180000	999999999
+90003	NotRandom	-镇物灵气值需求最低五十万-	4	LingValue		500000	999999999
+90004	NotRandom	-镇物灵气值需求最低一百万-	4	LingValue		1000000	999999999
+90010	NotRandom	-通灵镇物最多只能摆放三个-	1	TongLingFengshuiItemCount		1	3
+90010	NotRandom	-通灵镇物最多只能摆放五个-	1	TongLingFengshuiItemCount		1	5
+

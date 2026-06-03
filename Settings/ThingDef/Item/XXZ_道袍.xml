@@ -1,0 +1,857 @@
+﻿<ThingDefs><List>	
+<ThingDef Type="Item" Name="Item_daopaoyiBase" Parent="EquipmentBase">
+	
+	<Tags>
+		<Tag Name="_WearAble" Level="1"/>
+	</Tags>
+	
+	<TexPath>道袍上衣模板</TexPath>
+	
+	<Desc>Desc.</Desc>
+	<Rate>1</Rate>
+	<Beauty>2</Beauty>
+	<MaxStack>1</MaxStack>
+	<MaxHitPoints>1500</MaxHitPoints>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>500</BurningPoint>
+	</Flammability>
+	<Item Kind="Equipment">
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FabaoSuffix>衣,甲,御,衫</FabaoSuffix>
+		<NotRandom>2</NotRandom> 	
+		 <BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>100</Quality>
+			<ArtDesc></ArtDesc>
+			<!--<Condition>
+					<Skills>
+						<Skill name = "sss" level="1"/>
+					</Skills>
+					<Researchs>
+						<Research name = "sss" level="1"/>
+					</Researchs>
+			</Condition>-->
+			<StuffCategories>
+				<Stuff name = "Leather"/>
+				<Stuff name = "Cloth"/>
+			</StuffCategories>
+			<CostStuffCount>10000</CostStuffCount>
+			<CostItems>
+				<!--<Item name = "wheat" count = "1"/>-->
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>480</DaysToRotStart>
+			<TempMin>-200</TempMin>
+			<LingMax>100</LingMax>
+		</Rot>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.4</Absorption>
+		<Accommodate>1</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>1</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>
+		<FailRadius>3</FailRadius> 
+		<Radius>3</Radius>
+		<Color>#FFFF0A</Color>
+	</Light>
+	</ThingDef>	
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_tiangong" Parent="Item_daopaoyiBase">
+	<ThingName>天工衣</ThingName>
+	<TexPath>Spr/Yifu/gong1.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子专用服装(上身)，具有提高提高工作效率的能力。</Desc>
+	<Item Lable="Clothes">
+		<Equip>
+			<ModelID>1</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_tiangong</Modifier>
+			
+			<TemperatureMaxAdd>15</TemperatureMaxAdd>
+			<TemperatureMinAdd>-5</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_tiangong" Parent="Item_daopaoyiBase">
+	<ThingName>天工裤</ThingName>
+	<TexPath>Spr/Yifu/gong2.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子专用服装(下身)，具有提高工作效率的能力。</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>10000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>1</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_tiangong</Modifier>
+			
+			<TemperatureMaxAdd>15</TemperatureMaxAdd>
+			<TemperatureMinAdd>-5</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_tianqiao" Parent="Item_daopaoyiBase">
+	<ThingName>天巧衣</ThingName>
+	<TexPath>Spr/Yifu/gong11.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子专用服装(上身)，具有提高工作技巧的能力。</Desc>
+	<Item Lable="Clothes">	
+		<Equip>
+			<ModelID>1</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_tianqiao</Modifier>
+			
+			<TemperatureMaxAdd>15</TemperatureMaxAdd>
+			<TemperatureMinAdd>-5</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_tianqiao" Parent="Item_daopaoyiBase">
+	<ThingName>天巧裤</ThingName>
+	<TexPath>Spr/Yifu/gong12.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子专用服装(下身)，具有增加自身的身体潜力。</Desc>
+	<Item Lable="Trousers">
+		<Equip>
+			<ModelID>1</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_tianqiao</Modifier>
+			
+			<TemperatureMaxAdd>15</TemperatureMaxAdd>
+			<TemperatureMinAdd>-5</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_tianyuan" Parent="Item_daopaoyiBase">
+	<ThingName>天元衣</ThingName>
+	<TexPath>Spr/Yifu/gong21.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子专用服装(上身)，具有增加自身的身体潜力。</Desc>
+	<Item Lable="Clothes">
+		<Equip>
+			<ModelID>1</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_tianyuan</Modifier>
+			
+			<TemperatureMaxAdd>15</TemperatureMaxAdd>
+			<TemperatureMinAdd>-5</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_tianyuan" Parent="Item_daopaoyiBase">
+	<ThingName>天元裤</ThingName>
+	<TexPath>Spr/Yifu/gong22.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子专用服装(下身)，可以增加根骨与移动速度，并提高战斗能力。</Desc>
+	<Item Lable="Trousers">
+		<Equip>
+			<ModelID>4</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_tianyuan</Modifier>
+			
+			<TemperatureMaxAdd>15</TemperatureMaxAdd>
+			<TemperatureMinAdd>-5</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_tianling" Parent="Item_daopaoyiBase">
+	<ThingName>天灵衣</ThingName>
+	<TexPath>Spr/Yifu/gong31.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子精致服装(上身)，具有提高工作速度，工作品质的能力。</Desc>
+	<Item Lable="Clothes">
+		<BeMade>
+			<CostStuffCount>50000</CostStuffCount>
+		</BeMade> 	
+		<Equip>
+			<ModelID>4</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_tianling</Modifier>
+			
+			<TemperatureMaxAdd>25</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_tianling" Parent="Item_daopaoyiBase">
+	<ThingName>天灵裤</ThingName>
+	<TexPath>Spr/Yifu/gong32.png</TexPath>
+	<Desc>[size=12][color=#CD2626]外门弟子精致服装(下身)，提升外门弟子工作速度品质等。</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>50000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>2</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_tianling</Modifier>
+			
+			<TemperatureMaxAdd>25</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_xuanjiu" Parent="Item_daopaoyiBase">
+	<ThingName>玄九道袍</ThingName>
+	<TexPath>Spr/Yifu/xuan1.png</TexPath>
+	<Desc>[size=12][color=#CD2626]内门精英弟子专用服装(上身)，具有裨益修行的能力。</Desc>
+	<Item Lable="Clothes">	
+		<BeMade>
+			<CostStuffCount>20000</CostStuffCount>
+		</BeMade> 	
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_xuanjiu</Modifier>
+			
+			<TemperatureMaxAdd>20</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_shangyi_jiuzhuan" Parent="Item_daopaoyiBase">
+	<ThingName>九转丹袍</ThingName>
+	<TexPath>Spr/Yifu/dan1.png</TexPath>
+	<Desc>[size=12][color=#CD2626]内门精英弟子炼丹专用服装(上身)，上面具有提高成功率的符阵加持效果。</Desc>
+	<Item Lable="Clothes">
+		
+		<BeMade>
+			<CostStuffCount>20000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_jiuzhuan</Modifier>
+			
+			<TemperatureMaxAdd>20</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_shangyi_bailian" Parent="Item_daopaoyiBase">
+	<ThingName>百炼器袍</ThingName>
+	<TexPath>Spr/Yifu/qi1.png</TexPath>
+	<Desc>[size=12][color=#CD2626]内门精英弟子炼器专用服装(上身)，上面具有提高炼器成功率的符阵加持效果。</Desc>
+	<Item Lable="Clothes">
+		<BeMade>
+			<CostStuffCount>20000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_bailian</Modifier>
+			
+			<TemperatureMaxAdd>20</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_xiayi_xuanjiu" Parent="Item_daopaoyiBase">
+	<ThingName>玄九道袍</ThingName>
+	<TexPath>Spr/Yifu/xuan2.png</TexPath>
+	<Desc>[size=12][color=#CD2626]内门精英弟子专用服装(下身)，具有裨益修行的能力。</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>20000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_xuanjiu</Modifier>
+			
+			<TemperatureMaxAdd>20</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_jiuzhuan" Parent="Item_daopaoyiBase">
+	<ThingName>九转丹袍</ThingName>
+	<TexPath>Spr/Yifu/dan2.png</TexPath>
+	<Desc>[size=12][color=#CD2626]内门精英弟子炼丹专用服装(下身)，具有提高丹药产量的符阵加持。</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>20000</CostStuffCount>
+		</BeMade>
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_jiuzhuan</Modifier>
+			
+			<TemperatureMaxAdd>20</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_bailian" Parent="Item_daopaoyiBase">
+	<ThingName>百炼器袍</ThingName>
+	<TexPath>Spr/Yifu/qi2.png</TexPath>
+	<Desc>[size=12][color=#CD2626]内门精英弟子炼器专用服装(下身)，具有提高炼制法宝品阶的符阵加持。</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>20000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_bailian</Modifier>
+			
+			<TemperatureMaxAdd>20</TemperatureMaxAdd>
+			<TemperatureMinAdd>-10</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_shangyi_yuqing" Parent="Item_daopaoyiBase">
+	<ThingName>玉清道袍</ThingName>
+	<TexPath>Spr/Yifu/yu1.png</TexPath>
+	<Desc>[size=12][color=#CD2626]  一生二，二生三，三生万物，一气化为三，三合为一，用则分三，本则常一。[/size][/color]  玉清道袍（上）【施展术法能力MAX】。
+	</Desc>
+	<Item Lable="Clothes">		
+		<BeMade>
+			<CostStuffCount>40000</CostStuffCount>
+		</BeMade> 	
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+			<Modifier>Modifier_shangyi_yuqing</Modifier>
+			
+			<TemperatureMaxAdd>30</TemperatureMaxAdd>
+			<TemperatureMinAdd>-15</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_yuqing" Parent="Item_daopaoyiBase">
+	<ThingName>玉清道袍</ThingName>
+	<TexPath>Spr/Yifu/yu2.png</TexPath>
+	<Desc>[size=12][color=#CD2626]  一生二，二生三，三生万物，一气化为三，三合为一，用则分三，本则常一。[/size][/color]  玉清道袍（下）【施展术法能力MAX】。
+	</Desc>
+	<Item Lable="Trousers">  
+		<BeMade>
+			<CostStuffCount>40000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_yuqing</Modifier>
+			
+			<TemperatureMaxAdd>30</TemperatureMaxAdd>
+			<TemperatureMinAdd>-15</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_taiqing" Parent="Item_daopaoyiBase">
+	<ThingName>太清道袍</ThingName>
+	<TexPath>Spr/Yifu/tai1.png</TexPath>
+	<Desc>[size=12][color=#CD2626]  一生二，二生三，三生万物，一气化为三，三合为一，用则分三，本则常一。[/size][/color]  太清道袍（上）【驾驭法宝能力MAX】。
+	</Desc>
+	<Item Lable="Clothes">	 	
+		<BeMade>
+			<CostStuffCount>40000</CostStuffCount>
+		</BeMade> 	
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_taiqing</Modifier>
+			
+			<TemperatureMaxAdd>30</TemperatureMaxAdd>
+			<TemperatureMinAdd>-15</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_taiqing" Parent="Item_daopaoyiBase">
+	<ThingName>太清道袍</ThingName>
+	<TexPath>Spr/Yifu/tai2.png</TexPath>
+	<Desc>[size=12][color=#CD2626]  一生二，二生三，三生万物，一气化为三，三合为一，用则分三，本则常一。[/size][/color]  太清道袍（下）【驾驭法宝能力MAX】。
+	</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>40000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_taiqing</Modifier>
+			
+			<TemperatureMaxAdd>30</TemperatureMaxAdd>
+			<TemperatureMinAdd>-15</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_shangqing" Parent="Item_daopaoyiBase">
+	<ThingName>上清道袍</ThingName>
+	<TexPath>Spr/Yifu/shang1.png</TexPath>
+	<Desc>[size=12][color=#CD2626]   一生二，二生三，三生万物，一气化为三，三合为一，用则分三，本则常一。[/size][/color]  上清道袍（上）【炼丹器能力MAX】。
+	</Desc>
+	<Item Lable="Clothes">		
+		<BeMade>
+			<CostStuffCount>40000</CostStuffCount>
+		</BeMade> 	
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_shangqing</Modifier>
+			
+			<TemperatureMaxAdd>30</TemperatureMaxAdd>
+			<TemperatureMinAdd>-15</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiayi_shangqing" Parent="Item_daopaoyiBase">
+	<ThingName>上清道袍</ThingName>
+	<TexPath>Spr/Yifu/shang2.png</TexPath>
+	<Desc>[size=12][color=#CD2626]   一生二，二生三，三生万物，一气化为三，三合为一，用则分三，本则常一。[/size][/color]  上清道袍（下）【炼丹器能力MAX】。
+	</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>40000</CostStuffCount>
+		</BeMade>
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_shangqing</Modifier>
+			
+			<TemperatureMaxAdd>30</TemperatureMaxAdd>
+			<TemperatureMinAdd>-15</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_taiji" Parent="Item_daopaoyiBase">
+	<ThingName>太极道袍</ThingName>
+	<TexPath>Spr/Yifu/taiji1.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]        大道无形，生育天地；大道无情，运行日月。[/size][/color]  太极道袍（上）。</Desc>
+	<Item Lable="Clothes">		
+		<BeMade>
+			<CostStuffCount>100000</CostStuffCount>
+		</BeMade> 	
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0.02</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_taiji</Modifier>
+			
+			<TemperatureMaxAdd>40</TemperatureMaxAdd>
+			<TemperatureMinAdd>-20</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_xiayi_taiji" Parent="Item_daopaoyiBase">
+	<ThingName>太极道袍</ThingName>
+	<TexPath>Spr/Yifu/taiji2.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]        大道无形，生育天地；大道无情，运行日月。[/size][/color]  太极道袍（下）。</Desc>
+	<Item Lable="Trousers">
+		<BeMade>
+			<CostStuffCount>100000</CostStuffCount>
+		</BeMade>
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0.02</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_taiji</Modifier>
+			
+			<TemperatureMaxAdd>40</TemperatureMaxAdd>
+			<TemperatureMinAdd>-20</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_wuji1" Parent="Item_daopaoyiBase">
+	<ThingName>无极甲【战】</ThingName>
+	<TexPath>Spr/Yifu/mo1.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏战斗属性</Desc>
+	<Item Lable="Clothes">		
+		<Equip>
+			<ModelID>5</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_wuji1</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	<Ling>
+		<AddionLing>240</AddionLing>  
+	</Ling>	
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_xiayi_wuji1" Parent="Item_daopaoyiBase">
+	<ThingName>无极甲【战】</ThingName>
+	<TexPath>Spr/Yifu/mo2.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏战斗属性</Desc>
+	<Item Lable="Trousers">
+		<Equip>
+			<ModelID>5</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_wuji1</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>
+	<Ling>
+		<AddionLing>240</AddionLing>     
+	</Ling>	
+	</ThingDef>
+
+
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_wuji2" Parent="Item_daopaoyiBase">
+	<ThingName>无极甲【御】</ThingName>
+	<TexPath>Spr/Yifu/mo11.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏防御属性</Desc>
+	<Item Lable="Clothes">		
+		<Equip>
+			<ModelID>5</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_wuji2</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	<Ling>
+		<AddionLing>240</AddionLing> 
+	</Ling>	
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_xiayi_wuji2" Parent="Item_daopaoyiBase">
+	<ThingName>无极甲【御】</ThingName>
+	<TexPath>Spr/Yifu/mo12.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏防御属性</Desc>
+	<Item Lable="Trousers">
+		<NotRandom>1</NotRandom> 
+		<Equip>
+			<ModelID>5</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_wuji2</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>		
+	<Ling>
+		<AddionLing>240</AddionLing> 
+	</Ling>	
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_wufa1" Parent="Item_daopaoyiBase">
+	<ThingName>无法衣【炼】</ThingName>
+	<TexPath>Spr/Yifu/xian1.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏丹器属性</Desc>
+	<Item Lable="Clothes">	
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_wufa1</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>	
+	<Ling>
+		<AddionLing>240</AddionLing> 
+	</Ling>	
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_xiayi_wufa1" Parent="Item_daopaoyiBase">
+	<ThingName>无法衣【炼】</ThingName>
+	<TexPath>Spr/Yifu/xian2.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏丹器属性</Desc>
+	<Item Lable="Trousers">
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_wufa1</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>		
+	<Ling>
+		<AddionLing>240</AddionLing> 
+	</Ling>	
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_shangyi_wufa2" Parent="Item_daopaoyiBase">
+	<ThingName>无法衣【法】</ThingName>
+	<TexPath>Spr/Yifu/xian11.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏灵力属性</Desc>
+	<Item Lable="Clothes">	
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_shangyi_wufa2</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>	
+	<Ling>
+		<AddionLing>240</AddionLing> 
+	</Ling>	
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_xiayi_wufa2" Parent="Item_daopaoyiBase">
+	<ThingName>无法衣【法】</ThingName>
+	<TexPath>Spr/Yifu/xian12.png</TexPath>
+	<Desc>[size=12][color=#FF9C0A]天地间极为强大的宝甲，传说乃是神魔的战衣。[/size][/color]\n隐藏灵力属性</Desc>
+	<MaxHitPoints>300</MaxHitPoints>
+	<Item Lable="Trousers">
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0.1</ArmorLingShield>
+
+			<Modifier>Modifier_xiayi_wufa2</Modifier>
+			
+			<TemperatureMaxAdd>80</TemperatureMaxAdd>
+			<TemperatureMinAdd>-40</TemperatureMinAdd>
+			
+			<PropertyScaleFromStuff>1</PropertyScaleFromStuff>
+		</Equip> 
+	</Item>		
+	<Ling>
+		<AddionLing>240</AddionLing> 
+	</Ling>	
+	</ThingDef>
+
+
+
+
+
+
+
+</List></ThingDefs>

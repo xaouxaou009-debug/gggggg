@@ -1,0 +1,1898 @@
+﻿<ThingDefs><List>
+
+
+
+	<ThingDef Type="Item" Name="Item_yaowuBase" Parent="DanBase">
+	<MaxStack>99</MaxStack>
+	<TexPath>药物模板</TexPath>
+	<Desc>Desc.</Desc>
+	<MaxHitPoints>1200</MaxHitPoints>
+	<Rate>3</Rate>
+	<Beauty>15</Beauty>
+	<ElementKind>None</ElementKind>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>360</FlameSpawnChance>
+	</Flammability>
+	<Item Lable="Drug">
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FabaoSuffix>灵果</FabaoSuffix>
+		<PhysicalLables>
+			<li>Light1</li>
+			<li>LowDensity1</li>
+		</PhysicalLables>
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>180</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+		<Elixir>
+		</Elixir>
+		<BeMade>
+			<WorkToMake>4800</WorkToMake>
+		</BeMade> 
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.5</Absorption>
+		<Accommodate>3</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>12</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>62F8FFFF</Color>
+	</Light>
+	</ThingDef>
+	
+
+	<ThingDef Type="Item" Name="Item_yaowu1Base" Parent="Item_yaowuBase">	
+	<Beauty>5</Beauty>
+	<Rate>2</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<Water>15</Water>
+			<FunAddion>15</FunAddion>
+			<PracticeNutrition>10</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.9999</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>10</AddionLing>
+	</Ling>
+	<Element>
+		<Value>10</Value>    
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaowu2Base" Parent="Item_yaowuBase">
+	<Beauty>5</Beauty>
+	<Rate>3</Rate>	
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>30</Nutrition>
+			<Water>30</Water>
+			<FunAddion>30</FunAddion>
+			<PracticeNutrition>20</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<Fesistance>0.95</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>20</AddionLing>
+	</Ling>
+	<Element>
+		<Value>15</Value>    
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_yaowu3Base" Parent="Item_yaowuBase">	
+	<Beauty>7</Beauty>
+	<Rate>4</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>45</Nutrition>
+			<Water>45</Water>
+			<FunAddion>45</FunAddion>
+			<PracticeNutrition>30</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.90</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>
+	</Ling>
+	<Element>
+		<Value>20</Value>    
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_yaowu4Base" Parent="Item_yaowuBase">	
+	<Beauty>9</Beauty>
+	<Rate>5</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>60</Nutrition>
+			<Water>60</Water>
+			<FunAddion>60</FunAddion>
+			<PracticeNutrition>40</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.85</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>40</AddionLing>
+	</Ling>
+	<Element>
+		<Value>25</Value>    
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_yaowu5Base" Parent="Item_yaowuBase">	
+	<Beauty>12</Beauty>
+	<Rate>6</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>75</Nutrition>
+			<Water>75</Water>
+			<FunAddion>75</FunAddion>
+			<PracticeNutrition>50</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.80</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>50</AddionLing>
+	</Ling>
+	<Element>
+		<Value>30</Value>    
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaowu6Base" Parent="Item_yaowuBase">	
+	<Beauty>15</Beauty>
+	<Rate>7</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>90</Nutrition>
+			<Water>90</Water>
+			<FunAddion>90</FunAddion>
+			<PracticeNutrition>60</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.70</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+	</Ling>
+	<Element>
+		<Value>35</Value>    
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaowu7Base" Parent="Item_yaowuBase">
+	<Beauty>18</Beauty>
+	<Rate>8</Rate>	
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>120</Nutrition>
+			<Water>120</Water>
+			<FunAddion>120</FunAddion>
+			<PracticeNutrition>80</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.60</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>80</AddionLing>
+	</Ling>
+	<Element>
+		<Value>40</Value>    
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaowu8Base" Parent="Item_yaowuBase">	
+	<Beauty>24</Beauty>
+	<Rate>9</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>150</Nutrition>
+			<Water>150</Water>
+			<FunAddion>150</FunAddion>
+			<PracticeNutrition>100</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.50</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>100</AddionLing>
+	</Ling>
+	<Element>
+		<Value>45</Value>    
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaowu9Base" Parent="Item_yaowuBase">	
+	<Beauty>36</Beauty>
+	<Rate>10</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			<Water>80</Water>
+			<FunAddion>80</FunAddion>
+			<PracticeNutrition>150</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.40</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+	</Ling>
+	<Element>
+		<Value>50</Value>    
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaowu10Base" Parent="Item_yaowuBase">	
+	<Beauty>48</Beauty>
+	<Rate>11</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>120</Nutrition>
+			<Water>120</Water>
+			<FunAddion>120</FunAddion>
+			<PracticeNutrition>200</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.30</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>150</AddionLing>
+	</Ling>
+	<Element>
+		<Value>60</Value>    
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaowu11Base" Parent="Item_yaowuBase">	
+	<Beauty>64</Beauty>
+	<Rate>12</Rate>
+	<Item>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>150</Nutrition>
+			<Water>150</Water>
+			<FunAddion>150</FunAddion>
+			<PracticeNutrition>500</PracticeNutrition>
+		</Food>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Fesistance>0.20</Fesistance>
+		</Elixir>
+	</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_wuxing1" Parent="Item_yaowuBase">
+	<Tags>
+	</Tags>
+	<ThingName>丹灵神果</ThingName>
+	<TexPath>Spr\Zhiwu\0.png</TexPath>	
+	<Desc>五行灵树所诞生似人形的神果。食用后需炼化药力七天，提升大量属性。</Desc>
+	<Rate>12</Rate>
+	<Beauty>64</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<FabaoSuffix>神果</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingguo_wuxing1</Modifier>
+			<Fesistance>0.9</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>200</Nutrition>
+			<Water>200</Water>
+			<FunAddion>200</FunAddion>
+			<PracticeNutrition>500</PracticeNutrition>
+		</Food>
+	</Item>
+	<Ling>
+		<AddionLing>480</AddionLing>
+	</Ling>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin1" Parent="Item_yaowu1Base">
+	<ThingName>一阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin1</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin2" Parent="Item_yaowu2Base">
+	<ThingName>二阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin2</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin3" Parent="Item_yaowu3Base">
+	<ThingName>三阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin3</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin4" Parent="Item_yaowu4Base">
+	<ThingName>四阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin4</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin5" Parent="Item_yaowu5Base">
+	<ThingName>五阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin5</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin6" Parent="Item_yaowu6Base">
+	<ThingName>六阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin6</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin7" Parent="Item_yaowu7Base">
+	<ThingName>七阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin7</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin8" Parent="Item_yaowu8Base">
+	<ThingName>八阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin8</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin9" Parent="Item_yaowu9Base">
+	<ThingName>九阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin9</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin10" Parent="Item_yaowu10Base">
+	<ThingName>十阶金灵果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>		
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin10</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingguo_jin11" Parent="Item_yaowu11Base">
+	<Tags>
+	</Tags>
+	<ThingName>金灵神果</ThingName>
+	<TexPath>Spr\Zhiwu\11.png</TexPath>	
+	<Desc>炼化时可以持续增加法宝伤害百分比，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item Lable="Drug">
+		<FabaoSuffix>神果</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingguo_jin11</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu1" Parent="Item_yaowu1Base">
+	<ThingName>一阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu1</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu2" Parent="Item_yaowu2Base">
+	<ThingName>二阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu2</Modifier>
+		</Elixir>
+	</Item>
+	
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu3" Parent="Item_yaowu3Base">
+	<ThingName>三阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu3</Modifier>
+		</Elixir>
+	</Item>
+	
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu4" Parent="Item_yaowu4Base">
+	<ThingName>四阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu4</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu5" Parent="Item_yaowu5Base">
+	<ThingName>五阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu5</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu6" Parent="Item_yaowu6Base">
+	<ThingName>六阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu6</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu7" Parent="Item_yaowu7Base">
+	<ThingName>七阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu7</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu8" Parent="Item_yaowu8Base">
+	<ThingName>八阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu8</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu9" Parent="Item_yaowu9Base">
+	<ThingName>九阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu9</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu10" Parent="Item_yaowu10Base">
+	<ThingName>十阶木灵果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>		
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu10</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_lingguo_mu11" Parent="Item_yaowu11Base">
+	<Tags>
+	</Tags>
+	<ThingName>木灵神果</ThingName>
+	<TexPath>Spr\Zhiwu\12.png</TexPath>	
+	<Desc>炼化后可以持续增加灵力上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item Lable="Drug">
+		<FabaoSuffix>神果</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingguo_mu11</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui1" Parent="Item_yaowu1Base">
+	<ThingName>一阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui1</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui2" Parent="Item_yaowu2Base">
+	<ThingName>二阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui2</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui3" Parent="Item_yaowu3Base">
+	<ThingName>三阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui3</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui4" Parent="Item_yaowu4Base">
+	<ThingName>四阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui4</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui5" Parent="Item_yaowu5Base">
+	<ThingName>五阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui5</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui6" Parent="Item_yaowu6Base">
+	<ThingName>六阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui6</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui7" Parent="Item_yaowu7Base">
+	<ThingName>七阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui7</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui8" Parent="Item_yaowu8Base">
+	<ThingName>八阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui8</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui9" Parent="Item_yaowu9Base">
+	<ThingName>九阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui9</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui10" Parent="Item_yaowu10Base">
+	<ThingName>十阶水灵果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>		
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui10</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_shui11" Parent="Item_yaowu11Base">
+	<Tags>
+	</Tags>
+	<ThingName>水灵神果</ThingName>
+	<TexPath>Spr\Zhiwu\13.png</TexPath>	
+	<Desc>可以持续增加寿命上限、修炼速度、学习速度，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item Lable="Drug">
+		<FabaoSuffix>神果</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingguo_shui11</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo1" Parent="Item_yaowu1Base">
+	<ThingName>一阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo1</Modifier>
+		</Elixir>
+	</Item>
+	
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo2" Parent="Item_yaowu2Base">
+	<ThingName>二阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo2</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo3" Parent="Item_yaowu3Base">
+	<ThingName>三阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo3</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo4" Parent="Item_yaowu4Base">
+	<ThingName>四阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo4</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo5" Parent="Item_yaowu5Base">
+	<ThingName>五阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<DiscipleOnly>1</DiscipleOnly>
+			<Modifier>Modifier_lingguo_huo5</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo6" Parent="Item_yaowu6Base">
+	<ThingName>六阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo6</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo7" Parent="Item_yaowu7Base">
+	<ThingName>七阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo7</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo8" Parent="Item_yaowu8Base">
+	<ThingName>八阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo8</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo9" Parent="Item_yaowu9Base">
+	<ThingName>九阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo9</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_huo10" Parent="Item_yaowu10Base">
+	<ThingName>十阶火灵果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>		
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo10</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+	
+	<ThingDef Type="Item" Name="Item_lingguo_huo11" Parent="Item_yaowu11Base">
+	<ThingName>火灵神果</ThingName>
+	<TexPath>Spr\Zhiwu\14.png</TexPath>	
+	<Desc>炼化后可以持续增加法术伤害，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item Lable="Drug">
+		<FabaoSuffix>神果</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingguo_huo11</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+	
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu1" Parent="Item_yaowu1Base">
+	<ThingName>一阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu1</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu2" Parent="Item_yaowu2Base">
+	<ThingName>二阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu2</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu3" Parent="Item_yaowu3Base">
+	<ThingName>三阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu3</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu4" Parent="Item_yaowu4Base">
+	<ThingName>四阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu4</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu5" Parent="Item_yaowu5Base">
+	<ThingName>五阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu5</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu6" Parent="Item_yaowu6Base">
+	<ThingName>六阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu6</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu7" Parent="Item_yaowu7Base">
+	<ThingName>七阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu7</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu8" Parent="Item_yaowu8Base">
+	<ThingName>八阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu8</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu9" Parent="Item_yaowu9Base">
+	<ThingName>九阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu9</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_lingguo_tu10" Parent="Item_yaowu10Base">
+	<ThingName>十阶土灵果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>		
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu10</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_lingguo_tu11" Parent="Item_yaowu11Base">
+	<Tags>
+	</Tags>
+	<ThingName>土灵神果</ThingName>
+	<TexPath>Spr\Zhiwu\15.png</TexPath>	
+	<Desc>炼化后可以持续增加护盾上限，修炼/练功状态下持续消耗精力精元炼化灵果，获得属性加成，灵果等级越高，药力越强，人物境界越高炼化时间越快。消耗越高。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item Lable="Drug">
+		<FabaoSuffix>神果</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingguo_tu11</Modifier>
+		</Elixir>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+	
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshui_1" Parent="Item_yaowuBase">
+	<ThingName>一级灵元液</ThingName>
+	<TexPath>Spr\Yaowu\shui1.PNG</TexPath>
+	<TexScale>1</TexScale>	
+	<Desc>妖兽一族秘制的灵液，听说是用灵果酿制而来，服用可以增加精元，并修复身体损伤，略微有驱除内门伤害的能力。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Beauty>18</Beauty>
+	<Rate>5</Rate>
+	<Item>
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>Light2</li>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingshui_1</Modifier>
+				<RecoveryLable>
+					<li>None</li>
+					<li>OldScar</li>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+					<li>Ling</li>
+				</RecoveryLable>
+				<RecoveryValue>0.2</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Water>150</Water>
+			<PracticeNutrition>38</PracticeNutrition>
+		</Food>
+	</Item>
+	
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshui_2" Parent="Item_yaowuBase">
+	<ThingName>二级灵元液</ThingName>
+	<TexPath>Spr\Yaowu\shui2.PNG</TexPath>
+	<TexScale>1</TexScale>	
+	<Desc>妖兽一族秘制的灵液，听说是用灵果酿制而来，服用可以增加中量精元，并修复身体损伤，驱除内门伤害有奇效。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Beauty>24</Beauty>
+	<Rate>7</Rate>
+	<Item>
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>Light2</li>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingshui_2</Modifier>
+				<RecoveryLable>
+					<li>None</li>
+					<li>OldScar</li>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+					<li>Ling</li>
+				</RecoveryLable>
+				<RecoveryValue>1</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Water>150</Water>
+			<PracticeNutrition>88</PracticeNutrition>
+		</Food>
+	</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_lingshui_3" Parent="Item_yaowuBase">
+	<ThingName>三级灵元液</ThingName>
+	<TexPath>Spr\Yaowu\shui3.PNG</TexPath>
+	<TexScale>1</TexScale>	
+	<Desc>妖兽一族秘制的灵液，听说是用灵果酿制而来，服用可以增加大量精元，并修复身体损伤，对内门造成的伤害修复速度极快。</Desc>
+	<MaxStack>99</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	<Beauty>36</Beauty>
+	<Rate>9</Rate>
+	<Item>
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>Light2</li>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<Elixir>
+			<Modifier>Modifier_lingshui_3</Modifier>
+				<RecoveryLable>
+					<li>None</li>
+					<li>OldScar</li>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+					<li>Ling</li>
+				</RecoveryLable>
+				<RecoveryValue>5</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Water>150</Water>
+			<PracticeNutrition>188</PracticeNutrition>
+		</Food>
+	</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan1" Parent="Item_yaowuBase">
+		<ThingName>妖兽内丹</ThingName>
+		<TexPath>Spr\Yaowu\neidan.png</TexPath>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-气感[/color][/size]。</Desc>	
+		<Rate>8</Rate>
+		<Beauty>8</Beauty>
+		<TexScale>1.3</TexScale>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan1</Modifier>
+				<Fesistance>0.90</Fesistance>
+			</Elixir>
+		</Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>0.1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.2</Absorption>  
+		<Accommodate>5000</Accommodate>
+	</Ling>
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>3</Radius>
+		<Color>#FFFF0A</Color>
+	</Light>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan2" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-丹器[/color][/size]。</Desc>
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan2</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan3" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-战斗[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan3</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan4" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-术法[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan4</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan5" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-处世[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan5</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan6" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-炼丹/岐黄[/color][/size]。</Desc>	
+		<ElementKind>Mu</ElementKind>
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan6</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan7" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-烹饪[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan7</Modifier>
+				<Fesistance>0.90</Fesistance>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan8" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-版筑[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan8</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan9" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-耕种[/color][/size]。</Desc>
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan9</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan10" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-金石[/color][/size]。</Desc>		
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan10</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan11" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-雅艺[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan11</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan12" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-炼器、巧匠[/color][/size]。</Desc>
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan12</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan13" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-御器[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan13</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan14" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-术法[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan14</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_yaoshou_neidan15" Parent="Item_yaoshou_neidan1">
+		<ThingName>妖兽内丹</ThingName>
+		<Desc>\n[size=12][color=#FFA500]妖兽吸取天地精华凝结的内丹，也是妖兽的战利品，据说妖兽厮杀后以夺取对方的内丹为荣耀。服之可以提升技能-护体[/color][/size]。</Desc>	
+		<Item>
+			<Elixir>
+				<Modifier>Modifier_yaoshou_neidan15</Modifier>
+			</Elixir>
+		</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_ZZ_zhongzhiBase" Parent="MaterialBase">
+	
+	<MaxStack>500</MaxStack>
+	<TexPath>0.3</TexPath>
+	
+	<Desc>变异的种子，含有微弱的生机。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<MaxHitPoints>3000</MaxHitPoints>
+	<Rate>7</Rate>
+	<Beauty>18</Beauty>
+	<ElementKind>None</ElementKind>
+	
+	<Flammability>
+		<Flammability>0.3</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>200</BurningPoint>
+	</Flammability>
+	<Item Lable="Ingredient">
+		<FabaoSuffix>种</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>10</Nutrition>
+			<Poisonousness>5</Poisonousness>
+			<FunAddion>-5</FunAddion>
+		</Food>
+		<Rot>
+			<RotSpeed>5000</RotSpeed>
+			<DaysToRotStart>7</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Ling>
+		<AddionLing>25</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.2</Absorption>
+		<Accommodate>0.5</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>8</Value>         
+		<Radius>3</Radius>
+		<Failing>1</Failing>
+		<FailRadius>3</FailRadius>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_zhiwu1" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\z1.png</TexPath>	
+	<ThingName>变异的灵树之种，种植后可以获得属性灵树</ThingName>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_zhongzi_zhiwu2" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\z2.png</TexPath>	
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_zhiwu3" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\z3.png</TexPath>	
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_zhiwu4" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\z4.png</TexPath>	
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_zhiwu5" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\z5.png</TexPath>	
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_zhiwu6" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\z6.png</TexPath>	
+	<ThingName>变异的元属性灵种</ThingName>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_zhongzi_zhiwu7" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\z7.png</TexPath>	
+	<ThingName>变异的混属性灵种</ThingName>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_lingshi1" Parent="Item_ZZ_zhongzhiBase">
+	<TexPath>Spr\Zhiwu\a1.png</TexPath>	
+	<ThingName>蕴灵道种-金</ThingName>
+	<Desc>蕴灵石祖根，乃是天地初开诞生的神物，后衍生道种七颗，种植后可以生出一株蕴灵道种，道种为一阶幼苗，可以供给物品使其提升，道种属性会随着等阶大量提高。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	<StoryBnts>
+			<li Name="种植" Desc="种植以生成灵植。" Script="GameUlt.BuildLingPlant(bind, 'Plant_lingshi_jin1')" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_zhongzi_lingshi2" Parent="Item_zhongzi_lingshi1">
+	<TexPath>Spr\Zhiwu\a2.png</TexPath>	
+	<ThingName>蕴灵道种-木</ThingName>
+	<ElementKind>Mu</ElementKind>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	<StoryBnts>
+			<li Name="种植" Desc="种植以生成灵植。" Script="GameUlt.BuildLingPlant(bind, 'Plant_lingshi_mu1')" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_lingshi3" Parent="Item_zhongzi_lingshi1">
+	<TexPath>Spr\Zhiwu\a3.png</TexPath>	
+	<ThingName>蕴灵道种-水</ThingName>
+	<ElementKind>Shui</ElementKind>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	<StoryBnts>
+			<li Name="种植" Desc="种植以生成灵植。" Script="GameUlt.BuildLingPlant(bind, 'Plant_lingshi_shui1')" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_lingshi4" Parent="Item_zhongzi_lingshi1">
+	<TexPath>Spr\Zhiwu\a4.png</TexPath>	
+	<ThingName>蕴灵道种-火</ThingName>
+	<ElementKind>Huo</ElementKind>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	<StoryBnts>
+			<li Name="种植" Desc="种植以生成灵植。" Script="GameUlt.BuildLingPlant(bind, 'Plant_lingshi_huo1')" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_lingshi5" Parent="Item_zhongzi_lingshi1">
+	<TexPath>Spr\Zhiwu\a5.png</TexPath>	
+	<ThingName>蕴灵道种-土</ThingName>
+	<ElementKind>Tu</ElementKind>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	<StoryBnts>
+			<li Name="种植" Desc="种植以生成灵植。" Script="GameUlt.BuildLingPlant(bind, 'Plant_lingshi_tu1')" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_zhongzi_lingshi6" Parent="Item_zhongzi_lingshi1">
+	<TexPath>Spr\Zhiwu\a6.png</TexPath>	
+	<ThingName>蕴灵道种-元</ThingName>
+	<NoElementKind>1</NoElementKind>
+	<StoryBnts>
+			<li Name="种植" Desc="种植以生成灵植。" Script="GameUlt.BuildLingPlant(bind, 'Plant_lingshi_yuan1')" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_zhongzi_lingshi7" Parent="Item_zhongzi_lingshi1">
+	<TexPath>Spr\Zhiwu\a7.png</TexPath>	
+	<ThingName>蕴灵道种-混</ThingName>
+	<NoElementKind>1</NoElementKind>
+	<StoryBnts>
+			<li Name="种植" Desc="种植以生成灵植。" Script="GameUlt.BuildLingPlant(bind, 'Plant_lingshi_hun1')" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</List></ThingDefs>

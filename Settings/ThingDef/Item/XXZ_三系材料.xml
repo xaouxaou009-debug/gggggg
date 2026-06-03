@@ -1,0 +1,1097 @@
+﻿<ThingDefs><List>
+
+
+
+	<ThingDef Type="Item" Name="Item_gaojimucaiBase" Parent="MaterialBase">
+	<Tags>
+	</Tags>
+	<ThingName>木材模板</ThingName>
+	<TexPath>Spr\Zhiwu\00.png</TexPath>
+	<MaxStack>999</MaxStack>
+	<Rate>10</Rate>
+	<Beauty>24</Beauty>
+	<MaxHitPoints>1200</MaxHitPoints>
+	<ElementKind>None</ElementKind>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>800</BurningPoint>
+	</Flammability>
+	<Item Lable="Wood">
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<NotRandom>2</NotRandom>
+		<FuelMultiplier>5</FuelMultiplier>
+		<FabaoSuffix>木</FabaoSuffix>
+		<PhysicalLables>
+			<li>Smooth1</li>
+			<li>Hard1</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>凤纹</NamePrefix>
+			<CostMultiplier>0.5</CostMultiplier>
+			<StuffTexPath>res/mattex/mtl_wood2</StuffTexPath>
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>100</MaxHitPointsPerNum>
+			<AttackSpeedWhenBeMain>2.2</AttackSpeedWhenBeMain>
+			<SharpDamageMultiplier>80</SharpDamageMultiplier>
+			<BluntDamageMultiplier>20</BluntDamageMultiplier>
+			<LingDamageMultiplier>100</LingDamageMultiplier>
+
+			<SharpDefenceMultiplier>20</SharpDefenceMultiplier>
+			<BluntDefenceMultiplier>20</BluntDefenceMultiplier>
+			<LingDefenceMultiplier>60</LingDefenceMultiplier>
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>5</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>0.45</LingNumberRate>
+			
+			<BurningPointWhenBeMain>900</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0.8</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>15</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>
+			<RateWhenBeMain>11</RateWhenBeMain>
+			
+			<WorktoMakeRate>3</WorktoMakeRate>
+			<WorktoBuildRate>3</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>480</WorkToMake>
+		</BeMade> 
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.4</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>12</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>#7CFC00</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_gaojishicaiBase" Parent="Item_gaojimucaiBase">
+	<ThingName>石材模板</ThingName>
+	<MaxHitPoints>2000</MaxHitPoints>
+	<Item Lable="Rock">
+		<FabaoSuffix>玉</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>螭吻</NamePrefix>
+
+			<MaxHitPointsPerNum>20</MaxHitPointsPerNum>
+			<AttackSpeedWhenBeMain>0.5</AttackSpeedWhenBeMain>
+
+			<SharpDamageMultiplier>60</SharpDamageMultiplier>
+			<BluntDamageMultiplier>100</BluntDamageMultiplier>
+			<LingDamageMultiplier>20</LingDamageMultiplier>
+
+			<SharpDefenceMultiplier>20</SharpDefenceMultiplier>
+			<BluntDefenceMultiplier>60</BluntDefenceMultiplier>
+			<LingDefenceMultiplier>20</LingDefenceMultiplier>
+			<ColdInsulationMultiplier>20</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>20</HeatInsulationMultiplier>
+		</BeMaterial>
+	</Item>
+	<Light>
+		<Color>#8B6914</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_gaojikuangshiBase" Parent="Item_gaojimucaiBase">
+	<ThingName>矿石模板</ThingName>
+	<Item Lable="Metal">
+		<NotRandom>2</NotRandom>
+		<FabaoSuffix>金</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>龙纹</NamePrefix>
+
+			<MaxHitPointsPerNum>30</MaxHitPointsPerNum>
+			<AttackSpeedWhenBeMain>1.1</AttackSpeedWhenBeMain>
+
+			<SharpDamageMultiplier>150</SharpDamageMultiplier>
+			<BluntDamageMultiplier>25</BluntDamageMultiplier>
+			<LingDamageMultiplier>25</LingDamageMultiplier>
+
+			<SharpDefenceMultiplier>34</SharpDefenceMultiplier>
+			<BluntDefenceMultiplier>33</BluntDefenceMultiplier>
+			<LingDefenceMultiplier>33</LingDefenceMultiplier>
+			<ColdInsulationMultiplier>20</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>20</HeatInsulationMultiplier>
+		</BeMaterial>
+	</Item>
+	<Light>
+		<Color>#EEEE00</Color>
+	</Light>
+	</ThingDef>
+
+<ThingDef Type="Item" Name="Item_gaojimuliaoBase" Parent="Item_gaojimucaiBase">
+	<ThingName>木材模板</ThingName>
+	<Beauty>36</Beauty>
+	<Rate>11</Rate>
+	<Item Lable="WoodBlock">
+		<FabaoSuffix>木</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>0.0002</CostMultiplier>
+			<NamePrefix>凤纹</NamePrefix>
+
+			<BeautyWhenBeMain>36</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>36</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>960</WorkToMake>
+		</BeMade> 
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+<ThingDef Type="Item" Name="Item_gaojiyushiBase" Parent="Item_gaojishicaiBase">
+	<ThingName>玉石模板</ThingName>
+	<Rate>11</Rate>
+	<Beauty>36</Beauty>
+	<Item Lable="RockBlock">
+		<FabaoSuffix>玉</FabaoSuffix>
+		<BeMaterial>
+			<NamePrefix>螭吻</NamePrefix>
+			<CostMultiplier>0.0002</CostMultiplier>
+
+			<BeautyWhenBeMain>36</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>36</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>960</WorkToMake>
+		</BeMade> 
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+	</Ling>
+	<Element>
+		<Value>24</Value>  
+	</Element>
+	</ThingDef>
+
+
+
+<ThingDef Type="Item" Name="Item_gaojijinshuBase" Parent="Item_gaojikuangshiBase">
+	<ThingName>金属模板</ThingName>
+	<Rate>11</Rate>
+	<Beauty>36</Beauty>
+	<Item Lable="MetalBlock">
+		<FabaoSuffix>金</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>0.0002</CostMultiplier>
+			<NamePrefix>龙纹</NamePrefix>
+
+			<BeautyWhenBeMain>36</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>36</ElementPowerWhenBeMain>
+
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>960</WorkToMake>
+		</BeMade> 
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+	</Ling>
+	<Element>
+		<Value>24</Value>  
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai0" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木屑</ThingName>
+	<TexPath>Spr\Zhiwu\00.png</TexPath>
+	<Desc>草木精华中提炼的凤纹木屑，可以进一步精炼成凤纹灵木。</Desc>
+	<Rate>5</Rate>
+	<Beauty>10</Beauty>
+	<Item>
+		<FuelMultiplier>2</FuelMultiplier>
+		<BeMaterial>
+			<NamePrefix>凤纹木-金</NamePrefix>
+			<CostMultiplier>3</CostMultiplier>
+		</BeMaterial>
+	</Item>
+	<Ling>
+		<AddionLing>10</AddionLing>
+	</Ling>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai1" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木-金</ThingName>
+	<TexPath>Spr\Zhiwu\111.png</TexPath>
+	<ElementKind>Jin</ElementKind>
+	<Desc>蕴灵石种进阶或生长时时掉落的灵材，灵树亦有产出，有着及其浓郁的金属性，进一步祭炼后将是制作顶级物品的稀有神材。</Desc>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹木-金</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai2" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木-木</ThingName>
+	<TexPath>Spr\Zhiwu\112.png</TexPath>
+	<Desc>蕴灵石种进阶或生长时时掉落的灵材，灵树亦有产出，有着及其浓郁的木属性，进一步祭炼后将是制作顶级物品的稀有神材。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹木-木</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai3" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木-水</ThingName>
+	<TexPath>Spr\Zhiwu\113.png</TexPath>
+	<Desc>蕴灵石种进阶或生长时时掉落的灵材，灵树亦有产出，有着及其浓郁的水属性，进一步祭炼后将是制作顶级物品的稀有神材。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹木-水</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai4" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木-火</ThingName>
+	<TexPath>Spr\Zhiwu\114.png</TexPath>
+	<Desc>蕴灵石种进阶或生长时时掉落的灵材，灵树亦有产出，有着及其浓郁的火属性，进一步祭炼后将是制作顶级物品的稀有神材。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹木-火</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai5" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木-土</ThingName>
+	<TexPath>Spr\Zhiwu\115.png</TexPath>
+	<Desc>蕴灵石种进阶或生长时时掉落的灵材，灵树亦有产出，有着及其浓郁的土属性，进一步祭炼后将是制作顶级物品的稀有神材。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹木-土</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai6" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木-元</ThingName>
+	<TexPath>Spr\Zhiwu\116.png</TexPath>
+	<Desc>蕴灵石种进阶或生长时时掉落的灵材，灵树亦有产出，进一步祭炼后将是制作顶级物品的稀有神材。</Desc>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹木-元</NamePrefix>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_mucai7" Parent="Item_gaojimucaiBase">
+	<ThingName>凤纹木-混</ThingName>
+	<TexPath>Spr\Zhiwu\117.png</TexPath>
+	<Desc>蕴灵石种进阶或生长时时掉落的灵材，灵树亦有产出，进一步祭炼后将是制作顶级物品的稀有神材。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹木-混</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+<ThingDef Type="Item" Name="Item_cailiao_muliao1" Parent="Item_gaojimuliaoBase">
+	<ThingName>凤纹灵材-金</ThingName>
+	<TexPath>Spr\Zhiwu\1111.png</TexPath>
+	<Desc>凤纹木精加工制成的木材，具有极其浓郁的金属性，可以制作顶级物品。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹-金灵</NamePrefix>
+			<ColorWhenBeMain>EEEE00FF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+</ThingDef>
+
+
+
+
+
+<ThingDef Type="Item" Name="Item_cailiao_muliao2" Parent="Item_gaojimuliaoBase">
+	<ThingName>凤纹灵材-木</ThingName>
+	<TexPath>Spr\Zhiwu\1112.png</TexPath>
+	<Desc>凤纹木精加工制成的木材，具有极其浓郁的木属性，可以制作顶级物品。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹-木灵</NamePrefix>
+			<ColorWhenBeMain>7CFC00FF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+</ThingDef>
+
+
+
+<ThingDef Type="Item" Name="Item_cailiao_muliao3" Parent="Item_gaojimuliaoBase">
+	<ThingName>凤纹灵材-水</ThingName>
+	<TexPath>Spr\Zhiwu\1113.png</TexPath>
+	<Desc>凤纹木精加工制成的木材，具有极其浓郁的水属性，可以制作顶级物品。</Desc>
+	<MaxStack>999</MaxStack>
+	<Beauty>15</Beauty>
+	<Rate>11</Rate>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹-水灵</NamePrefix>
+			<ColorWhenBeMain>48D1CCFF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+</ThingDef>
+
+
+
+
+<ThingDef Type="Item" Name="Item_cailiao_muliao4" Parent="Item_gaojimuliaoBase">
+	<ThingName>凤纹灵材-火</ThingName>
+	<TexPath>Spr\Zhiwu\1114.png</TexPath>
+	<Desc>凤纹木精加工制成的木材，具有极其浓郁的火属性，可以制作顶级物品。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹-火灵</NamePrefix>
+			<ColorWhenBeMain>CD2626FF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+</ThingDef>
+
+
+<ThingDef Type="Item" Name="Item_cailiao_muliao5" Parent="Item_gaojimuliaoBase">
+	<ThingName>凤纹灵材-土</ThingName>
+	<TexPath>Spr\Zhiwu\1115.png</TexPath>
+	<Desc>凤纹木精加工制成的木材，具有极其浓郁的土属性，可以制作顶级物品。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹-土灵</NamePrefix>
+			<ColorWhenBeMain>8B6914FF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+</ThingDef>
+
+
+
+
+
+<ThingDef Type="Item" Name="Item_cailiao_muliao6" Parent="Item_gaojimuliaoBase">
+	<ThingName>凤纹灵材-元</ThingName>
+	<TexPath>Spr\Zhiwu\1116.png</TexPath>	
+	<Desc>凤纹木精加工制成的木材，是木系材料的顶级物品，可以制作顶级物品。</Desc>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹-元灵</NamePrefix>
+			<ColorWhenBeMain>FFFFFFFF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+</ThingDef>
+
+
+
+<ThingDef Type="Item" Name="Item_cailiao_muliao7" Parent="Item_gaojimuliaoBase">
+	<ThingName>凤纹灵材-混</ThingName>
+	<TexPath>Spr\Zhiwu\1117.png</TexPath>
+	<Desc>凤纹木精加工制成的木材，是五行材的顶级物品，局域极高的五行属性，可以制作顶级物品。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>凤纹-混元</NamePrefix>
+			<ColorWhenBeMain>363636FF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang0" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\0.png</TexPath>
+	<ThingName>龙纹碎金</ThingName>
+	<Desc>矿石中提炼出的龙纹神金的碎屑，可以精炼成龙纹神金。</Desc>	
+	<Rate>5</Rate>
+	<Beauty>10</Beauty>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹碎金</NamePrefix>
+			<CostMultiplier>3</CostMultiplier>
+		</BeMaterial>
+	</Item>
+	<Ling>
+		<AddionLing>10</AddionLing>
+	</Ling>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang1" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\jinshu1.png</TexPath>
+	<ThingName>龙纹金-金</ThingName>
+	<Desc>九天神金，上有龙纹，分阴阳五行，可以进一步精炼成顶级材料。</Desc>	
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹金-金</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang2" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\jinshu2.png</TexPath>
+	<ThingName>龙纹金-木</ThingName>
+	<Desc>九天神金，上有龙纹，分阴阳五行，可以进一步精炼成顶级材料。</Desc>	
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹金-木</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang3" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\jinshu3.png</TexPath>
+	<ThingName>龙纹金-水</ThingName>
+	<Desc>九天神金，上有龙纹，分阴阳五行，可以进一步精炼成顶级材料。</Desc>	
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹金-水</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang4" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\jinshu4.png</TexPath>
+	<ThingName>龙纹金-火</ThingName>
+	<Desc>九天神金，上有龙纹，分阴阳五行，可以进一步精炼成顶级材料。</Desc>	
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹金-火</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang5" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\jinshu5.png</TexPath>
+	<ThingName>龙纹金-土</ThingName>
+	<Desc>九天神金，上有龙纹，分阴阳五行，可以进一步精炼成顶级材料。</Desc>	
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹金-土</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang6" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\jinshu6.png</TexPath>
+	<ThingName>龙纹金-元</ThingName>
+	<Desc>九天神金，上有龙纹，分阴阳五行，可以进一步精炼成顶级材料。</Desc>		
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹金-元</NamePrefix>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinkuang7" Parent="Item_gaojikuangshiBase">
+	<TexPath>Spr\Kuangshi\jinshu7.png</TexPath>
+	<ThingName>龙纹金-混</ThingName>
+	<Desc>九天神金，上有龙纹，分阴阳五行，可以进一步精炼成顶级材料。</Desc>	
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹金-混</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang0" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\00.png</TexPath>
+	<ThingName>螭吻碎玉</ThingName>	
+	<Desc>矿石中提炼出的螭吻碎玉，可以精炼成螭吻神玉。</Desc>
+	<Rate>5</Rate>
+	<Beauty>10</Beauty>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻碎玉</NamePrefix>
+				<CostMultiplier>3</CostMultiplier>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang1" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\yushi1.png</TexPath>
+	<ThingName>螭吻玉-金</ThingName>	
+	<Desc>大地精华凝聚的神玉，可以进一步精炼成顶级材料。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻玉-金</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+	
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang2" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\yushi2.png</TexPath>
+	<ThingName>螭吻玉-木</ThingName>	
+	<Desc>大地精华凝聚的神玉，可以进一步精炼成顶级材料。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻玉-木</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang3" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\yushi3.png</TexPath>
+	<ThingName>螭吻玉-水</ThingName>	
+	<Desc>大地精华凝聚的神玉，可以进一步精炼成顶级材料。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻玉-水</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang4" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\yushi4.png</TexPath>
+	<ThingName>螭吻玉-火</ThingName>	
+	<Desc>大地精华凝聚的神玉，可以进一步精炼成顶级材料。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻玉-火</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang5" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\yushi5.png</TexPath>
+	<ThingName>螭吻玉-土</ThingName>	
+	<Desc>大地精华凝聚的神玉，可以进一步精炼成顶级材料。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻玉-土</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang6" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\yushi6.png</TexPath>
+	<ThingName>螭吻玉-元</ThingName>	
+	<Desc>大地精华凝聚的神玉，可以进一步精炼成顶级材料。</Desc>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻玉-元</NamePrefix>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shikuang7" Parent="Item_gaojishicaiBase">
+	<TexPath>Spr\Kuangshi\yushi7.png</TexPath>
+	<ThingName>螭吻玉-混</ThingName>	
+	<Desc>大地精华凝聚的神玉，可以进一步精炼成顶级材料。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+				<NamePrefix>螭吻玉-混</NamePrefix>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	
+	<ThingDef Type="Item" Name="Item_cailiao_jinshu1" Parent="Item_gaojijinshuBase">
+	<ThingName>龙纹金精-金</ThingName>
+	<TexPath>Spr\Kuangshi\jinshu11.png</TexPath>
+	<Desc>龙纹金精炼的金属锭，是制造物品的顶级材料。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹-金精</NamePrefix>
+			<ColorWhenBeMain>EEEE00BF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinshu2" Parent="Item_gaojijinshuBase">
+	<ThingName>龙纹金精-木</ThingName>
+	<TexPath>Spr\Kuangshi\jinshu12.png</TexPath>
+	<Desc>龙纹金精炼的金属锭，是制造物品的顶级材料。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹-木精</NamePrefix>
+			<ColorWhenBeMain>7CFC00BF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinshu3" Parent="Item_gaojijinshuBase">
+	<ThingName>龙纹金精-水</ThingName>
+	<TexPath>Spr\Kuangshi\jinshu13.png</TexPath>
+	<Desc>龙纹金精炼的金属锭，是制造物品的顶级材料。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹-水精</NamePrefix>
+			<ColorWhenBeMain>48D1CCBF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinshu4" Parent="Item_gaojijinshuBase">
+	<ThingName>龙纹金精-火</ThingName>
+	<TexPath>Spr\Kuangshi\jinshu14.png</TexPath>
+	<Desc>龙纹金精炼的金属锭，是制造物品的顶级材料。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹-火精</NamePrefix>
+			<ColorWhenBeMain>CD2626BF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinshu5" Parent="Item_gaojijinshuBase">
+	<ThingName>龙纹金精-土</ThingName>
+	<TexPath>Spr\Kuangshi\jinshu15.png</TexPath>
+	<Desc>龙纹金精炼的金属锭，是制造物品的顶级材料。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹-土精</NamePrefix>
+			<ColorWhenBeMain>8B6914BF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinshu6" Parent="Item_gaojijinshuBase">
+	<ThingName>龙纹金精-元</ThingName>
+	<TexPath>Spr\Kuangshi\jinshu16.png</TexPath>
+	<Desc>龙纹金精炼的金属锭，是制造物品的顶级材料。</Desc>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹-元灵</NamePrefix>
+			<ColorWhenBeMain>363636BF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_jinshu7" Parent="Item_gaojijinshuBase">
+	<ThingName>龙纹金精-混</ThingName>
+	<TexPath>Spr\Kuangshi\jinshu17.png</TexPath>
+	<Desc>龙纹金精炼的金属锭，是制造物品的顶级材料。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>龙纹-混元</NamePrefix>
+			<ColorWhenBeMain>363636BF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+
+
+	
+	<ThingDef Type="Item" Name="Item_cailiao_shizhuan1" Parent="Item_gaojiyushiBase">
+	<ThingName>螭吻玉晶-金</ThingName>
+	<TexPath>Spr\Kuangshi\yushi11.png</TexPath>
+	<Desc>螭吻神玉精炼后的精华，是制造物品的顶级材料。</Desc>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>螭吻-金晶</NamePrefix>
+			<ColorWhenBeMain>EEEE00D8</ColorWhenBeMain>
+		</BeMaterial>
+    </Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+	
+
+
+	
+	<ThingDef Type="Item" Name="Item_cailiao_shizhuan2" Parent="Item_gaojiyushiBase">
+	<ThingName>螭吻玉晶-木</ThingName>
+	<TexPath>Spr\Kuangshi\yushi12.png</TexPath>
+	<Desc>螭吻神玉精炼后的精华，是制造物品的顶级材料。</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>螭吻-木晶</NamePrefix>
+			<ColorWhenBeMain>7CFC00D8</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+	
+
+
+	
+	<ThingDef Type="Item" Name="Item_cailiao_shizhuan3" Parent="Item_gaojiyushiBase">
+	<ThingName>螭吻玉晶-水</ThingName>
+	<TexPath>Spr\Kuangshi\yushi13.png</TexPath>
+	<Desc>螭吻神玉精炼后的精华，是制造物品的顶级材料。</Desc>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>螭吻-水晶</NamePrefix>
+			<ColorWhenBeMain>48D1CCD8</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shizhuan4" Parent="Item_gaojiyushiBase">
+	<ThingName>螭吻玉晶-火</ThingName>
+	<TexPath>Spr\Kuangshi\yushi14.png</TexPath>
+	<Desc>螭吻神玉精炼后的精华，是制造物品的顶级材料。</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>螭吻-火晶</NamePrefix>
+			<ColorWhenBeMain>CD2626D8</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shizhuan5" Parent="Item_gaojiyushiBase">
+	<ThingName>螭吻玉晶-土</ThingName>
+	<TexPath>Spr\Kuangshi\yushi15.png</TexPath>
+	<Desc>螭吻神玉精炼后的精华，是制造物品的顶级材料。</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>螭吻-土晶</NamePrefix>
+			<ColorWhenBeMain>8B6914D8</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shizhuan6" Parent="Item_gaojiyushiBase">
+	<ThingName>螭吻玉晶-元</ThingName>
+	<TexPath>Spr\Kuangshi\yushi16.png</TexPath>
+	<Desc>螭吻神玉精炼后的精华，是制造物品的顶级材料。</Desc>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>螭吻-元灵</NamePrefix>
+			<ColorWhenBeMain>363636D8</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_cailiao_shizhuan7" Parent="Item_gaojiyushiBase">
+	<ThingName>螭吻玉晶-混</ThingName>
+	<TexPath>Spr\Kuangshi\yushi17.png</TexPath>
+	<Desc>螭吻神玉精炼后的精华，是制造物品的顶级材料。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<BeMaterial>
+			<NamePrefix>螭吻-混元</NamePrefix>
+			<ColorWhenBeMain>363636D8</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</List></ThingDefs>

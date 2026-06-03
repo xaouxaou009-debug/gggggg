@@ -1,0 +1,1127 @@
+﻿<ThingDefs><List>
+
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_dong1" Parent="Item_Other_baoxiangBase">
+		<ThingName>东方-亢金龙</ThingName>
+		<Desc>[color=#FF9C0A]记录着特殊符文列的神奇物品，无需启灵即可给装备附加4-5条特殊符文，一条主符文，两条辅助符文，两条随机符文，东方青龙系主符文为灵力,五行不同辅系符文各不相同[/color]</Desc>
+		<TexPath>Spr/Fuwen/dong1.png</TexPath>
+		<ElementKind>Jin</ElementKind>
+		<MaxStack>9999</MaxStack>
+		<TexScale>1</TexScale>
+		<Rate>11</Rate> 
+		<Beauty>24</Beauty>
+		<Item Lable="Other">  
+			<FabaoSuffix>符文</FabaoSuffix>  
+		</Item> 
+			<StoryBnts>
+				<li Name="符文赋予" Desc="选择一件未拥有符文的装备赋予符文。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_TeShu',bind)" Icon="Icon/20.png"/>
+			</StoryBnts>    
+        </ThingDef>
+		
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_dong2" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>东方-角木蛟</ThingName>
+		<TexPath>Spr/Fuwen/dong2.png</TexPath>
+		<ElementKind>Mu</ElementKind>
+        </ThingDef>
+
+
+		
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_dong3" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>东方-箕水豹</ThingName>
+		<TexPath>Spr/Fuwen/dong3.png</TexPath>
+		<ElementKind>Shui</ElementKind>
+        </ThingDef>
+
+		
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_dong4" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>东方-尾火虎</ThingName>
+		<TexPath>Spr/Fuwen/dong4.png</TexPath>
+		<ElementKind>Huo</ElementKind>
+        </ThingDef>
+
+		
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_dong5" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>东方-氐土貉</ThingName>
+		<TexPath>Spr/Fuwen/dong5.png</TexPath>
+		<ElementKind>Tu</ElementKind>
+        </ThingDef>
+
+		
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_dong6" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>东方-房日兔</ThingName>
+		<TexPath>Spr/Fuwen/dong6.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+        </ThingDef>
+
+		
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_dong7" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>东方-心月狐</ThingName>
+		<TexPath>Spr/Fuwen/dong7.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+        </ThingDef>
+
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_nan1" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>南方-鬼金羊</ThingName>
+		<Desc>[color=#FF9C0A]记录者特殊符文列的神奇物品，无需启灵即可给装备附加4-5条特殊符文，一条主符文，两条辅助符文，两条随机符文，南方朱雀系主符文为法术伤害,五行不同辅系符文各不相同[/color]</Desc>
+		<TexPath>Spr/Fuwen/nan1.png</TexPath>
+		<ElementKind>Jin</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_nan2" Parent="Item_fumo_fuwen_nan1">
+		<ThingName>南方-井木犴</ThingName>
+		<TexPath>Spr/Fuwen/nan2.png</TexPath>
+		<ElementKind>Mu</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_nan3" Parent="Item_fumo_fuwen_nan1">
+		<ThingName>南方-轸水蚓</ThingName>
+		<TexPath>Spr/Fuwen/nan3.png</TexPath>
+		<ElementKind>Shui</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_nan4" Parent="Item_fumo_fuwen_nan1">
+		<ThingName>南方-翼火蛇</ThingName>
+		<TexPath>Spr/Fuwen/nan4.png</TexPath>
+		<ElementKind>Huo</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_nan5" Parent="Item_fumo_fuwen_nan1">
+		<ThingName>南方-柳土獐</ThingName>
+		<TexPath>Spr/Fuwen/nan5.png</TexPath>
+		<ElementKind>Tu</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_nan6" Parent="Item_fumo_fuwen_nan1">
+		<ThingName>南方-星日马</ThingName>
+		<TexPath>Spr/Fuwen/nan6.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_nan7" Parent="Item_fumo_fuwen_nan1">
+		<ThingName>南方-张月鹿</ThingName>
+		<TexPath>Spr/Fuwen/nan7.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+        </ThingDef>
+		
+		
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_xi1" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>西方-娄金狗</ThingName>
+		<Desc>[color=#FF9C0A]记录者特殊符文列的神奇物品，无需启灵即可给装备附加4-5条特殊符文，一条主符文，两条辅助符文，两条随机符文，西方白虎系主符文为法宝伤害,五行不同辅系符文各不相同[/color]</Desc>
+		<TexPath>Spr/Fuwen/xi1.png</TexPath>
+		<ElementKind>Jin</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_xi2" Parent="Item_fumo_fuwen_xi1">
+		<ThingName>西方-奎木狼</ThingName>
+		<TexPath>Spr/Fuwen/xi2.png</TexPath>
+		<ElementKind>Mu</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_xi3" Parent="Item_fumo_fuwen_xi1">
+		<ThingName>西方-参水猿</ThingName>
+		<TexPath>Spr/Fuwen/xi3.png</TexPath>
+		<ElementKind>Shui</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_xi4" Parent="Item_fumo_fuwen_xi1">
+		<ThingName>西方-觜火猴</ThingName>
+		<TexPath>Spr/Fuwen/xi4.png</TexPath>
+		<ElementKind>Huo</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_xi5" Parent="Item_fumo_fuwen_xi1">
+		<ThingName>西方-胃土雉</ThingName>
+		<TexPath>Spr/Fuwen/xi5.png</TexPath>
+		<ElementKind>Tu</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_xi6" Parent="Item_fumo_fuwen_xi1">
+		<ThingName>西方-昴日鸡</ThingName>
+		<TexPath>Spr/Fuwen/xi6.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_xi7" Parent="Item_fumo_fuwen_xi1">
+		<ThingName>西方-毕月乌</ThingName>
+		<TexPath>Spr/Fuwen/xi7.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+        </ThingDef>
+
+
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_bei1" Parent="Item_fumo_fuwen_dong1">
+		<ThingName>北方-牛金牛</ThingName>
+		<Desc>[color=#FF9C0A]记录者特殊符文列的神奇物品，无需启灵即可给装备附加4-5条特殊符文，一条主符文，两条辅助符文，两条随机符文，北方玄武系主符文为法宝伤害,五行不同辅系符文各不相同[/color]</Desc>
+		<TexPath>Spr/Fuwen/bei1.png</TexPath>
+		<ElementKind>Jin</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_bei2" Parent="Item_fumo_fuwen_bei1">
+		<ThingName>北方-斗木獬</ThingName>
+		<TexPath>Spr/Fuwen/bei2.png</TexPath>
+		<ElementKind>Mu</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_bei3" Parent="Item_fumo_fuwen_bei1">
+		<ThingName>北方-壁水貐</ThingName>
+		<TexPath>Spr/Fuwen/bei3.png</TexPath>
+		<ElementKind>Shui</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_bei4" Parent="Item_fumo_fuwen_bei1">
+		<ThingName>北方-室火猪</ThingName>
+		<TexPath>Spr/Fuwen/bei4.png</TexPath>
+		<ElementKind>Huo</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_bei5" Parent="Item_fumo_fuwen_bei1">
+		<ThingName>北方-女土蝠</ThingName>
+		<TexPath>Spr/Fuwen/bei5.png</TexPath>
+		<ElementKind>Tu</ElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_bei6" Parent="Item_fumo_fuwen_bei1">
+		<ThingName>北方-虚日鼠</ThingName>
+		<TexPath>Spr/Fuwen/bei6.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_fumo_fuwen_bei7" Parent="Item_fumo_fuwen_bei1">
+		<ThingName>北方-危月燕</ThingName>
+		<TexPath>Spr/Fuwen/bei7.png</TexPath>
+		<NoElementKind>1</NoElementKind>
+		</ThingDef>
+			
+		<ThingDef Type="Item" Name="Item_fumo_suipian1" Parent="Item_fumo_fuwen_dong1">
+		<TexPath>Spr\Fuwen\z1.png</TexPath>
+		<ThingName>升华符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]一些符文碎片，可以把装备上的符文强度提升，每次提升随机一条符文的强度。[/color]</Desc>
+		<NoElementKind>1</NoElementKind>
+		<MaxStack>9999</MaxStack>
+		<TexScale>0.7</TexScale>
+		<Rate>6</Rate> 
+		<Beauty>15</Beauty>
+		<StoryBnts>
+				<li Name="升华" Desc="将一件装备上的符文属性升华。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_TiSheng',bind)" Icon="Icon/21.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian2" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 貳</ThingName>
+		<Rate>6</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian3" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 叁</ThingName>
+		<Rate>6</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian4" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 肆</ThingName>
+		<Rate>7</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian5" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 伍</ThingName>
+		<Rate>7</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian6" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 陆</ThingName>
+		<Rate>8</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian7" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 柒</ThingName>
+		<Rate>8</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian8" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 捌</ThingName>
+		<Rate>9</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian9" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 玖</ThingName>
+		<Rate>9</Rate> 
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_suipian10" Parent="Item_fumo_suipian1">
+		<ThingName>升华符文 • 拾</ThingName>
+		<Rate>10</Rate> 
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_qiling1" Parent="Item_fumo_fuwen_dong1">
+		<TexPath>Spr\Fuwen\y1.png</TexPath>
+		<ThingName>启灵符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]启灵符文一阶，可以开启装备的第二个符文位。[/color]</Desc>
+		<NoElementKind>1</NoElementKind>
+		<MaxStack>9999</MaxStack>
+		<TexScale>1.5</TexScale>
+		<Rate>5</Rate> 
+		<Beauty>9</Beauty>
+		<StoryBnts>
+				<li Name="启灵" Desc="给一件装备启灵，开启符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_QiLing',bind,0)" Icon="Icon/22.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_qiling2" Parent="Item_fumo_qiling1">
+		<TexPath>Spr\Fuwen\y2.png</TexPath>
+		<ThingName>启灵符文 • 贰</ThingName>
+		<Desc>[color=#FF9C0A]启灵符文二阶，可以开启装备的第三个符文位。[/color]</Desc>
+		<Rate>7</Rate> 
+		<Beauty>15</Beauty>
+		<StoryBnts>
+				<li Name="启灵" Desc="给一件装备启灵，开启符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_QiLing',bind,1)" Icon="Icon/22.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_qiling3" Parent="Item_fumo_qiling1">
+		<TexPath>Spr\Fuwen\y3.png</TexPath>
+		<ThingName>启灵符文 • 叁</ThingName>
+		<Desc>[color=#FF9C0A]启灵符文三阶，可以开启装备的第四个符文位。[/color]</Desc>
+		<Rate>9</Rate> 
+		<Beauty>22</Beauty>
+		<StoryBnts>
+				<li Name="启灵" Desc="给一件装备启灵，开启符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_QiLing',bind,2)" Icon="Icon/22.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_qiling4" Parent="Item_fumo_qiling1">
+		<TexPath>Spr\Fuwen\y4.png</TexPath>
+		<ThingName>启灵符文 • 肆</ThingName>
+		<Desc>[color=#FF9C0A]启灵符文四阶，可以开启装备的第五个符文位。[/color]</Desc>
+		<Rate>11</Rate> 
+		<Beauty>28</Beauty>
+		<StoryBnts>
+				<li Name="启灵" Desc="给一件装备启灵，开启符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_QiLing',bind,3)" Icon="Icon/22.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_chongzhu1" Parent="Item_fumo_qiling1">
+		<TexPath>Spr\Fuwen\c1.png</TexPath>
+		<TexScale>0.7</TexScale>
+		<Rate>9</Rate> 
+		<Beauty>15</Beauty>
+		<ThingName>重铸符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]重铸符文一阶，可以随机移除装备上的一条符文，移除符文具有不可预见性。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符消" Desc="选择一件带符文的装备，移除其符文。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_YiChu',bind,1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_chongzhu2" Parent="Item_fumo_chongzhu1">
+		<TexPath>Spr\Fuwen\c2.png</TexPath>
+		<ThingName>重铸符文 • 贰</ThingName>
+		<Desc>[color=#FF9C0A]重铸符文二阶，可以随机移除装备上的两条符文，并提升随机一条符文的属性。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符消" Desc="选择一件带符文的装备，移除其符文。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_YiChu',bind,2)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_chongzhu3" Parent="Item_fumo_chongzhu1">
+		<TexPath>Spr\Fuwen\c3.png</TexPath>
+		<ThingName>重铸符文 • 叁</ThingName>
+		<Desc>[color=#FF9C0A]重铸符文三阶，可以随机移除装备上的三条符文，并提升剩余全部符文的属性，每个符文只提升一次。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符消" Desc="选择一件带符文的装备，移除其符文。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_YiChu',bind,3)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_chongzhu4" Parent="Item_fumo_chongzhu1">
+		<TexPath>Spr\Fuwen\c4.png</TexPath>
+		<ThingName>重铸符文 • 肆</ThingName>
+		<Desc>[color=#FF9C0A]重铸符文四阶，可以移除装备上的一条符文，移除符文可预见，并降低其他属性一半的属性。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符消" Desc="选择一件带符文的装备，移除其符文。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_YiChu',bind,4)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_chongzhu5" Parent="Item_fumo_chongzhu1">
+		<TexPath>Spr\Fuwen\c5.png</TexPath>
+		<ThingName>重铸符文 • 伍</ThingName>
+		<Desc>[color=#FF9C0A]重铸符文五阶，可以移除装备上的一条符文，移除符文可预见，并随机提升一条符文的强度。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符消" Desc="选择一件带符文的装备，移除其符文。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo_YiChu',bind,5)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_pinzhi1" Parent="Item_fumo_chongzhu1">
+		<TexPath>Spr\Fuwen\p1.png</TexPath>
+		<ThingName>品质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]品质符文一阶，可以提升物品的品质，一阶符文50品质下必定成功，每次提升5点。50以上为几率提升.品质越高，几率越低，100以上提升有几率失败后降低品质[/color]</Desc>
+		<StoryBnts>
+			<li Name="升品" Desc="选择一件物品提升其品质。" Script="world:EnterUILuaMode('LUA_FuWen_pinzhi',bind)" Icon="Icon/24.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_pinzhi2" Parent="Item_fumo_fuwen_pinzhi1">
+		<TexPath>Spr\Fuwen\p2.png</TexPath>
+		<ThingName>品质符文 • 贰</ThingName>
+		<Desc>[color=#FF9C0A]品质符文二阶，可以提升物品的品质，二阶符文80品质下必定成功，每次提升5点。80以上为几率提升.品质越高，几率越低，100以上提升有小几率失败后降低品质[/color]</Desc>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_pinzhi3" Parent="Item_fumo_fuwen_pinzhi1">
+		<TexPath>Spr\Fuwen\p3.png</TexPath>
+		<ThingName>品质符文 • 叁</ThingName>
+		<Desc>[color=#FF9C0A]品质符文三阶，可以提升物品的品质，三阶符文100品质下必定成功，每次提升5点。100以上为几率提升.品质越高，几率越低，100以上提升有极小几率失败后降低品质[/color]</Desc>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_pinzhi4" Parent="Item_fumo_fuwen_pinzhi1">
+		<TexPath>Spr\Fuwen\p4.png</TexPath>
+		<ThingName>品质符文 • 肆</ThingName>
+		<Desc>[color=#FF9C0A]品质符文四阶，可以提升物品的品质，四阶符文100品质以上有几率提升1-5点，品质越高失败几率越高，失败后不会降低品质数值[/color]</Desc>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_pinzhi5" Parent="Item_fumo_fuwen_pinzhi1">
+		<TexPath>Spr\Fuwen\p5.png</TexPath>
+		<ThingName>品质符文 • 伍</ThingName>
+		<Desc>[color=#FF9C0A]品质符文五阶，可以提升物品的品质，五阶符文100品质以上每次必定提升2-6点，失败后保底提升一点品质[/color]</Desc>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_leijie1" Parent="Item_fumo_chongzhu1">
+		<TexPath>Spr\Fuwen\l1.png</TexPath>
+		<ThingName>雷劫符文 • 壹</ThingName>
+		<TexScale>1</TexScale>
+		<Desc>[color=#FF9C0A]雷劫符文一阶，记录者雷劫印记的符文，可以淬炼法宝，法宝雷劫数越高成功率越低，雷劫低于品阶/3必定成功，品质品阶越高成功几率越高，每淬炼成功一次可以提升法宝雷劫次数*1，失败后增加下次几率10%[/color]</Desc>
+		<StoryBnts>
+			<li Name="淬炼" Desc="选择一件法宝淬炼使其获得一次历劫。" Script="world:EnterUILuaMode('LUA_FuWen_leijie',bind)" Icon="Icon/28.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_leijie2" Parent="Item_fumo_fuwen_leijie1">
+		<TexPath>Spr\Fuwen\l2.png</TexPath>
+		<ThingName>雷劫符文 • 贰</ThingName>
+		<Desc>[color=#FF9C0A]雷劫符文二阶，记录者雷劫印记的符文，可以淬炼法宝，法宝雷劫数越高成功率越低，雷劫低于品阶/2必定成功，品质品阶越高成功几率越高，每淬炼成功一次可以提升法宝雷劫次数*1，失败后增加下次几率15%[/color]</Desc>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_leijie3" Parent="Item_fumo_fuwen_leijie1">
+		<TexPath>Spr\Fuwen\l3.png</TexPath>
+		<ThingName>雷劫符文 • 叁</ThingName>
+		<Desc>[color=#FF9C0A]雷劫符文三阶，记录者雷劫印记的符文，可以淬炼法宝，法宝雷劫数越高成功率越低，雷劫低于品阶必定成功，品质品阶越高成功几率越高，每淬炼成功一次可以提升法宝雷劫次数*1，失败后增加下次几率25%[/color]</Desc>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_leijie4" Parent="Item_fumo_fuwen_leijie1">
+		<TexPath>Spr\Fuwen\l4.png</TexPath>
+		<ThingName>雷劫符文 • 肆</ThingName>
+		<Desc>[color=#FF9C0A]雷劫符文肆阶，记录者雷劫印记的符文，可以淬炼法宝，法宝雷劫数越高成功率越低，雷劫低于品阶X1.2必定成功，品质品阶越高成功几率越高，每淬炼成功一次可以提升法宝雷劫次数*1，失败后增加下次几率40%[/color]</Desc>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_leijie5" Parent="Item_fumo_fuwen_leijie1">
+		<TexPath>Spr\Fuwen\l5.png</TexPath>
+		<ThingName>雷劫符文 • 伍</ThingName>
+		<Desc>[color=#FF9C0A]雷劫符文五阶，记录者雷劫印记的符文，可以淬炼法宝，法宝雷劫数越高成功率越低，雷劫低于品阶X1.5必定成功，品质品阶越高成功几率越高，每淬炼成功一次可以提升法宝雷劫次数*1，失败后增加下次几率80%[/color]</Desc>
+		</ThingDef>
+		
+		
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_pinjie1" Parent="Item_fumo_fuwen_pinzhi1">
+		<TexPath>Spr\Fuwen\p6.png</TexPath>
+		<ThingName>品阶符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]品阶符文一阶，可以提高物品的品阶，最高12，品阶越高几率越低，丹药类会改为幽淬，连续失败十次，下次必定成功，成功提升后移除累计[/color]</Desc>
+		<StoryBnts>
+			<li Name="升阶" Desc="选择一件低于十二阶的物品提升其品阶。" Script="world:EnterUILuaMode('LUA_FuWen_pinjie',bind)" Icon="Icon/25.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_meiguan1" Parent="Item_fumo_fuwen_pinzhi1">
+		<TexPath>Spr\Fuwen\p7.png</TexPath>
+		<ThingName>美观符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]美观符文一阶，可以提高物品的美观，物品美观越高提升成功率越低，每失败七次，下次必定成功，成功提升美观后移除累计[/color]</Desc>
+		<StoryBnts>
+			<li Name="美化" Desc="选择一件物品提升其美观属性，无上限。" Script="world:EnterUILuaMode('LUA_FuWen_meiguan',bind)" Icon="Icon/26.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		
+
+		<ThingDef Type="Item" Name="Item_qianghua_suipian1" Parent="Item_Other_baoxiangBase">
+		<TexPath>Spr\Fuwen\b1.png</TexPath>
+		<ThingName>法宝符文-威力</ThingName>	
+		<TexScale>0.5</TexScale>
+		<Rate>8</Rate>
+		<MaxStack>999</MaxStack>
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝威力。</Desc>
+		<Item Lable="Other">  
+		<FabaoSuffix>符文</FabaoSuffix>  
+		</Item>
+		<StoryBnts>
+			<li Name="强化" Desc="选择一件法宝强化其属性。" Script="world:EnterUILuaMode('LUA_FaBao_qianghua',bind)" Icon="Icon/27.png"/>
+		</StoryBnts>
+		</ThingDef>
+
+		<ThingDef Type="Item" Name="Item_qianghua_suipian2" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b2.png</TexPath>
+		<ThingName>法宝符文-回灵</ThingName>	
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝回灵能力。</Desc>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_qianghua_suipian3" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b3.png</TexPath>
+		<ThingName>法宝符文-灵力</ThingName>	
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝灵力上限。</Desc>
+		</ThingDef>
+
+		<ThingDef Type="Item" Name="Item_qianghua_suipian4" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b4.png</TexPath>
+		<ThingName>法宝符文-飞行</ThingName>	
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝飞行速度。</Desc>
+		</ThingDef>
+
+		<ThingDef Type="Item" Name="Item_qianghua_suipian5" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b5.png</TexPath>
+		<ThingName>法宝符文-转弯</ThingName>	
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝转弯速度。</Desc>
+		</ThingDef>
+
+		<ThingDef Type="Item" Name="Item_qianghua_suipian6" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b6.png</TexPath>
+		<ThingName>法宝符文-抵抗</ThingName>
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝击退抵抗。</Desc>
+		</ThingDef>
+
+		<ThingDef Type="Item" Name="Item_qianghua_suipian7" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b7.png</TexPath>
+		<ThingName>法宝符文-击退</ThingName>	
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝击退强度。</Desc>
+		</ThingDef>
+
+		
+		<ThingDef Type="Item" Name="Item_qianghua_suipian8" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b8.png</TexPath>
+		<ThingName>法宝符文-拖尾</ThingName>
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝拖尾长度。</Desc>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_qianghua_suipian9" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b9.png</TexPath>
+		<ThingName>法宝符文-体积</ThingName>
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝体积。</Desc>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_qianghua_suipian10" Parent="Item_qianghua_suipian1">
+		<TexPath>Spr\Fuwen\b10.png</TexPath>
+		<ThingName>法宝符文-攻速</ThingName>
+		<Desc>[color=#FF9C0A]一些精粹碎片，可以强化法宝攻速。</Desc>
+		</ThingDef>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen1" Parent="Item_fumo_fuwen_dong1">
+		<TexPath>Spr\Fuwen\f1.png</TexPath>
+		<ThingName>未知符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]未知符文一阶，可以给装备添加一条符文，符文强度一级。[/color]</Desc>
+		<NoElementKind>1</NoElementKind>
+		<MaxStack>9999</MaxStack>
+		<TexScale>0.7</TexScale>
+		<Rate>7</Rate> 
+		<Beauty>15</Beauty>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条随机符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,nil,1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen2" Parent="Item_fumo_fuwen1">
+		<TexPath>Spr\Fuwen\f2.png</TexPath>
+		<ThingName>未知符文 • 贰</ThingName>
+		<Desc>[color=#FF9C0A]未知符文二阶，可以给装备添加一条符文，符文强度二级。[/color]</Desc>
+		<Rate>8</Rate> 
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条随机符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,nil,2)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen3" Parent="Item_fumo_fuwen1">
+		<TexPath>Spr\Fuwen\f3.png</TexPath>
+		<ThingName>未知符文 • 叁</ThingName>
+		<Desc>[color=#FF9C0A]未知符文三阶，可以给装备添加一条符文，符文强度三级。[/color]</Desc>
+		<Rate>9</Rate> 
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条随机符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,nil,3)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen4" Parent="Item_fumo_fuwen1">
+		<TexPath>Spr\Fuwen\f4.png</TexPath>
+		<ThingName>未知符文 • 肆</ThingName>
+		<Rate>10</Rate> 
+		<Desc>[color=#FF9C0A]未知符文四阶，可以给装备添加一条符文，符文强度四级。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条随机符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,nil,4)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen5" Parent="Item_fumo_fuwen1">
+		<TexPath>Spr\Fuwen\f5.png</TexPath>
+		<ThingName>未知符文 • 伍</ThingName>
+		<Rate>11</Rate> 
+		<Desc>[color=#FF9C0A]未知符文五阶，可以给装备添加一条符文，符文强度五级。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条随机符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,nil,5)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_1" Parent="Item_fumo_fuwen1">
+		<TexPath>Spr\Fuwen\s1.png</TexPath>
+		<ThingName>法术符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]法术符文一阶，可以给装备添加一条法术类符文，此符文可以给装备增加一条【术法消耗】符文。[/color]</Desc>
+		<Rate>8</Rate> 
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_SpellLingCostAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_2" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s1.png</TexPath>
+		<ThingName>法术符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]法术符文一阶，可以给装备添加一条法术类符文，此符文可以给装备增加一条【施法时间】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_SpellCastTimeAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_3" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s1.png</TexPath>
+		<ThingName>法术符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]法术符文一阶，可以给装备添加一条法术类符文，此符文可以给装备增加一条【术法伤害】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_SpellPowerAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_4" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s1.png</TexPath>
+		<ThingName>法术符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]法术符文一阶，可以给装备添加一条法术类符文，此符文可以给装备增加一条【术法冷却】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_SpellCoolDownAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_5" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s2.png</TexPath>
+		<ThingName>工作符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]工作符文一阶，可以给装备添加一条工作类符文，此符文可以给装备增加一条【工作速度】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'GlobalEfficiency',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_6" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s2.png</TexPath>
+		<ThingName>工作符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]工作符文一阶，可以给装备添加一条工作类符文，此符文可以给装备增加一条【工作点数】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'BaseWorkSpeed',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_7" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s2.png</TexPath>
+		<ThingName>工作符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]工作符文一阶，可以给装备添加一条工作类符文，此符文可以给装备增加一条【屠宰产量】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'ButcherYieldEfficiency',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_8" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s2.png</TexPath>
+		<ThingName>工作符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]工作符文一阶，可以给装备添加一条工作类符文，此符文可以给装备增加一条【采掘产量】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'MiningYieldEfficiency',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_9" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s2.png</TexPath>
+		<ThingName>工作符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]工作符文一阶，可以给装备添加一条工作类符文，此符文可以给装备增加一条【收获产量】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'PlantHarvestYieldEfficiency',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_10" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s2.png</TexPath>
+		<ThingName>工作符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]工作符文一阶，可以给装备添加一条工作类符文，此符文可以给装备增加一条【制作品质】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'MadeQualityAddValue',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_11" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s3.png</TexPath>
+		<ThingName>炼宝符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼宝符文一阶，可以给装备添加一条炼宝类符文，此符文可以给装备增加一条【炼宝成功率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'FabaoMake_SuccessRateAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_12" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s3.png</TexPath>
+		<ThingName>炼宝符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼宝符文一阶，可以给装备添加一条炼宝类符文，此符文可以给装备增加一条【炼宝品阶】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'FabaoMake_LingInheritRateAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_13" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s3.png</TexPath>
+		<ThingName>炼宝符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼宝符文一阶，可以给装备添加一条炼宝类符文，此符文可以给装备增加一条【炼宝速度】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'FabaoMake_SpeedAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_14" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s3.png</TexPath>
+		<ThingName>炼宝符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼宝符文一阶，可以给装备添加一条炼宝类符文，此符文可以给装备增加一条【炼宝品质】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'FabaoMake_QualityAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_15" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s3.png</TexPath>
+		<ThingName>炼宝符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼宝符文一阶，可以给装备添加一条炼宝类符文，此符文可以给装备增加一条【神器概率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'FabaoMake_TwelveRateChance',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_16" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s4.png</TexPath>
+		<ThingName>禁金符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]五行符文一阶，可以给装备添加一条五行类符文，此符文可以给装备增加一条【金伤减免】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_ShieldResistanceToJin',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_17" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s5.png</TexPath>
+		<ThingName>禁木符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]五行符文一阶，可以给装备添加一条五行类符文，此符文可以给装备增加一条【木伤减免】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_ShieldResistanceToMu',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_18" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s6.png</TexPath>
+		<ThingName>禁水符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]五行符文一阶，可以给装备添加一条五行类符文，此符文可以给装备增加一条【水伤减免】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_ShieldResistanceToShui',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_19" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s7.png</TexPath>
+		<ThingName>禁火符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]五行符文一阶，可以给装备添加一条五行类符文，此符文可以给装备增加一条【火伤减免】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_ShieldResistanceToHuo',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_20" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s8.png</TexPath>
+		<ThingName>禁土符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]五行符文一阶，可以给装备添加一条五行类符文，此符文可以给装备增加一条【土伤减免】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_ShieldResistanceToTu',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_21" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s9.png</TexPath>
+		<ThingName>灵力符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]灵力符文一阶，可以给装备添加一条灵力类符文，此符文可以给装备增加一条【灵力上限】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcLingMaxValue',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_22" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s9.png</TexPath>
+		<ThingName>灵力符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]灵力符文一阶，可以给装备添加一条灵力类符文，此符文可以给装备增加一条【回灵速度】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'LingAbsorbSpeed',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_23" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s10.png</TexPath>
+		<ThingName>护盾符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]护盾符文一阶，可以给装备添加一条护盾类符文，此符文可以给装备增加一条【护盾加值】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_ShieldConversionRate',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_24" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s10.png</TexPath>
+		<ThingName>护盾符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]护盾符文一阶，可以给装备添加一条护盾类符文，此符文可以给装备增加一条【护盾加成】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_ShieldConversionRate',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_25" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s11.png</TexPath>
+		<ThingName>寿命符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]寿命符文一阶，可以给装备添加一条寿命类符文，此符文可以给装备增加一条【寿命上限】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'MaxAge',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_26" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s11.png</TexPath>
+		<ThingName>寿命符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]寿命符文一阶，可以给装备添加一条寿命类符文，此符文可以给装备增加一条【寿命消逝】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'AgeCostSpeed',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_27" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s12.png</TexPath>
+		<ThingName>心情符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]心情符文一阶，可以给装备添加一条心情类符文，此符文可以给装备增加一条【心情上限】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'BaseEmotionAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_28" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s12.png</TexPath>
+		<ThingName>心情符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]心情符文一阶，可以给装备添加一条心情类符文，此符文可以给装备增加一条【美梦概率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NiceDreamHappenPercent',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_29" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s12.png</TexPath>
+		<ThingName>心情符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]心情符文一阶，可以给装备添加一条心情类符文，此符文可以给装备增加一条【噩梦概率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NightmareHappenPercent',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_30" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s13.png</TexPath>
+		<ThingName>心境符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]心境符文一阶，可以给装备添加一条心境类符文，此符文可以给装备增加一条【心境上限】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'MindStateBaseValue',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_31" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s13.png</TexPath>
+		<ThingName>心境符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]心境符文一阶，可以给装备添加一条心境类符文，此符文可以给装备增加一条【心境稳定】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'SpeedOfMindStateCoefficient',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_32" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【移动速度】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'MoveSpeed',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_33" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【低温抵挡】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'ComfyTMin',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_34" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【高温抵挡】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'ComfyTMax',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_35" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【低温极限】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'ToleranceTMin',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_36" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【高温极限】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'ToleranceTMax',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_37" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【外伤自愈】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'RecoveryPower',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_38" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【内伤自愈】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'MagicDamageRecoveryPowerAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_39" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【疼痛抵抗】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'PainTolerance',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_40" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【身体潜力】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'PotentialOfBasepracticeAddValue',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_41" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【精力消耗】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'FatigueConsumeConstant',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_42" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【精元消耗】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'PracticeFoodConsumeConstant',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_42" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【食物消耗】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NutritionConsumeConstant',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_42" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【饮水消耗】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'WaterConsumeConstant',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_42" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【娱乐消耗】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'HappyConsumeConstant',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_43" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【饮气效率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NutritionWaterAutoRecover',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_44" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s14.png</TexPath>
+		<ThingName>体质符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]体质符文一阶，可以给装备添加一条体质类符文，此符文可以给装备增加一条【精元效率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NutritionToJingYuanK',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_45" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s15.png</TexPath>
+		<ThingName>知行符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]知行符文一阶，可以给装备添加一条知行类符文，此符文可以给装备增加一条【历练探索】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'ExperienceFindSpeedAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_46" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s15.png</TexPath>
+		<ThingName>知行符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]知行符文一阶，可以给装备添加一条知行类符文，此符文可以给装备增加一条【历练飞行】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'WorldMapFlySpeedAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_47" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s15.png</TexPath>
+		<ThingName>知行符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]知行符文一阶，可以给装备添加一条知行类符文，此符文可以给装备增加一条【历练声望】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'ExperiencePrestigeAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_48" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s16.png</TexPath>
+		<ThingName>炼丹符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼丹符文一阶，可以给装备添加一条炼丹类符文，此符文可以给装备增加一条【炼丹成功率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'DanMake_SpeedAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_49" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s16.png</TexPath>
+		<ThingName>炼丹符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼丹符文一阶，可以给装备添加一条炼丹类符文，此符文可以给装备增加一条【炼丹速度】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'DanMake_SuccessRateAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_50" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s16.png</TexPath>
+		<ThingName>炼丹符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]炼丹符文一阶，可以给装备添加一条炼丹类符文，此符文可以给装备增加一条【炼丹产量】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'DanMake_YieldAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_51" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s17.png</TexPath>
+		<ThingName>天道符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]天道符文一阶，可以给装备添加一条天道类符文，此符文可以给装备增加一条【消弭天谴】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'GodPenaltyAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_52" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s17.png</TexPath>
+		<ThingName>天道符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]天道符文一阶，可以给装备添加一条天道类符文，此符文可以给装备增加一条【延迟天劫】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NeckCountdownAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_53" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s17.png</TexPath>
+		<ThingName>天道符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]天道符文一阶，可以给装备添加一条天道类符文，此符文可以给装备增加一条【削减道行】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'AbilityLvAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_54" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s18.png</TexPath>
+		<ThingName>开悟符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]开悟符文一阶，可以给装备添加一条开悟类符文，此符文可以给装备增加一条【学习速度】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'IntelligenceSkillEXPConstant',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_55" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s18.png</TexPath>
+		<ThingName>开悟符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]开悟符文一阶，可以给装备添加一条开悟类符文，此符文可以给装备增加一条【鼎炉之限】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'MaxAccumulativeLingAddV',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_56" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s18.png</TexPath>
+		<ThingName>开悟符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]开悟符文一阶，可以给装备添加一条开悟类符文，此符文可以给装备增加一条【领悟概率】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'InspirationCoefficient',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_57" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s18.png</TexPath>
+		<ThingName>开悟符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]开悟符文一阶，可以给装备添加一条开悟类符文，此符文可以给装备增加一条【修炼速度】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'DeepPracticeSpeedSpecialCoefficient',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_58" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s19.png</TexPath>
+		<ThingName>攻击符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]攻击符文一阶，可以给装备添加一条攻击类符文，此符文可以给装备增加一条【法宝伤害】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_FabaoPowerAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_59" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s19.png</TexPath>
+		<ThingName>攻击符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]攻击符文一阶，可以给装备添加一条攻击类符文，此符文可以给装备增加一条【法宝灵气】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_FabaoMaxLingAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_60" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s19.png</TexPath>
+		<ThingName>攻击符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]攻击符文一阶，可以给装备添加一条攻击类符文，此符文可以给装备增加一条【法宝回灵】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_FabaoLingRecoverAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_61" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s19.png</TexPath>
+		<ThingName>攻击符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]攻击符文一阶，可以给装备添加一条攻击类符文，此符文可以给装备增加一条【法宝飞行】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_FabaoFlySpeedAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_62" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s19.png</TexPath>
+		<ThingName>攻击符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]攻击符文一阶，可以给装备添加一条攻击类符文，此符文可以给装备增加一条【法宝转向】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_FabaoTurnSpeedAddP',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_63" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s19.png</TexPath>
+		<ThingName>攻击符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]攻击符文一阶，可以给装备添加一条攻击类符文，此符文可以给装备增加一条【攻击命中】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_BaseHitChance',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		<ThingDef Type="Item" Name="Item_fumo_fuwen_64" Parent="Item_fumo_fuwen_1">
+		<TexPath>Spr\Fuwen\s19.png</TexPath>
+		<ThingName>攻击符文 • 壹</ThingName>
+		<Desc>[color=#FF9C0A]攻击符文一阶，可以给装备添加一条攻击类符文，此符文可以给装备增加一条【受击闪避】符文。[/color]</Desc>
+		<StoryBnts>
+				<li Name="符文" Desc="给一件装备添加一条符文，并消耗一个符文位。" Script="world:EnterUILuaMode('LUA_ZhungBei_FuMo',nil,bind,'NpcFight_BaseDodgeChance',1)" Icon="Icon/23.png"/>
+		</StoryBnts>
+		</ThingDef>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+</List></ThingDefs>
