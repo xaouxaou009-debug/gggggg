@@ -1,3 +1,0 @@
-ID	Name	Desc	Sound	HasF	Loop	CloseEye	Umbrella	Length	Attchment1	AttchmentBone1	Attchment2	AttchmentBone2	Attchment3	AttchmentBone3
-	导出名称	动作名称	音效	有单独的女性动作	循环	闭眼	可以打伞	时长	外挂模型1	挂点1 默认为Bip001 Spine	外挂模型2	挂点2		
-dongzuo_libai	shuhua1	男_书画		1	1			2.333333						
